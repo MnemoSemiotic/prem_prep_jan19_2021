@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# block stupid mac files
+2unif
+.DS_Store
