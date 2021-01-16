@@ -78,9 +78,9 @@ List Functions and Methods
 ---------------------------------------------------------
 
 ### Day 4: Saturday Jan 23 (11am - 1pm Pacific)
-**Subject**: Reviewing Lists
+
 **Instructor**: Clark Walker
-Slide Deck: Intro to Lists
+**Slide Deck**: Intro to Lists
 **HW assignment**:
 			Complete these Units on Learn (if you haven’t as yet):
 				List Basics
@@ -94,9 +94,9 @@ List Iteration
 ---------------------------------------------------------
 
 ### Day 5: Monday Jan 25 (6pm-8pm Pacific)
-**Subject**: For Loops, Accumulators, List methods and ops
+
 **Instructor**: Clark Walker
-Slide Deck: For Loops and Accumulators
+**Slide Deck**: For Loops and Accumulators
                     List Methods and Operations
 **HW assignment**: 
 	Learn Units in Intro Python:
@@ -110,14 +110,9 @@ Accumulators
 
 ---------------------------------------------------------
 ### Day 6: Tuesday Jan 26 (6pm - 8pm Pacific)
-**Subject**: 
-While loops:
-While, infinite loop, conditional loops, open ended, menus, for vs while loops
-Strings:	
-Declaring strings and string methods
-Functions with Strings
+
 **Instructor**: Clark Walker
-Slide Deck: While Loops
+**Slide Deck**: While Loops
                     Strings
 **HW assignment**: 
 Complete these Learn Units:
@@ -129,7 +124,7 @@ Strings
 ### Day 7: Wednesday Jan 27 (6pm - 8pm Pacific)
 **Subject**: Basic Summary Statistics
 **Instructor**: Tovio Roberts
-Slide Deck: Summary Stats: Centrality
+**Slide Deck**: Summary Stats: Centrality
 **HW assignment**:
 			Review summary_stats.py code
 			Complete these Units on Learn:
@@ -139,13 +134,9 @@ Common Plots
 **Video Lecture**: _Lecture Link_
 ---------------------------------------------------------
 ### Day 8: Thursday Jan 28 (6pm - 8pm Pacific)
-**Subject**: 
- Data Structures
-Sets
-Tuples
-Dictionaries
+
 **Instructor**: Clark Walker
-Slide Deck: More Strings
+**Slide Deck**: More Strings
                     Data Structures
 **HW assignment**: 
 Work through these Learn Units:
@@ -160,9 +151,9 @@ Sets
 ---------------------------------------------------------
 
 ### Day 9: Saturday Jan 30 (11am - 1pm Pacific)
-**Subject**: Python Function Practice with Data Structures
+
 **Instructor**: Clark Walker
-Slide Deck: More Data Structures
+**Slide Deck**: More Data Structures
                     Data Structure Function Practice
 **HW assignment**: 
 	Python Day 7 HW
@@ -175,11 +166,8 @@ Common Plots
 
 ### Day 10: Monday Feb 1 (6pm - 8:00pm Pacific)
 
-**Subject**: 
-	Basic Stats
-IQR/Outlier Detection/Variance/Standard Deviation
 **Instructor**: Tovio Roberts
-Slide Deck: Summary Stats: Measures of Spread
+**Slide Deck**: Summary Stats: Measures of Spread
 **HW assignment**: 
 		Complete the Sets and Set Operations Unit on Learn
 Complete the Basic Probability Unit on Learn
@@ -188,27 +176,18 @@ Complete the Basic Probability Unit on Learn
 
 ---------------------------------------------------------
 ### Day 11: Tuesday Feb 2 (6pm - 8pm Pacific)
-**Subject**: 
-Accumulator Review!
-String Accumulators
-List Accumulators
-Dictionary Accumulators 
+
 **Instructor**: Clark Walker
-Slide Deck: Accumulator Review
+**Slide Deck**: Accumulator Review
 **HW assignment**: N/A
 **HW Solutions**: N/A
 **Video Lecture**: _Lecture Link_
 
 ---------------------------------------------------------
 ### Day 12: Wednesday Feb 3 (6pm - 8pm Pacific)
-**Subject**:
-Intro to Set Theory
-Random Experiment, Sample Space, Events
-Unions
-Intersections
-Complement
+
 **Instructor**: Tovio Roberts
-Slide Deck: Intro to Set Theory
+**Slide Deck**: Intro to Set Theory
 **Video Lecture**: _Lecture Link_
 
 
@@ -216,23 +195,16 @@ Slide Deck: Intro to Set Theory
 ### Day 13: Thursday Feb 4 (6pm - 8pm Pacific)
 **Subject**: Function Practice 1
 **Instructor**: Clark Walker
-Slide Deck: Function Practice 1
+**Slide Deck**: Function Practice 1
 **HW assignment**: N/A
 **HW Solutions**: N/A
 **Video Lecture**: _Lecture Link_
 ---------------------------------------------------------
 
 ### Day 14: Saturday Feb 6 (11am - 1pm Pacific)
-**Subject**:
-Axioms of Probability
-	Computing Basic Probabilities
-Using division to calculate probabilities
-Dependence and Independence
-Mutual Exclusivity
-Dependence vs. Independence
-Multiplication rule for independent events
+
 **Instructor**: Tovio Roberts
-Slide Deck: Axioms of Probability
+**Slide Deck**: Axioms of Probability
                     Computing Basic Probability
 **HW assignment**: 
 	Review the Learn materials on Factorial, Permutations and 
@@ -242,13 +214,9 @@ Slide Deck: Axioms of Probability
 
 ---------------------------------------------------------
 ### Day 15: Monday Feb 8 (6pm - 8:00pm Pacific) 
-**Subject**: 
-       Statistical counting
-Factorial
-Permutations
-Combinations
+
 **Instructor**: Tovio Roberts
-Slide Deck: Statistical Counting
+**Slide Deck**: Statistical Counting
 GitHub: Working on perms_combs.py
 
 **HW assignment**: 
@@ -263,11 +231,12 @@ Bonus: Write the Heap’s Algorithm in Python
 Bonus x 2: Revise the brute force Combinations Intuition code in the GH repo to be more optimal, as in, look for a combinations algorithm and implement it. (Here’s one option: https://www.youtube.com/watch?v=VyXDQxuIwPU)
 **HW Solutions**: N/A
 **Video Lecture**: _Lecture Link_ 
+
 ---------------------------------------------------------
 ### Day 16: Tuesday Feb 9 (6pm - 8pm Pacific)
-**Subject**: Random Variables and the Binomial Distribution
+
 **Instructor**: Tovio Roberts
-Slide Deck: General Analytic Approach
+**Slide Deck**: General Analytic Approach
                     Discrete Random Variables
                     Bernoulli and Binomial
 **HW assignment**: 
@@ -278,9 +247,9 @@ https://github.com/clownfragment/prem_prep_jan19_2021/tree/main/stats_code/05_di
 
 ---------------------------------------------------------
 ### Day 17: Wednesday Feb 10 (6pm - 8pm Pacific)
-**Subject**: Binomial Distribution (finishing up Binom using pmf), CDF, sampling
+
 **Instructor**: Tovio Roberts
-Slide Deck: Bernoulli and Binomial
+**Slide Deck**: Bernoulli and Binomial
 **HW assignment**: 
 	Wrap up these Lessons in Discrete Probability Distributions
 Cumulative Distribution Function
@@ -297,9 +266,9 @@ https://github.com/clownfragment/prem_prep_jan19_2021/tree/main/stats_code/05_di
 
 ---------------------------------------------------------
 ### Day 18: Thursday Feb 11 (6pm - 8pm Pacific)
-**Subject**: The Poisson Distribution
+
 **Instructor**: Tovio Roberts
-Slide Deck: Poisson Distribution
+**Slide Deck**: Poisson Distribution
 **HW assignment**: 
 	Complete this Lesson in Discrete Probability Distributions
 Geometric Distribution
@@ -307,13 +276,9 @@ Geometric Distribution
 
 ---------------------------------------------------------
 ### Day 19: Saturday Feb 13 (11am - 1pm Pacific)
-**Subject**: Python `Classes` for Stats Functions 1
-Utilizing functions within classes
-Coding a binomial class in OOP style
-Basic formal tests with assert
-Raise custom errors and handle errors  
+ 
 **Instructor**: Clark Walker
-Slide Deck: Python Classes for Stats Functions
+**Slide Deck**: Python Classes for Stats Functions
                     Tests and Errors
 **HW assignment**: 
 Continuous Probability Distributions Unit
@@ -321,9 +286,9 @@ Continuous Probability Distributions Unit
 ---------------------------------------------------------
 
 ### Day 20: Monday Feb 15 (6pm - 8pm Pacific)
-**Subject**: Functions Repetitions 
+
 **Instructor**: Clark Walker
-Slide Deck: Function Practice 2
+**Slide Deck**: Function Practice 2
 **HW assignment**: 
 These lessons in the Conditional Probability Unit
 Overview
@@ -337,9 +302,9 @@ Bayes Theorem
 
 ---------------------------------------------------------
 ### Day 21: Tuesday Feb 16 (6pm - 8pm Pacific)
-**Subject**: Geometric Distribution 
+
 **Instructor**: Tovio Roberts
-Slide Deck: Geometric Distribution
+**Slide Deck**: Geometric Distribution
 **HW assignment**: 
 Complete the Continuous Probability Distributions Unit on Learn
 Code out your own analytic approach to a phenomenon 
@@ -352,13 +317,9 @@ or a github link in the associated thread
 ---------------------------------------------------------
 
 ### Day 22: Wednesday Feb 17 (6pm - 8pm Pacific)
-**Subject**: 
-	Conditional Probability
-Kolmogorov’s definition
-Law of Total Probability, 
-Bayes Theorem
+
 **Instructor**: Tovio Roberts
-Slide Deck: Bayes Theorem
+**Slide Deck**: Bayes Theorem
 **HW assignment**: (Complete these units)
 Law of Total Probability
 Bayes Theorem
@@ -372,9 +333,9 @@ Bayes Theorem
 ---------------------------------------------------------
 
 ### Day 23: Thursday Feb 18 (6pm - 8pm Pacific)
-**Subject**: Continuous Distributions (Normal and Exponential) 
+
 **Instructor**: Tovio Roberts
-Slide Deck: Continuous Distributions
+**Slide Deck**: Continuous Distributions
 **HW assignment** (Optional): 
 	Do the Kaggle Pandas Tutorial
 	Read 2.2, 4.6.5, and 5.1 of Introduction to Statistical Learning
@@ -386,9 +347,9 @@ Slide Deck: Continuous Distributions
 ---------------------------------------------------------
 
 ### Day 24: Saturday Feb 20 (11am - 1pm Pacific)
-**Subject**: Simple Machine Learning / Cross Validation Intuition
+
 **Instructor**: Tovio Roberts
-Slide Deck: Intro to Machine Learning
+**Slide Deck**: Intro to Machine Learning
 **HW assignment**: 
 Continue working on remaining Learn materials
 Schedule a mentoring session to gauge where you are at and where you need to focus
@@ -399,9 +360,9 @@ Schedule a mentoring session to gauge where you are at and where you need to foc
 
 ---------------------------------------------------------
 ### Day 25: Monday Feb 22 (6pm - 8:00pm Pacific)
-**Subject**: TI Interview approach
+
 **Instructor**: Tovio Roberts and Clark Walker
-Slide Deck: Technical Interview Review
+**Slide Deck**: Technical Interview Review
 **HW assignment**: 
 	Finish your Learn materials and get ready for your TI!
 **HW Solutions**: N/A
