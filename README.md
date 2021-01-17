@@ -329,11 +329,11 @@
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Poisson Distribution
+**Slide Deck**: [Poisson Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/24_poisson_distribution.md)
 
 **HW assignment**: 
-	Complete this Lesson in Discrete Probability Distributions
-Geometric Distribution
+* Complete this Lesson in [Discrete Probability Distributions](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/00_discrete_distr_overview.md)
+    * [Geometric Distribution](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/07_geometric.md)
 
 **HW Solutions**: N/A
 
@@ -344,11 +344,12 @@ Geometric Distribution
  
 **Instructor**: Clark Walker
 
-**Slide Deck**: Python Classes for Stats Functions
-                    Tests and Errors
+**Slide Deck**: 
+* [Python Classes for Stats Functions](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/25_python_classes_for_stats_functions.md)
+* [Tests and Errors](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/26_tests_and_errors.md)
 
 **HW assignment**: 
-Continuous Probability Distributions Unit
+[Continuous Probability Distributions Unit](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/07_Continuous_Prob_Dists/00_continuous_distr_overview.md)
 
 **HW Solutions**: N/A
 
@@ -359,16 +360,16 @@ Continuous Probability Distributions Unit
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: Function Practice 2
+**Slide Deck**: [Function Practice 2](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/27_function_practice_2.md)
 
 **HW assignment**: 
-These lessons in the Conditional Probability Unit
-Overview
-Conditional Probability
-Multiplication Rule and iid
-         Review
-Law of Total Probability
-Bayes Theorem
+* These lessons in the [Conditional Probability Unit](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/00_conditional_probability_overview.md)
+    * [Overview](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/00_conditional_probability_overview.md)
+    * [Conditional Probability](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/01_conditional_probability.md)
+    * [Multiplication Rule and iid](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/02_multiply_rule_of_prob.md)
+* Review
+    * [Law of Total Probability](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/03_total_probability.md)
+    * [Bayes Theorem](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/04_Bayes_theorem.md)
 
 **HW Solutions**: N/A
 
@@ -379,11 +380,11 @@ Bayes Theorem
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Geometric Distribution
+**Slide Deck**: [Geometric Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/28_geometric_distribution.md)
 
 **HW assignment**: 
-Complete the Continuous Probability Distributions Unit on Learn
-Code out your own analytic approach to a phenomenon 
+* Complete the [Continuous Probability Distributions Unit](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/07_Continuous_Prob_Dists/00_continuous_distr_overview.md) on Learn
+* Code out your own analytic approach to a phenomenon 
 (mathematical, probabilistic, etc), and submit a .py file, a collab link, 
 or a github link in the associated thread
 
@@ -396,11 +397,12 @@ or a github link in the associated thread
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Bayes Theorem
+**Slide Deck**: [Bayes Theorem](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/29_conditional_probability_bayes.md)
 
-**HW assignment**: (Complete these units)
-Law of Total Probability
-Bayes Theorem
+**HW assignment**: 
+* Complete these units on Learn
+    * [Law of Total Probability](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/03_total_probability.md)
+    * [Bayes Theorem](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/04_Bayes_theorem.md)
 
 **HW Solutions**: N/A
 
@@ -411,11 +413,12 @@ Bayes Theorem
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Continuous Distributions
+**Slide Deck**: [Continuous Distributions](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/30_continuous_distributions.md)
 
-**HW assignment** (Optional): 
-	Do the Kaggle Pandas Tutorial
-	Read 2.2, 4.6.5, and 5.1 of Introduction to Statistical Learning
+**HW assignment** 
+* These are optional: 
+	* Do the [Kaggle Pandas Tutorial](https://www.kaggle.com/learn/pandas)
+	* Read 2.2, 4.6.5, and 5.1 of [Introduction to Statistical Learning](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
 
 **HW Solutions**: N/A
 
@@ -426,11 +429,11 @@ Bayes Theorem
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Intro to Machine Learning
+**Slide Deck**: [Intro to Machine Learning](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/31_intro_to_machine_learning.md)
 
 **HW assignment**: 
-Continue working on remaining Learn materials
-Schedule a mentoring session to gauge where you are at and where you need to focus
+* Continue working on remaining Learn materials
+* Schedule a mentoring session to gauge where you are at and where you need to focus
 
 **HW Solutions**: N/A
 
@@ -441,7 +444,7 @@ Schedule a mentoring session to gauge where you are at and where you need to foc
 
 **Instructor**: Tovio Roberts and Clark Walker
 
-**Slide Deck**: Technical Interview Review
+**Slide Deck**: [Technical Interview Review](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/32_technical_interview_review.md)
 
 **HW assignment**: 
 	Finish your Learn materials and get ready for your TI!
