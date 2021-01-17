@@ -455,18 +455,3 @@ or a github link in the associated thread
 
 ---------------------------------------------------------
 We will share a link to an exit survey in Slack at the end of this course. Please feel free to complete this survey in order to help us improve our course. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
