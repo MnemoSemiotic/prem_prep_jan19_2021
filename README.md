@@ -214,7 +214,7 @@
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: Accumulator Review
+**Slide Deck**: [Accumulator Review](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/15_accumulator_review.md)
 
 **HW assignment**: N/A
 
