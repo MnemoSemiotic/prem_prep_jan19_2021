@@ -227,7 +227,7 @@
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Intro to Set Theory
+**Slide Deck**: [Intro to Set Theory](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/16_intro_to_set_theory.md)
 
 **HW assignment**: N/A
 
@@ -240,7 +240,7 @@
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: Function Practice 1
+**Slide Deck**: [Function Practice 1](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/17_function_practice_1.md)
 
 **HW assignment**: N/A
 
@@ -253,12 +253,12 @@
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Axioms of Probability
-                    Computing Basic Probability
+**Slide Deck**: 
+* [Axioms of Probability](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/18_axioms_of_probability.md)
+* [Computing Basic Probability](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/19_computing_basic_probability.md)
 
 **HW assignment**: 
-	Review the Learn materials on Factorial, Permutations and 
-         Combinations
+* Review the Learn materials on [Factorial](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/04_Basic_Probability/03_cartesian_factorial.md), [Permutations](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/04_Basic_Probability/04_permutations.md) and [Combinations](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/04_Basic_Probability/05_combinations.md)
 
 **HW Solutions**: N/A
 
@@ -269,19 +269,19 @@
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Statistical Counting
-GitHub: Working on perms_combs.py
+**Slide Deck**: 
+[Statistical Counting](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/20_statistical_counting.md)
 
 **HW assignment**: 
-Complete these Lessons in Discrete Probability Distributions
-Discrete Random Variables
-Probability Mass Function
-Cumulative Distribution Function
-Bernoulli Distribution
-Binomial Distribution
-	Read the Heap’s Algorithm for permutations page on Wikipedia
-Bonus: Write the Heap’s Algorithm in Python
-Bonus x 2: Revise the brute force Combinations Intuition code in the GH repo to be more optimal, as in, look for a combinations algorithm and implement it. (Here’s one option: https://www.youtube.com/watch?v=VyXDQxuIwPU)
+* Complete these Lessons in [Discrete Probability Distributions](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/00_discrete_distr_overview.md)
+    * [Discrete Random Variables](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/01_discrete_random_variables.md)
+    * [Probability Mass Function](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/02_discrete_pmf.md)
+    * [Cumulative Distribution Function](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/03_discrete_cdf.md)
+    * [Bernoulli Distribution](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/04_bernoulli.md)
+    * [Binomial Distribution](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/05_binomial.md)
+* Read the [Heap’s Algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) for permutations page on Wikipedia
+    * Bonus: Write the Heap’s Algorithm in Python
+    * Bonus x 2: Revise the brute force Combinations Intuition code in the GH repo to be more optimal, as in, look for a combinations algorithm and implement it. (Here’s one option: [https://www.youtube.com/watch?v=VyXDQxuIwPU)](https://www.youtube.com/watch?v=VyXDQxuIwPU))
 
 **HW Solutions**: N/A
 
@@ -292,13 +292,13 @@ Bonus x 2: Revise the brute force Combinations Intuition code in the GH repo to 
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: General Analytic Approach
-                    Discrete Random Variables
-                    Bernoulli and Binomial
+**Slide Deck**: 
+* [General Analytic Approach](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/21_general_analytic_approach.md)
+* [Discrete Random Variables](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/22_discrete_random_variables.md)
+* [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/23_bernoulli_and_binomial.md)
 
 **HW assignment**: 
-Review the code and materials regarding the Binomial Distribution at this GH Repo:
-https://github.com/clownfragment/prem_prep_jan19_2021/tree/main/stats_code/05_discrete_distributions/binomial
+* Review the code and materials regarding the Binomial Distribution at the stats code
 
 **HW Solutions**: N/A
 
@@ -309,17 +309,16 @@ https://github.com/clownfragment/prem_prep_jan19_2021/tree/main/stats_code/05_di
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: Bernoulli and Binomial
+**Slide Deck**: [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/23_bernoulli_and_binomial.md)
 
 **HW assignment**: 
-	Wrap up these Lessons in Discrete Probability Distributions
-Cumulative Distribution Function
-Bernoulli Distribution
-Binomial Distribution
-         Complete
-Poisson Distribution
-Review the code and materials regarding the Binomial Distribution at this GH Repo:
-https://github.com/clownfragment/prem_prep_jan19_2021/tree/main/stats_code/05_discrete_distributions/binomial
+* Wrap up these Lessons in [Discrete Probability Distributions](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/00_discrete_distr_overview.md)
+    * [Cumulative Distribution Function](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/03_discrete_cdf.md)
+    * [Bernoulli Distribution](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/04_bernoulli.md)
+    * [Binomial Distribution](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/05_binomial.md)
+* Complete
+    * [Poisson Distribution](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/08_poisson.md)
+* Review the code and materials regarding the Binomial Distribution in the stats folder
 
 **HW Solutions**: N/A
 
