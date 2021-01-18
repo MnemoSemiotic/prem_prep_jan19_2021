@@ -12,6 +12,8 @@
 
 [Galvanize Data Science YouTube Channel](https://www.youtube.com/galvanizedatascienceprep) SUBSCRIBE!
 
+[Premium Prep Recordings](https://www.youtube.com/playlist?list=PL5T50pwCrPUo4-exqYI6sdDNaot7fr6AY)
+
 [Our Learn Cohort](https://learn-2.galvanize.com/cohorts/2303)
 
 
