@@ -208,5 +208,14 @@ comment
     * They are encoded differently in memory
 
 
-
 ----------------------------------------------------------------
+# Casting
+* Casting: `int(x)` or `float(x)`
+    * _Convert a value to a different data type
+
+```python
+print(4 / 3)       # --> 1.3333333333333333
+print(int(4 / 3))  # --> 1
+print(float(7))    # --> 7.0
+print(float(0))    # --> 0.0
+```
