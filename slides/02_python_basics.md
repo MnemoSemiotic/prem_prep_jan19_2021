@@ -1,10 +1,7 @@
-----------------------------------------------------------------
-# Day 2
-
-* Python Basics
-    * Common Data Types 
-    * Simple Operators in Python
-    * Assignment Operators
+# Python Basics
+* Common Data Types 
+* Simple Operators in Python
+* Assignment Operators
 * Scalar Data Types 
 * Declaring Variables
     * Variable Naming Syntax
