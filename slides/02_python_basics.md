@@ -410,12 +410,36 @@ True
 ---------------------------------------------------------------
 # Order of Logical Operators 
 
-|  Order of Operations  |
-|-----------------------|
-| <center> ~ </center>  |
-| <center>  </center>  |
-| <center> ~ </center>  |
-| <center> ~ </center>  |
-| <center> ~ </center>  |
-| <center> ~ </center>  |
-| <center> ~ </center>  |
+
+|  Order of Operations    |
+|-------------------------|
+| <center> ~ </center>    |
+| <center> & </center>    |
+| <center> ^ </center>    |
+| <center> | </center>    |
+| <center> not </center>  |
+| <center> and </center>  |
+| <center> or </center>   |
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes) 
+### What do each of these return?
+* `not 7 > 2`
+* `3 >= 2 or 5 < 1`
+* `not 8 `
+* `bool(‘’) and 5 != 3`
+* `bool(‘’) and 5 != 5`
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+### What do each of these return?
+* `not 7 > 2`
+    * `False`
+* `3 >= 2 or 5 < 1`
+    * `True`
+* `not 8 `
+    * `False`
+* `bool(‘’) and 5 != 3`
+    * `False`
+* `bool(‘’) and 5 != 5`
+    * `False`
