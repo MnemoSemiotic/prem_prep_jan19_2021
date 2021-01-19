@@ -136,3 +136,14 @@ print(6 % 20) # --> 6
 
 ----------------------------------------------------------------
 # Modulo with `float` values
+* _Hand-wavey_: Avoid this unless you are clear on what you are doing
+* Precision of the modulo operation is relative to the depth of the float
+* Note the precision error!
+
+```python
+print(72.6 % 3.3)   # -> 3.299999999999998
+print(72.6 % 3.33)  # -> 2.
+print(72 % 3.3)     # ->
+print(72.6 % 3)     # ->
+
+```
