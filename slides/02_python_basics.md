@@ -186,3 +186,5 @@ print(28 - (20//4 * 5)) # --> 3
 * What are the two types of comments?
 * What does the `type()` function do?
 * What are some differences between the `int` and `float` types?
+
+----------------------------------------------------------------
