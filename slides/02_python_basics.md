@@ -242,3 +242,10 @@ print(id(x))
 ```
 
 ----------------------------------------------------------------
+# What is a scalar type? 
+* A scalar type holds one single value
+* So far, we’ve mostly dealt with scalar types: `int`, `float`, `bool`
+* Other scalar types are `string`, `None`, `complex`, `byte`
+
+----------------------------------------------------------------
+
