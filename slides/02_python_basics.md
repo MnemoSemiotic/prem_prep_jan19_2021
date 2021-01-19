@@ -321,3 +321,9 @@ print(id(x))
     * [Python reserved words list](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) 
 
 ----------------------------------------------------------------
+# Boolean Operators 
+
+| Operator      | Meaning | Example|
+| ----------- | ----------- |----------|
+| Header      | Title       |          |
+| Paragraph   | Text        |          |
