@@ -142,8 +142,19 @@ print(6 % 20) # --> 6
 
 ```python
 print(72.6 % 3.3)   # -> 3.299999999999998
-print(72.6 % 3.33)  # -> 2.
-print(72 % 3.3)     # ->
-print(72.6 % 3)     # ->
+print(72.6 % 3.33)  # -> 2.669999999999993
+print(72 % 3.3)     # -> 2.7000000000000037
+print(72.6 % 3)     # -> 0.5999999999999943
 
+```
+
+----------------------------------------------------------------
+# Negative Modulo
+* Negative modulo can be easily confusing. Avoid it unless it is key and you have a solid understanding of why you’re using it.
+
+```python
+print(21 % -5)  # -> -4
+print(-21 % 5)  # -> 4
+print(5 % -2)   # -> -1
+print(-5 % 2)   # -> 1
 ```
