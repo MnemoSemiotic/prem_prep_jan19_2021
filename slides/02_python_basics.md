@@ -219,3 +219,25 @@ print(int(4 / 3))  # --> 1
 print(float(7))    # --> 7.0
 print(float(0))    # --> 0.0
 ```
+
+----------------------------------------------------------------
+# Assignment Operator: ex `x = 4`
+* Variable Assignment: giving a name through which a value can be referred
+* Operations on a variable will be determined by the data type of the value stored.
+* Helps us keep track of values that change or values that are inputted 
+
+----------------------------------------------------------------
+# Incrementation Operators: 
+* Operations that modify the current value stored in a variable 
+* `+=`, `-=`, `*=`, `/=`, etc. 
+* Modifying the value referred to by a scalar type variable value will change the location in memory. Test this using the `id()` function
+
+```python
+x = 4
+print(id(x))
+
+x -= 2
+print(id(x))
+```
+
+----------------------------------------------------------------
