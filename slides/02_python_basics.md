@@ -282,3 +282,22 @@ print(id(x))
 * **Functions without an explicit `return` will `return` `None`**
 
 ----------------------------------------------------------------
+# BREAKOUT (2 minutes)
+* What is the result of calculating `1/10**1000000`? Explain this result
+* What is the result of `bool(‘’)`?
+* What is the result of `bool(‘’ + ‘Hi’)`?
+
+----------------------------------------------------------------
+# BREAKOUT Solution
+* What is the result of calculating `1/10**1000000`? Explain this result
+    * `0.0`
+* What is the result of `bool(‘’)`?
+    * `False`
+* What is the result of `bool(‘’ + ‘Hi’)`?
+    * `True`
+
+----------------------------------------------------------------
+# Variables 
+* You can think of variable assignment as giving a name to something so that it can be accessed later by different parts of your program. 
+    * You can use a variable to store any data type 
+    * Important for **reusability**
