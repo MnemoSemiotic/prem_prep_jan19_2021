@@ -403,7 +403,19 @@ True
 
 
 ---------------------------------------------------------------
-
 # Exclusive or (XOR)
 * `^` is the bitwise operator for **exclusive or**
 * For now, think of this as asking the question **“are these two things different?”**
+
+---------------------------------------------------------------
+# Order of Logical Operators 
+
+|  Order of Operations  |
+|-----------------------|
+| <center> ~ </center>  |
+| <center>  </center>  |
+| <center> ~ </center>  |
+| <center> ~ </center>  |
+| <center> ~ </center>  |
+| <center> ~ </center>  |
+| <center> ~ </center>  |
