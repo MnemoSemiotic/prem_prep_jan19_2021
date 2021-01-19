@@ -248,4 +248,37 @@ print(id(x))
 * Other scalar types are `string`, `None`, `complex`, `byte`
 
 ----------------------------------------------------------------
+# Integers
+* Integers are whole number values
+* Can cast scalar data types to an integer using `int()`
+* Using `int()` on a `float` always rounds down to the nearest integer
 
+----------------------------------------------------------------
+# Floats
+* a `float` can be thought of as **continuous** while an `int` can be thought of as **discrete**
+* Sometimes, we will consider two `float` values to be essentially equal if the difference is below some threshold.
+* **Underflow** occurs when trying to represent a number that is smaller than the computer can represent in binary.
+    * Can lead to unexpected behavior
+
+----------------------------------------------------------------
+# Booleans
+* `True` or `False`
+* Can be `1` or `0` when cast to a numeric type
+* Non-zero and non-empty values return as `True`
+* `not` negates a boolean
+* Result of comparison operators is a `bool`
+
+----------------------------------------------------------------
+# Strings
+* A `string` is an object that acts as a sequence of characters
+* Declare a `string` using quotes 
+* Can **concatenate** a `string` with another `string` using the `+` operator
+* Note we will talk more about the `string` type in a later lecture
+
+----------------------------------------------------------------
+# `None` Type 
+* `None` is not the same as `0`.
+* Rather, `None` is the absence of a value
+* **Functions without an explicit `return` will `return` `None`**
+
+----------------------------------------------------------------
