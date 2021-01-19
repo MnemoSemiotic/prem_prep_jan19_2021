@@ -188,3 +188,25 @@ print(28 - (20//4 * 5)) # --> 3
 * What are some differences between the `int` and `float` types?
 
 ----------------------------------------------------------------
+# REVIEW BREAKOUT Solution
+* What are the two types of comments?
+    * Single-line comments: `# this is a single line comment`
+    * Multi-line comments:
+
+```python
+'''
+This is a 
+multi-line
+comment
+'''
+```
+
+* What does the `type()` function do?
+    * Returns the data type of an object
+* What are some differences between the `int` and `float` types?
+    * An `int` is a whole number, a `float` is a decimal number
+    * They are encoded differently in memory
+
+
+
+----------------------------------------------------------------
