@@ -12,6 +12,17 @@
 * Control Flow
 * Homework
 
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Numeric Data Types 
 * A data type can be thought of as a form in which a piece of data can exist
@@ -323,7 +334,79 @@ print(id(x))
 ----------------------------------------------------------------
 # Boolean Operators 
 
-| Operator      | Meaning | Example|
-| ----------- | ----------- |----------|
-| Header      | Title       |          |
-| Paragraph   | Text        |          |
+| Operator              | Meaning                 |
+| ----------------------| ----------------------- |
+| <center>`>`</center>  | Greater Than            |
+| <center>`>=`</center> | Greater Than or Equal   |
+| <center>`<`</center>  | Less Than               |
+| <center>`<=`</center> | Less Than or Equal      |
+| <center>`==`</center> | Equals or Is Equivalent |
+| <center>`!=`</center> | Does not Equal          | 
+
+```python
+print(5 > 4)   # --> True
+print(5 >= 6)  # --> False
+print(5 < 4)   # --> False
+print(5 <= 6)  # --> True
+print(5 == 6)  # --> False
+print(5 != 6)  #--> True
+```
+
+----------------------------------------------------------------
+# Logical Operators
+* Operator Precedence: `not`, `and`, `or`
+
+
+```python
+print(not True)       #--> False
+print(not False)      #--> True
+print(True and True)  #--> True
+print(True and False) #--> False
+print(True or False)  #--> True
+```
+
+----------------------------------------------------------------
+# BREAKOUT (2 mins)
+What is the result of the following boolean expression?
+
+```python
+(not (not (True or False) and (True and True))) and True or True
+```
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+
+What is the result of the following boolean expression?
+* note that the `or True` on the end will evaluate the whole thing as `True`. We'll simplify the whole thing anyway
+
+```python
+(not (not (True or False) and (True and True))) and True or True
+#          --simplify---
+(not (not True and (True and True))) and True or True
+#     --------
+(not (False and (True and True))) and True or True
+#                -------------
+(not (False and True)) and True or True
+#     --------------
+(not False and True or True
+#--------- 
+True and True or True
+#------------
+True or True
+#----------
+True
+```
+
+---------------------------------------------------------------
+# Bitwise Operators: `~`, `&`, `|`
+* `~`, `&`, `|` are the matching bitwise operators for `not`, `and`, and `or`
+* Don’t use these or worry about them for now
+* They may not behave exactly as you expect
+
+
+
+---------------------------------------------------------------
+
+# Exclusive or (XOR)
+* `^` is the bitwise operator for **exclusive or**
+* For now, think of this as asking the question **“are these two things different?”**
