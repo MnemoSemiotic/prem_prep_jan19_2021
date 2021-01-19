@@ -301,3 +301,23 @@ print(id(x))
 * You can think of variable assignment as giving a name to something so that it can be accessed later by different parts of your program. 
     * You can use a variable to store any data type 
     * Important for **reusability**
+
+----------------------------------------------------------------
+# Declaring Variables  
+* Variables are assigned using the `=` operator. 
+    * variable = value
+* Need to print to see the result of assigning a variable. 
+* Can assign two or more variables on the same line. 
+    * `x, y = 1, 2` 
+
+----------------------------------------------------------------
+# Give it a good name
+* You should strive to give your variables well-defined, succinct names
+* Variable naming conventions are covered in [PEP 8](https://www.python.org/dev/peps/pep-0008/).
+* Use **snake case** to name variables:
+    * Replace spaces with _ 
+    * `this_is_a_variable = 8`
+* There are some reserved words that can’t be used as variable names. 
+    * [Python reserved words list](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) 
+
+----------------------------------------------------------------
