@@ -1,4 +1,4 @@
-# Python Basics
+# Python Data Types and Operators
 * Common Data Types 
 * Simple Operators in Python
 * Assignment Operators
