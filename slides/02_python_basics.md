@@ -658,3 +658,42 @@ will output
 ```python
 # --> all is well
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+
+* Write a code snippet that checks two numbers, `x` and `y`:
+    * Check if the sum of two numbers is greater than both numbers
+        * If it is, print `"Both numbers are positive"`
+    * Check if the sum is equal to either number
+        * If it is, print `"At least one number is zero"`
+    * Otherwise, print `"At least one number is negative"`
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT solution
+
+```python
+if x + y == x or x + y == y:
+    print('At least one number is zero')
+elif x + y > x and x + y > y:
+    print('Both numbers are positive')
+else:
+    print('At least one number is negative')
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Homework
+
+* Complete the Day 1 Homework if not completed
+* Complete all Challenges in these Learn Sections
+    * [Variables](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/03_Variables/00_unit_overview.md)
+	* [Scalar Types](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/04_Scalar_Types/00_unit_overview.md)
+	* [Basic Operators](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/05_Basic_Operators/00_unit_overview.md)
+	* [Control Flow](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/06_Control_Flow/00_unit_overview.md)
