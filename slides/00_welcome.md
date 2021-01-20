@@ -1,21 +1,24 @@
 # Welcome to DSI Premium Prep
-Instructors: Tovio Roberts/Clark Walker
+## Instructors: Tovio Roberts/Clark Walker
+
+* Overview
+* Prep Goals and TI Expectations
+* The Materials
+* Study Hall and Mentoring
+* Technical Interview
+* Mindset
+* [Learn](https://learn-2.galvanize.com/), [Repl.it](Repl.it), [Google Colabs](https://colab.research.google.com/)
+* Slack Etiquette
 
 
-Overview
-Prep Goals and TI Expectations
-The Materials
-Study Hall and Mentoring
-Technical Interview
-Mindset
-Learn, Repl.it, Google Colabs
-Slack Etiquette
+
+<br><br><br><br><br><br><br><br><br>
 
 --------------------------------------------------
 
 # Overview
 
-##### 5 Weeks 
+#### 5 Weeks 
 > M - Th  :    6 pm - 8 pm PT
 >  Sat       :  11 am - 1:00/1:30 pm PT 
 * [Premium Prep Links](https://docs.google.com/document/d/e/2PACX-1vRt-zNyEcn2rmfQGVEQKURadfRaS4NN6f8AbMB95WmsH2PE9JpWAQku6i4YKKce9x1bhRDtXrXYWD9U/pub)
@@ -31,13 +34,20 @@ Slack Etiquette
         * Clark Walker | clark.walker@galvanize.com
         * David Coleman (team admin) | david.coleman@galvanize.com
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 
 # Lecture Etiquette
-Having your camera on is preferred
-Please set yourself to mute by default, and be conscious of your microphone generally
-Please be appropriately dressed if your camera is on
-Please limit questions to the lecture thread and/or to the specified time allocated by the instructor
+* Having your camera on is preferred
+* Please set yourself to mute by default, and be conscious of your microphone generally
+* Please be appropriately dressed if your camera is on
+* Please limit questions to the lecture thread and/or to the specified time allocated by the instructor
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Lecture Recordings
