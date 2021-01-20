@@ -9,6 +9,10 @@
 * Extra (depending on time)
     * Simple Operators in Python
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # What is Python?
 * Python is a general-purpose programming language that can be used to:
@@ -17,16 +21,28 @@
     * operate robots and other technical machinery
     * … and more!
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Python for Data Science
 * Python is one of many languages in Data Science and Machine Learning. It is by far the most popular.
 * Python is easy to learn, read and write.
 * There are extensive scientific computing libraries and published academic work that uses Python
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Start off using repl.it to run your code
 * Create an account and open up a new Repl now!
 ![Sign up for repl](images/sign_up_for_repl.png)
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Python is an Interpreted Language
@@ -34,6 +50,10 @@
 * In repl.it, you can just hit the “Play” button and see results
 ![repl, interpreted lang](images/interpreted_language.png)
 * Interpreted languages: Javascript, Ruby, LISP, many other
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Compiled Languages
@@ -43,6 +63,10 @@
     * Run the compiled executable
 * Compiled languages: C/C++, Java/Scala (sort of), Rust
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Python Documentation and Resources 
 * [Python Documentation ](https://docs.python.org/3/)
@@ -51,6 +75,10 @@
 ![Google First](images/google_things.png)
 * Practice on [CodeWars.com](http://codewars.com)
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Text Editors 
 * Text editors are used to write plain text (using [UTF-8](https://en.wikipedia.org/wiki/UTF-8) encoding)
@@ -58,16 +86,28 @@
 * Install [Anaconda](https://www.anaconda.com/distribution/) for your operating system, giving you access to Jupyter notebooks
 
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # How to Program 
 * Think about the problem 
 * Define what it means for the program to be working 
 * Create a series of formal steps that lead to a repeatable operation
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Think about the problem 
 * Broadly define what you are trying to do. 
 * Does your problem have a specific outcome that you want to obtain?
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Define what it means for the program to be working 
@@ -76,17 +116,29 @@
     * Are you creating a new variable?
     * Are you changing an existing variable?
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Create a series of steps for a repeatable operation
 * Think about how to obtain your solution in small definable steps.
 * If necessary, write “Pseudocode” that describes the general algorithm for what you are trying to accomplish
 * Write code (as in, translate Pseudocode into Python)
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # BREAKOUT (5 minutes)
 ### Write an algorithm for boiling a box of spaghetti
 * Define the steps clearly and at an appropriate level for an extra-terrestrial with good human language skills, who has never cooked pasta before
 * There is no single correct solution here
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # BREAKOUT SOLUTION EXAMPLE (abbreviated)
@@ -100,6 +152,10 @@
     b. Place Boiling Pot on stove burner
     c. Turn heat dial clockwise so that it is on high
     ...
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Comments
@@ -116,6 +172,10 @@ multi-line
 comment
 '''
 ```
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Reasons for using comments
