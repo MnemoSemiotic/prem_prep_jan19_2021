@@ -27,7 +27,7 @@
     * [Clark Walker](https://www.linkedin.com/in/clark-walker/) | Python Instructor | clark.walker@galvanize.com
     * [Tovio Roberts](https://www.linkedin.com/in/tovio-roberts/) | Stats Instructor | tovio.roberts@galvanize.com
     * Team Members: 
-        * Tovio Roberts tovio.roberts@galvanize.com
+        * Tovio Roberts | tovio.roberts@galvanize.com
         * Lance Barto | lance.barto@galvanize.com
         * Remi Arata | remi.arata@galvanize.com
         * Devon DeJohn | devon.dejohn@galvanize.com
