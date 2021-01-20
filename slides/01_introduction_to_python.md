@@ -184,11 +184,19 @@ comment
 * Provide function documentation 
 * Leave TODO: statements in your code, for later development
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Basic Python Constructs
 * Common Data Types 
 * Simple Operators in Python
 * Assignment Operators
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Common Data Types 
@@ -201,6 +209,10 @@ comment
     * ex: `type(23)` will tell you that 23 is an integer
 
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Number Types: `int`, `float`, and `bool`
 * Integers can be thought of as “whole numbers”
@@ -209,10 +221,18 @@ comment
     * `1.0 == 1` ?? ⇒ `True`
     * However, `type(1.0) == type(1)` ?? ⇒ `False`
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # BREAKOUT (3 minutes):
 * Use the `type()` function to discover the type of the number `74`.
 * Describe simply what you did on the line above your code snippet
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # BREAKOUT SOLUTION:
@@ -223,6 +243,10 @@ print(type(74))
 ```
 
 NOTE: In general, you will want to avoid writing comments that say what your code is doing, unless, at this stage, it is for your own benefit and study
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Simplest Operators in Python
@@ -235,6 +259,10 @@ NOTE: In general, you will want to avoid writing comments that say what your cod
     * Use parentheses `(3+5) / 7` to ensure the desired order of operations
 
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # Duck Typing
 * Python is a “duck typed” language
@@ -244,9 +272,15 @@ NOTE: In general, you will want to avoid writing comments that say what your cod
         * Division will result in a float
 
 
+<br><br><br><br><br><br><br><br><br>
+
 ----------------------------------------------------------------
 # BREAKOUT (5 minutes)
 * Add 5 and 7.2, multiply the result by 6, divide that result by 3, then square the result
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -255,6 +289,10 @@ NOTE: In general, you will want to avoid writing comments that say what your cod
 ```python
 print((((5 + 7.2) * 6) / 3)**2)
 ```
+
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Homework
