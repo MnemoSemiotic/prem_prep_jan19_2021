@@ -602,8 +602,59 @@ True
 * Syntax: 
 
 ```python
-if somecondition:
+if some_condition:
     # execute this code
 else:
     # execute this code
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# if/elif/else
+* Often, we will want to execute some other code if the condition in the if statement is not met.
+    * Use an if-else statement
+* What if we want to check multiple conditions?
+    * Use if-elif-else
+    * You can use multiple elif statements 
+    * Order matters!
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# if/elif/else syntax
+
+```python
+if some_condition:
+    # execute this code
+elif another_condition:
+    # execute other code
+elif yet_another_condition:
+    # execute this code
+else:
+    execute some other code
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# if/elif/else
+* We can incorporate comparison operators and logical operators into our if statements
+
+```python
+x = 7
+y = False
+
+if x < 10 and not y:
+    print('all is well')
+elif x > 3 and y:
+    print('danger')
+else:
+    print('nothing matters')
+```
+
+will output
+
+```python
+# --> all is well
 ```
