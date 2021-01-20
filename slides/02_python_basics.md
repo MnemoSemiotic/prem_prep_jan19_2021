@@ -587,5 +587,23 @@ True
 
 <br><br><br><br><br><br><br><br><br>
 
+---------------------------------------------------------------
+# Control Flow: if/else
+
+![if flow](images/if_flow.png)
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# if
+* We use if statements if we want to evaluate code only under a certain condition
+* Only when the statement following the if keyword evaluates to True will Python run the code in the body of the if block
+* Syntax: 
+
+```python
+if somecondition:
+    # execute this code
+else:
+    # execute this code
+```
