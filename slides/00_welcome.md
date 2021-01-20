@@ -104,9 +104,8 @@ __Get diverse students to a baseline skill level to pass the Technical Interview
 
 ----------------------------------------------------------------
 # The Materials
-* Slide decks, linked from [Prep Links doc](https://docs.google.com/document/d/e/2PACX-1vRt-zNyEcn2rmfQGVEQKURadfRaS4NN6f8AbMB95WmsH2PE9JpWAQku6i4YKKce9x1bhRDtXrXYWD9U/pub)
+* Slide decks, linked from [this repo's README.md](https://github.com/clownfragment/prem_prep_jan19_2021)
 * Supplemental Homework
-* [GitHub Repository](https://github.com/clownfragment/prem_prep_jan19_2021)
 * Quick challenges posted in Slack
 
 
