@@ -21,7 +21,6 @@
 #### 5 Weeks 
 > M - Th  :    6 pm - 8 pm PT
 >  Sat       :  11 am - 1:00/1:30 pm PT 
-* [Premium Prep Links](https://docs.google.com/document/d/e/2PACX-1vRt-zNyEcn2rmfQGVEQKURadfRaS4NN6f8AbMB95WmsH2PE9JpWAQku6i4YKKce9x1bhRDtXrXYWD9U/pub)
 * [Zoom Meeting](https://zoom.us/j/98989113857?pwd=UUwzcXRsTDZwNjJEQTh2WlBNNldoQT09)
 * DSI Prep Team
     * [Clark Walker](https://www.linkedin.com/in/clark-walker/) | Python Instructor | clark.walker@galvanize.com
