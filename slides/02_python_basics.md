@@ -10,15 +10,8 @@
 * Homework
 
 
+<br><br><br><br><br><br><br><br><br>
 
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br>
 
 ----------------------------------------------------------------
 # Numeric Data Types 
@@ -34,6 +27,9 @@ print(type(72.935)) # --> <class 'float'>
 print(type(True)) # --> <class 'bool'>
 ```
 
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Numeric Type Encoding
 * `int` and `float` datatypes are encoded differently, but are able to share operators in Python. 
@@ -43,6 +39,9 @@ print(type(True)) # --> <class 'bool'>
 print(1.0 == 1) # --> True
 print(type(1.0) == type(1)) # --> False
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Python is a “duck-typed” language
@@ -57,6 +56,9 @@ print(type(1 == 1.0)) # --> True
 print(type(1 == 1.9)) # --> False> 
 ```
 
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Simple Operators in Python
 * Basic Arithmetic Operators: `+`, `-`, `*`, `/`
@@ -65,6 +67,10 @@ print(type(1 == 1.9)) # --> False>
 * Order of Operations: PEMDAS
 * Exponentiate: `**`
 * Casting: `int(x)`, `float(x)`
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Basic Arithmetic Operators
@@ -79,11 +85,19 @@ print(2 - 2)            # --> 0
 print((2 + 2)**(3 - 2)) # --> 4
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # BREAKOUT (2 minutes)
 * print the result of multiplying by 7 the addition of 6 and 3
 * print the product of 7 times 6, squared, with 23 subtracted from the result
 * print the division of the result of 4 minus 2 times 2 into twenty
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # BREAKOUT Solution:
@@ -107,6 +121,10 @@ print((20 / (4 - 2 * 2)) # --> Will throw an error in this interpretation
 print((4 - 2) * (20 / 2)) # --> 20
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Floor Division
 `//`
@@ -122,6 +140,10 @@ print(72.6 // 3.3) # --> 21.0
 print(72 // 3.3)   # --> 21.0
 print(72.6 // 3)   # --> 24.0
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Modulo
@@ -142,6 +164,10 @@ print(5 % 20) # --> 5
 print(6 % 20) # --> 6
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Modulo with `float` values
 * _Hand-wavey_: Avoid this unless you are clear on what you are doing
@@ -156,6 +182,10 @@ print(72.6 % 3)     # -> 0.5999999999999943
 
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Negative Modulo
 * Negative modulo can be easily confusing. Avoid it unless it is key and you have a solid understanding of why you’re using it.
@@ -167,11 +197,19 @@ print(5 % -2)   # -> -1
 print(-5 % 2)   # ->  1
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # BREAKOUT (3 minutes)
 1. If 3 letter carriers must deliver the same exact number of letters, and there are 299 letters, how many letters will not be delivered? Write a Python expression that answers this question.
 
 2. If you have 5 bank tellers and 28 people waiting to be served, what is the least number of people who will not be served if it takes exactly 4 minutes to serve each person and the bank MUST close in 20 minutes? Write a Python expression that answers this question.
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # BREAKOUT SOLUTION Part 1
@@ -181,6 +219,10 @@ print(-5 % 2)   # ->  1
 print(299 % 3) # --> 2
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # BREAKOUT SOLUTION Part 2
 2. If you have 5 bank tellers and 28 people waiting to be served, what is the least number of people who will not be served if it takes exactly 4 minutes to serve each person and the bank MUST close in 20 minutes? Write a Python expression that answers this question.
@@ -189,11 +231,19 @@ print(299 % 3) # --> 2
 print(28 - (20//4 * 5)) # --> 3
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # REVIEW BREAKOUT  
 * What are the two types of comments?
 * What does the `type()` function do?
 * What are some differences between the `int` and `float` types?
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # REVIEW BREAKOUT Solution
@@ -216,6 +266,10 @@ comment
     * They are encoded differently in memory
 
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Casting
 * Casting: `int(x)` or `float(x)`
@@ -228,12 +282,20 @@ print(float(7))    # --> 7.0
 print(float(0))    # --> 0.0
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Assignment Operator 
 * ex `x = 4`
 * Variable Assignment: giving a name through which a value can be referred
 * Operations on a variable will be determined by the data type of the value stored.
 * Helps us keep track of values that change or values that are inputted 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Incrementation Operators 
@@ -249,11 +311,19 @@ x -= 2
 print(id(x))
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # What is a scalar type? 
 * A scalar type holds one single value
 * So far, we’ve mostly dealt with scalar types: `int`, `float`, `bool`
 * Other scalar types are `string`, `None`, `complex`, `byte`
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Integers
@@ -261,12 +331,20 @@ print(id(x))
 * Can cast scalar data types to an integer using `int()`
 * Using `int()` on a `float` always rounds down to the nearest integer
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Floats
 * a `float` can be thought of as **continuous** while an `int` can be thought of as **discrete**
 * Sometimes, we will consider two `float` values to be essentially equal if the difference is below some threshold.
 * **Underflow** occurs when trying to represent a number that is smaller than the computer can represent in binary.
     * Can lead to unexpected behavior
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Booleans
@@ -276,6 +354,10 @@ print(id(x))
 * `not` negates a boolean
 * Result of comparison operators is a `bool`
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Strings
 * A `string` is an object that acts as a sequence of characters
@@ -283,17 +365,29 @@ print(id(x))
 * Can **concatenate** a `string` with another `string` using the `+` operator
 * Note we will talk more about the `string` type in a later lecture
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # `None` Type 
 * `None` is not the same as `0`.
 * Rather, `None` is the absence of a value
 * **Functions without an explicit `return` will `return` `None`**
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # BREAKOUT (2 minutes)
 * What is the result of calculating `1/10**1000000`? Explain this result
 * What is the result of `bool(‘’)`?
 * What is the result of `bool(‘’ + ‘Hi’)`?
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # BREAKOUT Solution
@@ -304,11 +398,19 @@ print(id(x))
 * What is the result of `bool(‘’ + ‘Hi’)`?
     * `True`
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Variables 
 * You can think of variable assignment as giving a name to something so that it can be accessed later by different parts of your program. 
     * You can use a variable to store any data type 
     * Important for **reusability**
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Declaring Variables  
@@ -317,6 +419,10 @@ print(id(x))
 * Need to print to see the result of assigning a variable. 
 * Can assign two or more variables on the same line. 
     * `x, y = 1, 2` 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Give it a good name
@@ -327,6 +433,10 @@ print(id(x))
     * `this_is_a_variable = 8`
 * There are some reserved words that can’t be used as variable names. 
     * [Python reserved words list](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) 
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ----------------------------------------------------------------
 # Boolean Operators 
@@ -349,6 +459,10 @@ print(5 == 6)  # --> False
 print(5 != 6)  #--> True
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # Logical Operators
 * Operator Precedence: `not`, `and`, `or`
@@ -362,6 +476,10 @@ print(True and False) #--> False
 print(True or False)  #--> True
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ----------------------------------------------------------------
 # BREAKOUT (2 mins)
 What is the result of the following boolean expression?
@@ -369,6 +487,10 @@ What is the result of the following boolean expression?
 ```python
 (not (not (True or False) and (True and True))) and True or True
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ---------------------------------------------------------------
 # BREAKOUT Solution
@@ -394,6 +516,10 @@ True or True
 True
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ---------------------------------------------------------------
 # Bitwise Operators: `~`, `&`, `|`
 * `~`, `&`, `|` are the matching bitwise operators for `not`, `and`, and `or`
@@ -401,11 +527,17 @@ True
 * They may not behave exactly as you expect
 
 
+<br><br><br><br><br><br><br><br><br>
+
 
 ---------------------------------------------------------------
 # Exclusive or (XOR)
 * `^` is the bitwise operator for **exclusive or**
 * For now, think of this as asking the question **“are these two things different?”**
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ---------------------------------------------------------------
 # Order of Logical Operators 
@@ -421,6 +553,10 @@ True
 | <center> and </center>  |
 | <center> or </center>   |
 
+
+<br><br><br><br><br><br><br><br><br>
+
+
 ---------------------------------------------------------------
 # BREAKOUT (3 minutes) 
 ### What do each of these return?
@@ -429,6 +565,10 @@ True
 * `not 8 `
 * `bool(‘’) and 5 != 3`
 * `bool(‘’) and 5 != 5`
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ---------------------------------------------------------------
 # BREAKOUT Solution
@@ -443,5 +583,9 @@ True
     * `False`
 * `bool(‘’) and 5 != 5`
     * `False`
+
+
+<br><br><br><br><br><br><br><br><br>
+
 
 ---------------------------------------------------------------
