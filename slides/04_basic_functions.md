@@ -281,3 +281,12 @@ print(mod_mult_by_7_power_4(x=20, y=3))  # --> 38416
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT (1 minute)
+* What does this code return? Why?
+
+```python
+def sq_num(n):
+	print(n ** 2)
+
+print(sq_num(20))
+```
