@@ -330,5 +330,10 @@ def print_num_len(num):
         print(f'{num} is single digit')
     elif num / 100 < 1:
         print(f'{num} is double digit')
-
+    else(f'{num} is triple digit')
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
