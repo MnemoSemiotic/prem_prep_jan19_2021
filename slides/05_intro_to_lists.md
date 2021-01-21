@@ -131,3 +131,11 @@ one_to_99 = list(range(1,99+1))
 
 ---------------------------------------------------------------
 # List Mutability
+* Lists are mutable
+    * The contents in a `list` can change while its `id()` stays the same.
+    * Two lists that contain the same values will have different ids. 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
