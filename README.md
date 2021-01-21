@@ -56,13 +56,7 @@
 * [Python Basics](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/02_python_basics.md)
 
 
-**HW assignment**: 
-* Complete the Day 1 Homework first (links above)
-* Complete all Challenges in these Learn Sections:
-    * [Variables](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/03_Variables/00_unit_overview.md)
-    * [Scalar Types](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/04_Scalar_Types/00_unit_overview.md)
-    * [Basic Operators](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/05_Basic_Operators/00_unit_overview.md)
-    * [Control Flow](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/06_Control_Flow/00_unit_overview.md)
+**HW assignment**: N/A
 
 **HW Solutions**: N/A
 
@@ -78,10 +72,13 @@
 * [Python Variables and Control Flow](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/03_python_variables_and_control_flow.md)
 
 **HW assignment**: 
-* Begin these Learn Units:
-    * [List Basics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/07_List_Basics/00_unit_overview.md)
-    * [Manipulating Lists](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/08_Manipulating_Lists/00_unit_overview.md)
-    * [List Functions and Methods](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/09_List_Functions_and_Methods/00_unit_overview.md)
+* Complete the Day 1 Homework first (links above)
+* Complete all Challenges in these Learn Sections:
+    * [Variables](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/03_Variables/00_unit_overview.md)
+    * [Scalar Types](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/04_Scalar_Types/00_unit_overview.md)
+    * [Basic Operators](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/05_Basic_Operators/00_unit_overview.md)
+    * [Control Flow](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/06_Control_Flow/00_unit_overview.md)
+
 
 **HW Solutions**: N/A
 
@@ -96,7 +93,7 @@
 **Slide Deck**: [Intro to Lists](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/05_intro_to_lists.md)
 
 **HW assignment**:
-* Complete these Units on Learn (if you haven’t as yet):
+* Complete these Units on Learn:
     * [List Basics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/07_List_Basics/00_unit_overview.md)
     * [Manipulating Lists](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/08_Manipulating_Lists/00_unit_overview.md)
     * [List Functions and Methods](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/09_List_Functions_and_Methods/00_unit_overview.md)
