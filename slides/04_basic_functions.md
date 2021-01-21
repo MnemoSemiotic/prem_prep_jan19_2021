@@ -178,17 +178,77 @@ def another_func(x):
 ```
 
 
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Quick intro to f-strings
+* f-strings are an easy way to interpolate a value into a string
+    * defined by putting an `f` in front of quotes: `f'some text'`
+
+```python
+state = 'Alaska`
+
+print(f'{state} is one of the states in the US')
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Bonus function: `input()`
+* The `input()` function accepts character input from the keyboard and prints the message it is passed as a prompt.
+
+```python
+def welcome_message(name):
+    return f'Hello {name}!'
+
+name_1 = input('Please enter your name: ')
+
+print(welcome_message(name_1))
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+* Write a function that uses the `input()` function inside of it to take a user inputted number and check if that number is equal to `7`. If the number is equal to `7`, return `True`. If not, return `False`
+* Hint: `input()` will return a string by default, so cast to an `int`:
+   * `user_input = int(input(‘type number: ‘))`
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def check_for_seven():
+    user_input = int(input('type a number: '))
+
+    if user_input == 7:
+        return True
+    else:
+        return False
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# AGAIN `print()` IS NOT `return`
+* `print()` :
+    * function takes the value passed into it and writes that value to the console.
+* `return` :
+    * Keyword used to return an object from a function
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
 
 
 
 
-
-
-
-
-
-
-
-
-Bonus function: input()
-The input() function accepts character input from the keyboard and prints the message it is passed as a prompt.
