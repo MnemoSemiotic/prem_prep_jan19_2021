@@ -66,3 +66,14 @@ one_to_99 = list(range(1,99+1))
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# `list` Membership
+* Use the in keyword to check whether an element is in a list
+    * `5 in [1, 2, 3, 4]` will be `False`
+* You can conversely use not in to check if an element is not a member of the list
+    * `5 not in [1, 2, 3, 4]` will be `True`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Slicing
