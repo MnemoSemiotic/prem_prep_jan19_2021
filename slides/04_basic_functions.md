@@ -85,6 +85,15 @@ else:
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# Using print() to output to console
+* `print()`
+    * function takes the value passed into it and writes that value to the console.
+* `print()` is in your core toolset for checking what you expect is happening in your code.
+* **the `print()` function is fundamentally different from the `return` keyword!**
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
 # Functions
 * Functions can be thought of as ways to create repeatable procedures
     * Name the function, give it parameters (optional), write your code
@@ -101,9 +110,9 @@ else:
 # Functions Basic Structure
 
 ```python
-def my_func(arg1, arg2):
+def my_func(arg1):
     # some block of code here
-    pass # This pass just acts as a filler right now
+    return arg1 # Returns the value in arg1 when function is called
 ```
 
 
@@ -144,6 +153,42 @@ print(add_one_to_num(x)) # outputs 8 to console
 
 * Default Arguments can be defined for function parameters. They are created in the function definition
 
+```python
+def add_two_numbers(num_1=1, num_2=2):
+    return num_1 + num_2
+
+print(add_two_numbers()) # outputs 3 to the console
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `print()` and `return` ARE DIFFERENT!!
+* `print()` outputs to the console
+* `return` defines the value that will be received from the scope of the function
+
+```python
+def some_func(x):
+    print(x)
+
+# is fundamentally different from
+def another_func(x):
+    return x
+```
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+Bonus function: input()
+The input() function accepts character input from the keyboard and prints the message it is passed as a prompt.
