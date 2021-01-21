@@ -139,3 +139,19 @@ one_to_99 = list(range(1,99+1))
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# Copy a `list`
+* Create a copy of a list with the `.copy()` method
+    * Syntax: `lst_2 = lst.copy()`
+* `list` slicing can also be used to make a copy
+    * Syntax: `lst2 = lst[:]`
+* It is good practice to not modify function arguments. If a function argument is a `list`, create a copy before changing that `list` in any way. 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `append()` to a `list`
+* The `.append()` method places a new value at the end of the `list` 
+    * Syntax: `lst.append(new_item)`	
+* Can append a `list` to another `list` in order to create a nested `list`.
+
