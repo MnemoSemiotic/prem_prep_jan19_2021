@@ -85,3 +85,41 @@ else:
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# Functions
+* Functions can be thought of as ways to create repeatable procedures
+    * Name the function, give it parameters (optional), write your code
+* Things we need to consider when making a functions:
+    * How to name the function
+    * What the function expects to pass into it - arguments
+    * What the function does
+    * What the function returns: a value or None?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Functions Basic Structure
+
+```python
+def my_func(arg1, arg2):
+    # some block of code here
+    pass # This pass just acts as a filler right now
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Function Parameters  
+* Function parameters:
+    * Function inputs that are inside the parentheses of the function header
+    * Operate similar to variables but they only exist within the function
+
+```python
+def some_func(im_a_function_parameter): 
+   return bool(im_a_function_parameter) 
+```
+    
+* Pass in “arguments” to the parameters when the function is called.
+* Default parameters can be created in the function definition
+
