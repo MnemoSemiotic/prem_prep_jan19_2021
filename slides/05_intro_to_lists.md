@@ -1,1 +1,11 @@
-https://docs.google.com/presentation/d/1ujLcUXmao1QIpt8i1D2B4q4Be2iwW-MxTzYlf1ad06U/edit#slide=id.p
+# Lists
+* What is a `list` 
+* Range
+* List indexing
+* List Membership
+* List Slicing
+* Nested Lists
+* List Mutability
+* Copy a List
+* Append to a List
+* Unpacking a list
