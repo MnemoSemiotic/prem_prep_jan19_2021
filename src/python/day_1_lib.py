@@ -1,1 +1,4 @@
-print("hello from day 1 lib")
+
+# this is an example of the print function
+# print( 'hello' )
+print( "hello" )
