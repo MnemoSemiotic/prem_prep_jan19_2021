@@ -77,3 +77,57 @@ one_to_99 = list(range(1,99+1))
 
 ---------------------------------------------------------------
 # List Slicing
+* Use list slicing if you want to access a portion of a list
+    * Notation is similar to indexing, e.g. `[1:3]`
+    * Syntax: `list[start:stop]`
+        * The slice starts at the start value and goes up until the stop value
+        * The slice will not inclued the stop value
+* Like the range function, we can specify a step
+    * Syntax: `list[start:stop:step]`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Nested Lists
+* A list that contains another list is known as a nested list
+    * Example: `lst = [‘a’, ‘b’, [1, 2, 3]]`
+* To access an element in a nested list, you will need two indices
+    * `lst[2][0]` will access the value `1`  
+* To access more than one element in a nested list, use a slice:	
+    * `lst[2][:2]` will produce the slice `[1, 2]`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+`num_list = list(range(4, 16))`
+
+* How do you index `num_list` to get `6`? How about `15`?
+* How do you slice `num_list` to get this sublist: `[10, 11, 12, 13, 14, 15]`
+* How do you slice `num_list` to get this sublist: `[4, 6, 8, 10, 12, 14]`
+* Challenge: How do you slice `num_list` to get this sublist: `[8, 7, 6, 5, 4]`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+`num_list = list(range(4, 16))`
+
+* How do you index `num_list` to get `6`? How about `15`?
+    * `print(num_list[2]`
+    * `print(num_list[11]`
+* How do you slice `num_list` to get this sublist: `[10, 11, 12, 13, 14, 15]`
+    * `print(num_list[6:13])`
+* How do you slice `num_list` to get this sublist: `[4, 6, 8, 10, 12, 14]`
+    * `print(num_list[6:13])`
+* Challenge: How do you slice `num_list` to get this sublist: `[8, 7, 6, 5, 4]`
+    * `print(num_list[4::-1])`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Mutability
