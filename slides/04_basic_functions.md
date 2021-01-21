@@ -295,3 +295,40 @@ print(sq_num(20))
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT SOLUTION
+* What does this code return? Why?
+
+```python
+def sq_num(n):
+	print(n ** 2)
+
+print(sq_num(20))
+```
+
+**This code returns `None` because there is no explicit `return` defined**
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+* Write a function that takes in a number between 0-999:
+    * Print out whether the number is a single, double, or triple digit number. 
+    * If the number is outside of that range, print a message saying that it is outside of the expected range. 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def print_num_len(num):
+    if num < 0 or num > 999:
+        print(f'{num} outside of expected range')
+    elif num / 10 < 1: 
+        print(f'{num} is single digit')
+    elif num / 100 < 1:
+        print(f'{num} is double digit')
+
+```
