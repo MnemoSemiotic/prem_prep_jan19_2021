@@ -155,3 +155,46 @@ one_to_99 = list(range(1,99+1))
     * Syntax: `lst.append(new_item)`	
 * Can append a `list` to another `list` in order to create a nested `list`.
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Unpacking a `list`
+* We can unpack the elements of a `list` so that we are storing these elements in a variable:
+    * `fruit1, fruit2, fruit3 = [‘grapes’, ‘blueberries’, ‘apples’]`
+* Unpacking a `list` is untenable for a very long `list`.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes)
+Examine list1 and list2 after running these code snippets and explain why each code snippet gives different values
+
+
+### snip 1
+```python
+list1 = [1, 2, 3]
+list2 = list1
+list1.append(4)
+```
+
+### snip 2
+```python
+list1 = [1, 2, 3]
+list2 = list1[:]
+list1.append(4)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+* In the first example, both lists are updated, as they are the same object referred to by different names. In the second example, only the copy is updated with the new value
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
