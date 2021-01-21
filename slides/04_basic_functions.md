@@ -261,3 +261,23 @@ def check_for_seven():
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+* Define a function (give it a meaningful name) that takes two number values, and returns the modulus of the first value by the second value, multiplied by 7, then raised to the 4th power
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def mod_mult_by_7_power_4(x, y):
+    return ((x % y) * 7)**4
+
+print(mod_mult_by_7_power_4(x=20, y=3))  # --> 38416 
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
