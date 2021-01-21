@@ -60,7 +60,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 2 Lecture](https://youtu.be/grCb8QGRETA)
 
 ---------------------------------------------------------
 ### Day 3: Thursday Jan 21 (6pm - 8pm Pacific)
