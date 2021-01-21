@@ -110,7 +110,7 @@ def my_func(arg1, arg2):
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# Function Parameters  
+# Function **Parameters**
 * Function parameters:
     * Function inputs that are inside the parentheses of the function header
     * Operate similar to variables but they only exist within the function
@@ -119,7 +119,31 @@ def my_func(arg1, arg2):
 def some_func(im_a_function_parameter): 
    return bool(im_a_function_parameter) 
 ```
-    
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Function **Arguments**
+
 * Pass in “arguments” to the parameters when the function is called.
-* Default parameters can be created in the function definition
+
+```python
+def add_one_to_num(num):
+    return num + 1
+
+x = 7
+
+print(add_one_to_num(x)) # outputs 8 to console
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Default Arguments
+
+* Default Arguments can be defined for function parameters. They are created in the function definition
+
+
+
 
