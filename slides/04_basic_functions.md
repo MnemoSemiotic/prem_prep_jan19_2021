@@ -248,7 +248,16 @@ def check_for_seven():
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# Variable Scope 
+* Global Variables 
+    * Variables defined in the main program
+* Local Variables
+    * Variables defined within the scope of a function
+* You can access a variable declared in the global scope of the function within the local scope of a function
+* If you want to change a global variable within the scope of a function, use `global var_name`
 
 
 
+<br><br><br><br><br><br><br><br><br>
 
+---------------------------------------------------------------
