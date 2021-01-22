@@ -81,7 +81,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 3 Lecture](hhttps://youtu.be/MxV9j5XB-kk)
 
 
 ---------------------------------------------------------
