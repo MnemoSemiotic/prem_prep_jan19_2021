@@ -1,7 +1,7 @@
 # Python Variables and Logic
 * Declaring Variables
     * Variable Naming Syntax
-* Logic Operators	
+* Logic Operators
 * Control Flow
 * Homework
 
@@ -9,9 +9,9 @@
 
 
 ----------------------------------------------------------------
-# Variables 
-* You can think of variable assignment as giving a name to something so that it can be accessed later by different parts of your program. 
-    * You can use a variable to store any data type 
+# Variables
+* You can think of variable assignment as giving a name to something so that it can be accessed later by different parts of your program.
+    * You can use a variable to store any data type
     * Important for **reusability**
 
 
@@ -20,11 +20,11 @@
 
 ----------------------------------------------------------------
 # Declaring Variables  
-* Variables are assigned using the `=` operator. 
+* Variables are assigned using the `=` operator.
     * variable = value
-* Need to print to see the result of assigning a variable. 
-* Can assign two or more variables on the same line. 
-    * `x, y = 1, 2` 
+* Need to print to see the result of assigning a variable.
+* Can assign two or more variables on the same line.
+    * `x, y = 1, 2`
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -35,17 +35,17 @@
 * You should strive to give your variables well-defined, succinct names
 * Variable naming conventions are covered in [PEP 8](https://www.python.org/dev/peps/pep-0008/).
 * Use **snake case** to name variables:
-    * Replace spaces with _ 
+    * Replace spaces with _
     * `this_is_a_variable = 8`
-* There are some reserved words that can’t be used as variable names. 
-    * [Python reserved words list](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) 
+* There are some reserved words that can’t be used as variable names.
+    * [Python reserved words list](https://docs.python.org/3/reference/lexical_analysis.html#identifiers)
 
 
 <br><br><br><br><br><br><br><br><br>
 
 
 ----------------------------------------------------------------
-# Boolean Operators 
+# Boolean Operators
 
 | Operator              | Meaning                 |
 | ----------------------| ----------------------- |
@@ -54,7 +54,7 @@
 | <center>`<`</center>  | Less Than               |
 | <center>`<=`</center> | Less Than or Equal      |
 | <center>`==`</center> | Equals or Is Equivalent |
-| <center>`!=`</center> | Does not Equal          | 
+| <center>`!=`</center> | Does not Equal          |
 
 ```python
 print(5 > 4)   # --> True
@@ -114,7 +114,7 @@ What is the result of the following boolean expression?
 (not (False and True)) and True or True
 #     --------------
 (not False and True or True
-#--------- 
+#---------
 True and True or True
 #------------
 True or True
@@ -146,7 +146,7 @@ True
 
 
 ---------------------------------------------------------------
-# Order of Logical Operators 
+# Order of Logical Operators
 
 
 |  Order of Operations    |
@@ -164,7 +164,7 @@ True
 
 
 ---------------------------------------------------------------
-# BREAKOUT (3 minutes) 
+# BREAKOUT (3 minutes)
 ### What do each of these return?
 * `not 7 > 2`
 * `3 >= 2 or 5 < 1`
@@ -205,7 +205,7 @@ True
 # if
 * We use if statements if we want to evaluate code only under a certain condition
 * Only when the statement following the if keyword evaluates to True will Python run the code in the body of the if block
-* Syntax: 
+* Syntax:
 
 ```python
 if some_condition:
@@ -222,7 +222,7 @@ else:
     * Use an if-else statement
 * What if we want to check multiple conditions?
     * Use if-elif-else
-    * You can use multiple elif statements 
+    * You can use multiple elif statements
     * Order matters!
 
 <br><br><br><br><br><br><br><br><br>
