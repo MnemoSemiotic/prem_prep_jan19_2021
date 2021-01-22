@@ -67,7 +67,8 @@
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: 
+**Slide Deck**:
+* [Python Variables and Control Flow](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/03_python_variables_and_control_flow)
 * [Function Basics](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/04_basic_functions.md)
 * [Python Variables and Control Flow](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/03_python_variables_and_control_flow.md)
 
