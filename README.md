@@ -91,13 +91,12 @@
 
 **Slide Deck**: 
 * [Function Basics](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/04_basic_functions.md)
+* [Intro to Lists](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/05_intro_to_lists.md)
 
 **HW assignment**:
 * Complete these Units on Learn:
     * [List Basics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/07_List_Basics/00_unit_overview.md)
     * [Manipulating Lists](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/08_Manipulating_Lists/00_unit_overview.md)
-    * [List Functions and Methods](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/09_List_Functions_and_Methods/00_unit_overview.md)
-    * [List Iteration](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/10_List_Iteration/00_unit_overview.md)
 
 **HW Solutions**: N/A
 
@@ -109,7 +108,6 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**:
-* [Intro to Lists](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/05_intro_to_lists.md)
 * [For Loops and Accumulators](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/06_for_loops_accumulators.md)
 * [List Methods and Operations](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 
