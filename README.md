@@ -69,8 +69,6 @@
 
 **Slide Deck**:
 * [Python Variables and Control Flow](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/03_python_variables_and_control_flow)
-* [Function Basics](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/04_basic_functions.md)
-* [Python Variables and Control Flow](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/03_python_variables_and_control_flow.md)
 
 **HW assignment**: 
 * Complete the Day 1 Homework first (links above)
@@ -91,7 +89,8 @@
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: [Intro to Lists](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/05_intro_to_lists.md)
+**Slide Deck**: 
+* [Function Basics](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/04_basic_functions.md)
 
 **HW assignment**:
 * Complete these Units on Learn:
@@ -109,7 +108,8 @@
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: 
+**Slide Deck**:
+* [Intro to Lists](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/05_intro_to_lists.md)
 * [For Loops and Accumulators](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/06_for_loops_accumulators.md)
 * [List Methods and Operations](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 
