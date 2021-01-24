@@ -81,7 +81,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: [Day 3 Lecture](hhttps://youtu.be/MxV9j5XB-kk)
+**Video Lecture**: [Day 3 Lecture](https://youtu.be/MxV9j5XB-kk)
 
 
 ---------------------------------------------------------
@@ -100,7 +100,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 4 Lecture](https://youtu.be/TfqqWp-8FWs)
 
 ---------------------------------------------------------
 ### Day 5: Monday Jan 25 (6pm-8pm Pacific)
