@@ -112,3 +112,61 @@ print(get_common_elements(lst_a, lst_b))
 ```
 
 ---------------------------------------------------------------
+# Accumulators (are important!)
+* An accumulator can be thought of as a running total that is held in a variable	
+* Accumulator Pattern: 
+    * Initialize the accumulator variable
+    * Repeat:
+        * Modify the accumulator variable
+    * When the above loop terminates, the accumulator will have the correct value. 
+
+---------------------------------------------------------------
+# Sum accumulators using an `int`
+* We can calculate a sum by using an integer type accumulator
+summ = 0
+
+```python
+for num in nums:
+	summ += num
+```
+
+* We can also calculate the sum when our list is comprised of floats. 
+* The final accumulator will be a float. 
+
+---------------------------------------------------------------
+# Boolean Flags 
+* Occasionally, you will need to use an accumulator that is set to a boolean value. 
+* If some condition is met in the for loop, the boolean assigned to the accumulator will change to the opposite value. Otherwise, it will stay the same.
+* These boolean flags can also be used as exit conditions in a loop.
+* Syntax:   
+
+```python
+accumulator = False
+for element in some_list:
+    # some code
+    if some_condition:
+        accumulator = True
+```
+
+---------------------------------------------------------------
+# The `is_prime()` function ...
+* Let’s code it using a boolean flag
+
+---------------------------------------------------------------
+# The `is_prime()` function
+
+```python
+def is_prime(num):
+    prime = True
+    if num == 2 or num == 3:
+        return True
+
+    for divisor in range(2, num):
+        if num % divisor == 0:
+        prime = False
+    
+    return prime
+
+for i in range(2, 100):
+    print(i, is_prime(i))
+```
