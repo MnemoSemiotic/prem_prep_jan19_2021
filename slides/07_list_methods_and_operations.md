@@ -88,3 +88,12 @@
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# `max` and `min`
+* `max()` returns the highest numeric value in a `list`
+    * Syntax: `max(list_name)`
+* `min()` returns the lowest numeric value in a `list`
+    * Syntax: `min(list_name)`
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
