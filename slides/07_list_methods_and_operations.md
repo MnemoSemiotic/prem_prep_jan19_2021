@@ -73,3 +73,18 @@
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# `sort`, `reverse`, `sorted`, and `reversed`
+* The `sort` and `reverse` methods are slightly different from the `sorted` and `reversed` functions
+* The `sort` method will sort all the values in a `list` in ascending order and change the `list` in place. `sorted` will return a `list` with elements sorted but does not modify the original `list`.
+    * Syntaxes: 
+        * `lst.sort()`
+        * `sorted(lst)`
+* The `reverse` method will reverse the list in place. `reversed` will return an iterable object that must be cast to `list` to be indexed and used as a `list`. In fact, list slicing is preferable to `reversed` when wanting to get a reversed list.
+    * Syntaxes:
+        * `lst.reverse()`
+        * `reversed(lst) # returns an iterable object`
+        * `lst[::-1]`
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
