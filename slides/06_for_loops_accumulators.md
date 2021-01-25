@@ -8,6 +8,9 @@
 * continue
 * pass
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # BREAKOUT (3 minutes)
 ```python
@@ -19,6 +22,9 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9, [“hello”, 85, True], 0]
 * How would you replace the value `4` with the value `10` using indexing?
 * How would you slice into the `list` to get: `["hello", 85]`
 * How would you add the value `42` to the `list`?
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -37,6 +43,9 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9, [“hello”, 85, True], 0]
 * How would you add the value `42` to the `list`?
     * `x.append(42)`
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # `for` loops
 * For loops iterate through each element of a `list`
@@ -49,9 +58,15 @@ for element in list:
 
 * Another way to use a `for` loop is to iterate through `range(len(list))` in order to access all the indices, rather than the elements themselves. 
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # Traversing a `list`
 * What actually happens when we go through each iteration of a loop?
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT (6 minutes)
@@ -63,6 +78,9 @@ char_list = ['o', 'r', 'c', 'h', 'i', 'd']
 
 * It will be helpful to write a helper function that returns True if a character is a vowel and call it within this function
 * Create a plan before coding
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -84,12 +102,18 @@ def print_vowels(lst):
 print_vowels(char_list)
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # BREAKOUT (6 minutes)
 Given two arbitrary lists, write a function that finds the common elements between them. Store these common elements in a `list`, and return that `list`
 
 * Bonus 1: return the items sorted in the returned `list`
 * Bonus 2: make sure there are no duplicates in the returned `list`
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -111,6 +135,9 @@ lst_b = [1,2,3,4,5,6,7]
 print(get_common_elements(lst_a, lst_b))
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # Accumulators (are important!)
 * An accumulator can be thought of as a running total that is held in a variable	
@@ -119,6 +146,9 @@ print(get_common_elements(lst_a, lst_b))
     * Repeat:
         * Modify the accumulator variable
     * When the above loop terminates, the accumulator will have the correct value. 
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Sum accumulators using an `int`
@@ -132,6 +162,9 @@ for num in nums:
 
 * We can also calculate the sum when our list is comprised of floats. 
 * The final accumulator will be a float. 
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Boolean Flags 
@@ -148,9 +181,15 @@ for element in some_list:
         accumulator = True
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # The `is_prime()` function ...
 * Let’s code it using a boolean flag
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # The `is_prime()` function
@@ -171,6 +210,9 @@ for i in range(2, 100):
     print(i, is_prime(i))
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # `list` Accumulators
 * Sometimes, you will need an accumulator that is an empty list.
@@ -184,6 +226,8 @@ for element in some_list:
     accumulator.append(some_value)
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Using loops as filters
@@ -199,6 +243,9 @@ for element in some_list:
         accumulator.append(element)
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # `break`
 * Use `break` in `for` loops to exit the loop when some condition has been met
@@ -211,6 +258,9 @@ if some_condition:
 ```
 
 * Use `break` in `while` loops to avoid an infinite loop
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Using `break` in `is_prime()`
@@ -226,6 +276,9 @@ def is_prime(num):
     return prime
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # `continue`
 
@@ -239,6 +292,9 @@ for element in some_list:
     # some code
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # pass
 * Use pass as a placeholder for future code
@@ -251,6 +307,9 @@ for element in some_list:
 def function_name():
 	pass
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT (3 minutes)
@@ -271,6 +330,9 @@ $$
 * Think about edge cases 
 
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
 
@@ -289,6 +351,9 @@ def factorial(num):
 ```
 
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # BREAKOUT (3 minutes)
 * Write a function to sum all even numbers in a `list`
@@ -305,5 +370,8 @@ def sum_evens(num_list):
             accum += num
     return accum
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
