@@ -170,3 +170,60 @@ def is_prime(num):
 for i in range(2, 100):
     print(i, is_prime(i))
 ```
+
+---------------------------------------------------------------
+# `list` Accumulators
+* Sometimes, you will need an accumulator that is an empty list.
+* As the for loop gets evaluated, the accumulator will be appended with new values. 
+* Syntax: 
+
+```python
+accumulator = [ ]
+for element in some_list:
+    # some code
+    accumulator.append(some_value)
+```
+
+
+---------------------------------------------------------------
+# Using loops as filters
+* We can filter list elements that meet a condition using accumulators.
+* As the for loop is evaluated, values that meet the condition will be appended to a new empty list. 
+* Syntax: 
+
+```python
+some_list = [stuff, more stuff]
+accumulator = [ ]
+for element in some_list:
+    if some_condition:
+        accumulator.append(element)
+```
+
+---------------------------------------------------------------
+# `break`
+* Use `break` in `for` loops to exit the loop when some condition has been met
+* Syntax:
+
+```python
+for element in some_list:
+if some_condition:
+	break
+```
+
+* Use `break` in `while` loops to avoid an infinite loop
+
+---------------------------------------------------------------
+# Using `break` in `is_prime()`
+* Use break to exit the loop
+
+```python
+def is_prime(num):
+    prime = True
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+            break # this will end early
+    return prime
+```
+
+---------------------------------------------------------------
