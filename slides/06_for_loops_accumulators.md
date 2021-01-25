@@ -1,8 +1,8 @@
 # Loops
-* Traversing a list
+* Traversing a `list`
 * accumulators
 * boolean flags
-* list accumulators
+* `list` accumulators
 * loops as filters
 * break
 * continue
@@ -15,10 +15,10 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9, [“hello”, 85, True], 0]
 ```
 
 * How would you index to get the value `8`
-* How would you slice to get the list: `[5, 3, 1]`
+* How would you slice to get the `list`: `[5, 3, 1]`
 * How would you replace the value `4` with the value `10` using indexing?
-* How would you slice into the list to get: `["hello", 85]`
-* How would you add the value `42` to the list?
+* How would you slice into the `list` to get: `["hello", 85]`
+* How would you add the value `42` to the `list`?
 
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -28,18 +28,18 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9, [“hello”, 85, True], 0]
 
 * How would you index to get the value `8`
     * `print(x[7])`
-* How would you slice to get the list: `[5, 3, 1]`
+* How would you slice to get the `list`: `[5, 3, 1]`
     * `print(x[4::-2])`
 * How would you replace the value `4` with the value `10` using indexing?
     * `x[3] = 10`
-* How would you slice into the list to get: `["hello", 85]`
+* How would you slice into the `list` to get: `["hello", 85]`
     * `print(x[9][:2])`
-* How would you add the value `42` to the list?
+* How would you add the value `42` to the `list`?
     * `x.append(42)`
 
 ---------------------------------------------------------------
 # `for` loops
-* For loops iterate through each element of a list
+* For loops iterate through each element of a `list`
     * Syntax: 
 
 ```python    
@@ -55,7 +55,7 @@ for element in list:
 
 ---------------------------------------------------------------
 # BREAKOUT (6 minutes)
-Given the following list of letters, create a function that goes through each letter and prints the letter if it is a vowel.
+Given the following `list` of letters, create a function that goes through each letter and prints the letter if it is a vowel.
 
 ```python
 char_list = ['o', 'r', 'c', 'h', 'i', 'd']
@@ -86,8 +86,29 @@ print_vowels(char_list)
 
 ---------------------------------------------------------------
 # BREAKOUT (6 minutes)
-Given two arbitrary lists, write a function that finds the common elements between them. Store these common elements in a list, and return that list
+Given two arbitrary lists, write a function that finds the common elements between them. Store these common elements in a `list`, and return that `list`
 
-Bonus 1: return the items sorted in the returned list
-Bonus 2: make sure there are no duplicates in the returned list
+* Bonus 1: return the items sorted in the returned `list`
+* Bonus 2: make sure there are no duplicates in the returned `list`
 
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def get_common_elements(lst1, lst2):
+    output = []
+
+    for item in lst1:
+        if item in lst2:
+            if item not in output:
+                output.append(item)
+    
+    return sorted(output)
+
+lst_a = [4,9,6,5,7,8,6,2]
+lst_b = [1,2,3,4,5,6,7]
+
+print(get_common_elements(lst_a, lst_b))
+```
+
+---------------------------------------------------------------
