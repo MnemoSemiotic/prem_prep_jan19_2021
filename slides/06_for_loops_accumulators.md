@@ -269,3 +269,41 @@ $$
 $$
 
 * Think about edge cases 
+
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def factorial(num):
+    prod = 1
+    if num == 0:
+        return prod
+    if num < 0:
+        print('Negative factorial is undefined')
+
+    for i in range(num+1):
+        prod *= i
+
+    return prod
+```
+
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes)
+* Write a function to sum all even numbers in a `list`
+
+
+# BREAKOUT SOLUTION
+
+```python
+def sum_evens(num_list):
+    accum = 0
+
+    for num in num_list:
+        if num % 2 == 0:
+            accum += num
+    return accum
+```
+
+---------------------------------------------------------------
