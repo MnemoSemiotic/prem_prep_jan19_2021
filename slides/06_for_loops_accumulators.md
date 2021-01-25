@@ -227,3 +227,45 @@ def is_prime(num):
 ```
 
 ---------------------------------------------------------------
+# `continue`
+
+* Use `continue` in `for` loops in order to skip code and continue to the next iteration of the loop when some condition is met
+* Syntax:
+
+```python
+for element in some_list:
+    if some_condition:
+	    continue
+    # some code
+```
+
+---------------------------------------------------------------
+# pass
+* Use pass as a placeholder for future code
+* Syntax:
+
+```python
+for element in some_list:
+    pass
+
+def function_name():
+	pass
+```
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes)
+* Write a function to calculate the result of n!
+
+$$
+4! = 4 * 3 * 2 * 1
+$$
+
+$$
+3! = 3*2*1
+$$
+
+$$
+0! = 1
+$$
+
+* Think about edge cases 
