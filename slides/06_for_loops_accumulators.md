@@ -85,3 +85,9 @@ print_vowels(char_list)
 ```
 
 ---------------------------------------------------------------
+# BREAKOUT (6 minutes)
+Given two arbitrary lists, write a function that finds the common elements between them. Store these common elements in a list, and return that list
+
+Bonus 1: return the items sorted in the returned list
+Bonus 2: make sure there are no duplicates in the returned list
+
