@@ -119,7 +119,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 5 Lecture](https://youtu.be/zZckRX7SDLc)
 
 ---------------------------------------------------------
 ### Day 6: Tuesday Jan 26 (6pm - 8pm Pacific)
