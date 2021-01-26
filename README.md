@@ -143,23 +143,6 @@
 ---------------------------------------------------------
 ### Day 7: Wednesday Jan 27 (6pm - 8pm Pacific)
 
-**Instructor**: Tovio Roberts
-
-**Slide Deck**: [Summary Stats: Centrality](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/10_summary_stats_centrality.md)
-
-**HW assignment**:
-* Review today's stats code
-* Complete these Units on Learn:
-    * [Basic Statistics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/01_Basic_Stats/00_basic_stats_overview.md)
-    * [Common Plots](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/02_Common_Plots/00_common_plots_overview.md)
-
-**HW Solutions**: N/A
-
-**Video Lecture**: _Lecture Link_
-
----------------------------------------------------------
-### Day 8: Thursday Jan 28 (6pm - 8pm Pacific)
-
 **Instructor**: Clark Walker
 
 **Slide Deck**: 
@@ -173,6 +156,25 @@
     * [Tuples](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/02_Tuples/00_unit_overview.md)
     * [Dictionaries](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/04_Dictionaries/00_unit_overview.md)
     * [Sets](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/03_Sets/00_unit_overview.md)
+
+**HW Solutions**: N/A
+
+**Video Lecture**: _Lecture Link_
+
+
+---------------------------------------------------------
+### Day 8: Thursday Jan 28 (6pm - 8pm Pacific)
+
+
+**Instructor**: Tovio Roberts
+
+**Slide Deck**: [Summary Stats: Centrality](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/10_summary_stats_centrality.md)
+
+**HW assignment**:
+* Review today's stats code
+* Complete these Units on Learn:
+    * [Basic Statistics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/01_Basic_Stats/00_basic_stats_overview.md)
+    * [Common Plots](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/02_Common_Plots/00_common_plots_overview.md)
 
 **HW Solutions**: N/A
 
