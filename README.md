@@ -108,6 +108,7 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**:
+* [Manipulating Lists](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/08_Manipulating_Lists/00_unit_overview.md)
 * [For Loops and Accumulators](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/06_for_loops_accumulators.md)
 
 **HW assignment**: 
