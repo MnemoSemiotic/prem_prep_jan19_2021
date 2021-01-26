@@ -109,7 +109,6 @@
 
 **Slide Deck**:
 * [For Loops and Accumulators](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/06_for_loops_accumulators.md)
-* [List Methods and Operations](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 
 **HW assignment**: 
 * Learn Units in Intro Python:
@@ -127,6 +126,7 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**: 
+* [List Methods and Operations](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 * [While Loops](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/08_while_loops.md)
 * [Strings](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/09_strings.md)
 
