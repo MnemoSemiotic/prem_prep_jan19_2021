@@ -127,7 +127,7 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**: 
-* [List Methods and Operations](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
+* [List Methods and Operations (cont'd)](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 * [While Loops](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/08_while_loops.md)
 * [Strings](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/09_strings.md)
 
@@ -145,7 +145,8 @@
 
 **Instructor**: Clark Walker
 
-**Slide Deck**: 
+**Slide Deck**:
+* [Strings (cont'd)](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/09_strings.md)
 * [More Strings](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/11_more_strings.md)
 * [Data Structures](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/12_data_structures.md)
 
@@ -164,7 +165,6 @@
 
 ---------------------------------------------------------
 ### Day 8: Thursday Jan 28 (6pm - 8pm Pacific)
-
 
 **Instructor**: Tovio Roberts
 
