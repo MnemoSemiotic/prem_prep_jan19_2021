@@ -105,3 +105,68 @@ def get_divisors(number):
 
 print(get_divisors(144))
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Open-ended Problems
+* An open-ended problem is one where we do not know how many iterations we will need in order to solve the problem
+* For example:
+    * Converging on $\pi$ through a random sampling process, you'll want an exit condition for when you reach a certain level of surety
+    * Run state for an application, where "Quit" would be the only instance where the containing loop would exit.
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Menu Using a `while` Loop
+* [Menu Example on Replit](https://repl.it/@gDSIprep/whileloopsmenuwhileusingaloop)
+
+```python
+selections = []
+another_order = True
+
+while another_order == True:
+    menu_string = '''Select from this list:
+    1 : bread
+    2 : butter
+    3 : potatoes
+    4 : broccoli'''
+
+    print(menu_string)
+
+    inp = int(input('please make a selection, 1-4: '))
+
+    if inp in [1,2,3,4]:
+        selections.append(inp)
+    else:
+        print('-- your selection was not understood --')
+        continue
+
+    inp2 = input('would you like to place another order? (y/n)')
+
+    if inp2 == 'y':
+        continue
+    else:
+        another_order = False
+
+
+print(f'Your order list: {selections}')
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `for` Loops vs. `while` Loops
+* In general, always use `for` loops to avoid infinite loops
+    * Will always terminate at the end of an iterable when traversing elements in that iterable
+    * Useful when you know how many iterations are needed
+* However, there are some problems that should be solved using `while` loops
+    * Open-ended problems
+    * Menus
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
