@@ -65,3 +65,18 @@
 * Check if a string is a substring of another string using the in keyword. 
     * `'str' in 'string'`
     * Returns a boolean
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `replace`
+* The `replace` method is used to replace every occurence of a specified substring in the original substring with another substring
+    * Syntax: `string.replace(old_substring, new_substring, 1)`
+* The third argument here will limit the amount of times the `replace` method will be applied to only once.
+
+```python
+string = 'I love to look at the moon'
+
+string = string.replace('o', 'puppy', 2)
+```
