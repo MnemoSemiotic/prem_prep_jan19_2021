@@ -35,3 +35,15 @@
     * `int('a')` will not work
 * String concatenation will only work between strings
     * Need to cast any numeric variables to a `string` before concatenating. 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Join a list to create a `string`
+* Use the `join` `string` method to create a single `string` that contains all the elements of a `list`. 
+    * `''.join(list)`
+* All the elements of the `list` must be strings for the `join` method to work
+    * You can use the `map` function to quickly cast all the elements of a `list` to strings 
+    * `list(map(str, list))`
+
