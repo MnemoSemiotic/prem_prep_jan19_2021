@@ -75,6 +75,12 @@ $$
 *  Code the `mean()` function
 * BONUS: Include a `trim` parameter that removes the greatest and least `n` values
 
+* Test with this data:
+
+```python
+a = [1, 5, 7, 10, 15, 23, 35, 67, 220, 2000]
+```
+
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
@@ -89,4 +95,41 @@ def mean(lst, trim_by=0):
         lst_ = sorted(lst_)[trim_by:-trim_by]
 
     return sum(lst_) / len(lst_)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+* An article published in the journal, Indoor Air, considered two different air samples to test for endotoxin concentrations, the first in urban households, and the second in farmhouses.
+    * Urban: 6.0, 5.0, 11.0, 33.0, 4.0, 5.0, 80.0, 18.0, 35.0, 17.0, 23.0
+    * Farmhouse: 4.0, 14.0, 11.0, 9.0, 9.0, 8.0, 4.0, 20.0, 5.0, 8.9, 21.0, 9.2, 3.0, 2.0, 0.3
+* A. Determine the sample mean for each group.
+
+* B. Determine the trimmed mean for each group by trimming the smallest and largest value from each group.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+'''
+A. Determine the sample mean for each group.
+'''
+urban = [6.0, 5.0, 11.0, 33.0, 4.0, 5.0, 80.0, 18.0, 35.0, 17.0, 23.0]
+farmhouse = [4.0, 14.0, 11.0, 9.0, 9.0, 8.0, 4.0, 20.0, 5.0, 8.9, 21.0, 9.2, 3.0, 2.0, 0.3]
+
+print(f'Sample Mean Urban: {round(mean(urban), 1)}')
+print(f'Sample Mean Farmhouse: {round(mean(farmhouse), 1)}')
+
+'''
+B. Determine the trimmed mean for each group by trimming the smallest and largest value 
+from each group.
+'''
+print(f'Sample Trimmed Mean Urban: {round(mean(urban, trim_by=1), 1)}')
+print(f'Sample Trimmed Mean Farmhouse: {round(mean(farmhouse, trim_by=1), 1)}')
+
 ```
