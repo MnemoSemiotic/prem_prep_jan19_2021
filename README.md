@@ -108,8 +108,8 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**:
+* [Manipulating Lists](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introPython/08_Manipulating_Lists/00_unit_overview.md)
 * [For Loops and Accumulators](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/06_for_loops_accumulators.md)
-* [List Methods and Operations](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 
 **HW assignment**: 
 * Learn Units in Intro Python:
@@ -119,7 +119,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 5 Lecture](https://youtu.be/zZckRX7SDLc)
 
 ---------------------------------------------------------
 ### Day 6: Tuesday Jan 26 (6pm - 8pm Pacific)
@@ -127,6 +127,7 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**: 
+* [List Methods and Operations (cont'd)](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/07_list_methods_and_operations.md)
 * [While Loops](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/08_while_loops.md)
 * [Strings](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/09_strings.md)
 
@@ -142,26 +143,10 @@
 ---------------------------------------------------------
 ### Day 7: Wednesday Jan 27 (6pm - 8pm Pacific)
 
-**Instructor**: Tovio Roberts
-
-**Slide Deck**: [Summary Stats: Centrality](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/10_summary_stats_centrality.md)
-
-**HW assignment**:
-* Review today's stats code
-* Complete these Units on Learn:
-    * [Basic Statistics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/01_Basic_Stats/00_basic_stats_overview.md)
-    * [Common Plots](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/02_Common_Plots/00_common_plots_overview.md)
-
-**HW Solutions**: N/A
-
-**Video Lecture**: _Lecture Link_
-
----------------------------------------------------------
-### Day 8: Thursday Jan 28 (6pm - 8pm Pacific)
-
 **Instructor**: Clark Walker
 
-**Slide Deck**: 
+**Slide Deck**:
+* [Strings (cont'd)](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/09_strings.md)
 * [More Strings](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/11_more_strings.md)
 * [Data Structures](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/12_data_structures.md)
 
@@ -172,6 +157,24 @@
     * [Tuples](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/02_Tuples/00_unit_overview.md)
     * [Dictionaries](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/04_Dictionaries/00_unit_overview.md)
     * [Sets](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/03_Sets/00_unit_overview.md)
+
+**HW Solutions**: N/A
+
+**Video Lecture**: _Lecture Link_
+
+
+---------------------------------------------------------
+### Day 8: Thursday Jan 28 (6pm - 8pm Pacific)
+
+**Instructor**: Tovio Roberts
+
+**Slide Deck**: [Summary Stats: Centrality](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/10_summary_stats_centrality.md)
+
+**HW assignment**:
+* Review today's stats code
+* Complete these Units on Learn:
+    * [Basic Statistics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/01_Basic_Stats/00_basic_stats_overview.md)
+    * [Common Plots](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/02_Common_Plots/00_common_plots_overview.md)
 
 **HW Solutions**: N/A
 
@@ -189,6 +192,11 @@
 **HW assignment**: 
 * [Python HW](https://colab.research.google.com/drive/1M_sZH5mJpNDIgGias0Q2Lz7rtFfO2HKc)
 * Wrap up these Units on Learn:
+    * [String Functions and Methods](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/01_String_Functions_and_Methods/00_unit_overview.md)
+    * [String Formatting](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/01_String_Functions_and_Methods/05_formatting.md)
+    * [Tuples](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/02_Tuples/00_unit_overview.md)
+    * [Dictionaries](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/04_Dictionaries/00_unit_overview.md)
+    * [Sets](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-intermPython/03_Sets/00_unit_overview.md)
     * [Basic Statistics](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/01_Basic_Stats/00_basic_stats_overview.md)
     * [Common Plots](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/02_Common_Plots/00_common_plots_overview.md)
 
