@@ -108,3 +108,22 @@ column_names = ['gender', 'longest absence from school', 'is enrolled', 'enlist'
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+column_names = ['gender', 'longest absence from school', 'is enrolled', 'enlist', 'unemployed', 'filed for bankruptcy', 'school', 'peace corps']
+
+def add_underscores(feature_list):
+    new_list = feature_list.copy()
+    for idx, column in enumerate(new_list):
+        if ' ' in column:
+            new_list[idx] = column.replace(' ', '_')
+
+    return new_list
+
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
