@@ -307,7 +307,7 @@ $$
 * **Sample Variance**:
 
 $$
-\sigma^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \overline x)^2
+s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \overline x)^2
 $$
 
 * Recall:
@@ -319,5 +319,83 @@ $$
 
 ---------------------------------------------------------------
 # Bessel's Correction for Sample Variance
-* Makes the assumption that any given sample is more likely to exclude some values which live in the upper or lower extremes of a population. A smaller denominator will lead to a larger coefficient, and therefore a larger variance which is likely to be closer to the population’s true variance.
-* 
+* Makes the assumption that any given sample is more likely to exclude some values which live in the upper or lower extremes of a population. 
+    * A smaller denominator will lead to a larger coefficient, and therefore a larger variance which is likely to include the population’s true variance.
+* Not necessarily about better estimating the population variance. 
+    * Keep in mind that a sample mean will vary with each sample
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Code the `variance()` function. Make sure to include a parameter that determines whether the data is a sample or population, and apply Bessel's correction accordingly
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+
+```python
+def variance(lst, sample=True):
+    mean_ = mean(lst)
+
+    total = 0
+
+    for item in lst:
+        total += (item - mean_)**2
+
+    if sample:
+        return total / (len(lst) - 1)
+    else:
+        return total / len(lst)
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Standard Deviation
+* The variance is a good measure, but not easily interpreted
+    * The units of a variance are the original units of the distribution, squared. 
+        * Example: if a sample of laptop prices have a variance of 70,000. That would be interpreted as a variance of 70,000 sq. dollars.
+
+    * To solve this problem, we simply take the square root of a variance to derive the Standard Deviation
+        * In our example above, the standard deviation is 264.56 dollars. 
+            * If mean price of a laptop is $1000, with a standard deviation of 264.56 we can interpret that a laptop will cost around $1000 +/- $264.56.
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Standard Deviation Formula
+
+* **Population Standard Deviation**:
+
+$$
+\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2}
+$$
+
+* **Sample Standard Deviation**:
+
+$$
+s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \overline x)^2}
+$$
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+Code the `stdev()` function. Make sure to include a parameter that determines whether the data is a sample or population, and apply Bessel's correction accordingly
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+Code the `stdev()` function. Make sure to include a parameter that determines whether the data is a sample or population, and apply Bessel's correction accordingly
+
+```python
+def stdev(lst, sample=True):
+    return variance(lst, sample)**(1/2)
+```
