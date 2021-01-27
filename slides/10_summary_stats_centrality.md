@@ -303,3 +303,11 @@ mode_lst = ['kangaroo', 'muskrat', 'platypus', 'muskrat', 'squid', 'squirrel', '
 
 # print(mode(mode_lst))
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# A quick note on **sampling**
+* A sample is comprised of materials selected from a **population**
+* It's important to compose a sample that is **representative**
+ 
