@@ -154,3 +154,62 @@ def add_underscores(feature_list):
     * Syntax: `string.swapcase()`
 * The `capitalize` method will return a `string` where the first letter of the `string` will be capitalized and the rest will be lower case.
     * Syntax: `string.capitalize()`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `string` Formatting
+* The `format` method will dynamically insert the variables passed in as parameters into the placeholders in a `string`
+    * Syntax: `'Inserting {} into this string'.format(variable_to_insert)`
+* `f` strings will dynamically insert variables into strings. The difference is that we just need to place the variable name in the curly braces.
+    * Syntax: `f'Inserting {variable_to_insert} into this string'`
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (8 minutes)
+Write a function that takes in a string. Return two parallel lists: one that contains the unique characters in the string and another that has the number of times that character appears in the original string. 
+
+```python
+s = 'This is a string, we want you to count how many times each unique character appears in this string!'
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION Examples
+
+```python
+def get_letter_count(string):
+    letters = []
+    counts = []
+
+    for let1 in string:
+        index = 0
+        if let1 not in letters:
+            letters.append(let1)
+            counts.append(0)
+            index = len(letters) - 1
+        else:
+            for idx, let2 in enumerate(letters):
+                if let1 == let2:
+                    index = idx
+                    break
+        counts[index] += 1
+    return letters, counts
+
+letters, counts = get_letter_count(s)
+
+for i in range(len(letters)):
+    print(f'{letters[i]}: {counts[i]}')
+```
+
+or
+
+```python
+
+```
