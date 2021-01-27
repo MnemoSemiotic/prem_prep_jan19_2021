@@ -213,3 +213,24 @@ B. Determine the IQR of the Dataset
 C. Determine whether any of the data points can be defined as outliers. If so, what are the outliers?
 
 D. What is the best measure of centrality for this data?
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+Consider the dataset from the previous question:
+
+```python
+a = [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+```
+
+A. Calculate the five number summary for the data
+    (mean) = 620.5, median = 582.5
+
+B. Determine the IQR of the Dataset
+
+C. Determine whether any of the data points can be defined as outliers. If so, what are the outliers?
+
+D. What is the best measure of centrality for this data?
