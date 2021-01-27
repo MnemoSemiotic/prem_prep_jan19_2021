@@ -226,11 +226,29 @@ Consider the dataset from the previous question:
 a = [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
 ```
 
-A. Calculate the five number summary for the data
-    (mean) = 620.5, median = 582.5
+```python
+a =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+# print(sorted(a))
 
-B. Determine the IQR of the Dataset
+'''Calculate the five number summary for the data
+(mean) = 620.5, median = 582.5'''
 
-C. Determine whether any of the data points can be defined as outliers. If so, what are the outliers?
+'''Determine the IQR of the Dataset'''
+# print('iqr', iqr(a))
+
+'''Determine whether any of the data points can be defined as outliers. If so, what are the outliers?
+'''
+# print('outliers: ',detect_outliers(a))
+
+'''What is the best measure of centrality for this data?'''
+
+```
 
 D. What is the best measure of centrality for this data?
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
