@@ -223,3 +223,35 @@ d.get(‘Washington’, ‘Capital not found’)
 To make a copy of a dictionary you need to use the `.copy()` method
 * Syntax: `dct.copy()`
 * Err on the side of making copies of dictionaries
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+* Make a dictionary called resturant_types that has the following associated key-value pairs: 
+    * `('Red Lobster', 'Seafood'), ('Burger King', 'Fast Food'), ('Safeway', 'Grocery Store')`
+* How do you find the restaurant type for `'Burger King'`?
+* What if you don't know whether or not `'Outback Steakhouse'` is in the resturant_types dictionary - how would you go about trying to get it's resturant type and make sure that you won't get an error?
+* Add to it the key-value pair, (`'Outback Steakhouse', 'Delicious!')`.
+* What if we want to change the restaurant type of `'Safeway'` to just `'Grocery'` - how would you make that change?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 MINUTES)
+Write a function that creates a dictionary where the keys are all the positive integers that are less than 20 and the values are the cube of the integer. 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
