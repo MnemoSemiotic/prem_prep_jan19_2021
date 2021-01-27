@@ -127,3 +127,21 @@ def add_underscores(feature_list):
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# The `list()` Function
+* A `string` can be cast to a `list` using the `list` function
+    * `list(string)`
+* The `list()` function will separate each character in the `string` into a new element in the returned list.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# The `split()` Method
+* Quick aside: Strings are immutable so methods will not change the `string` in place like with lists. 
+* This method splits a `string` at each occurrence of a specified delimiter and will return a list with each split substring.
+    * `string.split(delimiter)`
+* The delimiter will not be included in the returned `list`
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
