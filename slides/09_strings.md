@@ -1,1 +1,6 @@
-https://docs.google.com/presentation/d/12vcH4j2y9OLEm7AECFm28ltbpQewQzHQOeDrFqdTWfI/edit#slide=id.p
+# Strings
+* Declaring `strings`
+* `string` methods
+* Functions with `strings`
+
+
