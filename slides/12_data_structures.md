@@ -95,3 +95,33 @@ l2 = [1, 2, 3, 4, 9]
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# Tuple Immutability
+* Once a tuple is declared, it generally can’t be changed in anyway
+    * However, if an element of a tuple is mutable, the element can be changed
+* Tuples hold references to all the objects they contain, rather than the objects themselves. 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Write a function that has two arguments that are both tuples. Return a single tuple that is the combination of the two original tuples that skips every other element in reverse.
+* Say `tuple1 = (12, 14, 16, 18)` and `tuple2 = (3, 5, 7, 9)`:
+* The result would be `(9, 5, 18, 14)`
+
+```python
+def function_name(tuple1, tuple2):
+   pass
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+
+
+
+```
