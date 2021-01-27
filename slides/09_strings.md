@@ -92,3 +92,19 @@ string = string.replace('o', 'puppy', 2)
 for idx, ch in enumerate(string):
     print(idx, ch)
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+Write a function that takes a `list` like the following `list` of column names and change any spaces in the column names to underscores. Return a modified `list` with the updated names.
+
+```python
+column_names = ['gender', 'longest absence from school', 'is enrolled', 'enlist', 'unemployed', 'filed for bankruptcy', 'school', 'peace corps']
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
