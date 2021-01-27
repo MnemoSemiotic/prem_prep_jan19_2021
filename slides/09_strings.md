@@ -145,3 +145,12 @@ def add_underscores(feature_list):
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# `lower()`, `upper()`, `swapcase()`, and `capitalize()`
+* The `lower` method will return a `string` where all the letters are lowercase
+    * Syntax: `string.lower()`
+* The `upper` method will return a `string` where all the letters are uppercase
+    * Syntax: `string.upper()`
+* The `swapcase` method will return a `string` where all the letter’s cases are swapped
+    * Syntax: `string.swapcase()`
+* The `capitalize` method will return a `string` where the first letter of the `string` will be capitalized and the rest will be lower case.
+    * Syntax: `string.capitalize()`
