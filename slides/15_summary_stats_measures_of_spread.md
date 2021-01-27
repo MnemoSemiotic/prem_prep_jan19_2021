@@ -313,3 +313,11 @@ $$
 * Recall:
     * $\mu$ : population mean
     * $\overline x$ : sample mean
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Bessel's Correction for Sample Variance
+* Makes the assumption that any given sample is more likely to exclude some values which live in the upper or lower extremes of a population. A smaller denominator will lead to a larger coefficient, and therefore a larger variance which is likely to be closer to the population’s true variance.
+* 
