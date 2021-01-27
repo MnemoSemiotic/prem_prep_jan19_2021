@@ -251,4 +251,27 @@ D. What is the best measure of centrality for this data?
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+* Write a function called `remove_outliers` that takes a `list` as input and returns a new `list` with all values that are not outliers
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
 # BREAKOUT SOLUTION
+
+```python
+def remove_outliers(lst, outlier_coef=1.5):
+    outliers = detect_outliers(lst, outlier_coef)
+    output = []
+
+    for num in lst:
+        if num not in outliers:
+            output.append(num)
+    
+    return output
+
+a =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+
+print(remove_outliers(house_prices))
+```
