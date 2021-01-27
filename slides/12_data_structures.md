@@ -58,3 +58,15 @@ l2 = [1, 2, 3, 4, 9]
 * What does the the union of these two lists return?
 * What does the difference of `l1 - l2` return? 
 * What about `l2 - l1`?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# 
