@@ -193,3 +193,23 @@ test_outliers.append(10_000)
 print(detect_outliers(test_outliers, outlier_coef=1.5))
 
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Consider the dataset from the previous question:
+
+```python
+a = [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+```
+
+A. Calculate the five number summary for the data
+    (mean) = 620.5, median = 582.5
+
+B. Determine the IQR of the Dataset
+
+C. Determine whether any of the data points can be defined as outliers. If so, what are the outliers?
+
+D. What is the best measure of centrality for this data?
