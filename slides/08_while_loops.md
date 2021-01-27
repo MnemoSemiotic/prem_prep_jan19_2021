@@ -195,3 +195,48 @@ print(f'Your order list: {selections}')
 while condition:
     # Do something
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Review BREAKOUT (3 minutes)
+```python
+x = [4, 6, 1, 2, 8, 0]
+```
+
+* How would you sort your list to save it in place?
+* How would you sort your list to return a printed output?
+* How would you reverse your list to save it in place?
+* What would any(x) return? all(x)?
+* How would you remove the first element in the list and append it to the end? Can you write this in a single line of code?
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Review BREAKOUT (3 minutes)
+```python
+x = [4, 6, 1, 2, 8, 0]
+print(x)
+# * How would you sort your list to save it in place?
+x.sort()
+# or
+x = sorted(x)
+
+# * How would you sort your list to return a printed output?
+print(sorted(x))
+
+# * How would you reverse your list to save it in place?
+x.reverse()
+# or
+x = x[::-1]
+print(x)
+
+# * What would any(x) return? all(x)?
+print(any(x)) # True
+print(all(x)) # False
+
+# * How would you remove the first element in the list and append it to the end? Can you write this in a single line of code?
+x = x[1:] + [x[0]]
+print(x)
+```
