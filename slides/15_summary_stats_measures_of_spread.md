@@ -3,3 +3,108 @@
 # Summary Stats: Measures of Spread
 * Five Number Summary
 * IQR (InterQuartile Range)
+* Determining Outliers
+* Variance
+* Standard Deviation
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Five-Number Summary
+* The five number summary gives a more in depth description of a numerical collection
+    * The Minimum
+    * Q1 - The first quartile or the 25th percentile
+    * The Median
+    * Q3 - The third quartile or the 75th percentile
+    * The Maximum
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+* Code the `five_number_summary()` function
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def five_number_summary(lst):
+    min_ = min(lst)
+    max_ = max(lst)
+    med = median(lst)
+
+    sorted_lst = sorted(lst)
+
+    if len(lst) % 2 == 1:
+        lower_half = sorted_lst[0: int(len(lst) / 2)]
+        upper_half = sorted_lst[int(len(lst) / 2)+1: ]
+    else:
+        lower_half = sorted_lst[0: int(len(lst) / 2)]
+        upper_half = sorted_lst[int(len(lst) / 2): ]
+
+    q1 = median(lower_half)
+    q3 = median(upper_half)
+
+    return min_, q1, med, q3, max_
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+
+```python
+a = [15,2,9,5,6,7,27,12,18,19,1]
+b = [6,1,4,51,7,16,10,14,46,22,24,56,48,54]
+```
+
+* Calculate the 5 number summary
+* What is the mean?
+* What is the best measure of centrality for this data?
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+a = [15,2,9,5,6,7,27,12,18,19,1]
+b = [6,1,4,51,7,16,10,14,46,22,24,56,48,54]
+```
+
+```python
+print(sorted(a))
+print(five_number_summary(a))
+print(mean(a))
+print(median(a))
+print('\n')
+print(sorted(b))
+print(five_number_summary(b))
+print(mean(b))
+print(median(b))
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Interquartile Range (IQR)
+* Using Q1 and Q3 we can determine the interquartile range (IQR)
+    * IQR = Q3 - Q1
+* The interquartile range can be used to qualify outliers
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Determining Outliers
+* If a value is less than 1.5 * IQR below Q1, or is greater than 1.5 * IQR above Q3 it can be classified as an outlier. 
