@@ -175,3 +175,23 @@ print(f'Your order list: {selections}')
 * Why would we use break in our code? What about continue and pass?
 * Why might we use a while loop?
 * What is the syntax for a while loop?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+* Why would we use break in our code? What about continue and pass?
+    * Use break to end loopage that no longer needs to be performed
+    * Use continue to avoid an operation within a loop
+    * Use pass as a placeholder in loops, conditions (if, elif, else), functions and other places to avoid errors
+* Why might we use a while loop?
+    * You can pretty much always avoid using a while loop
+    * You can use while loops for “open-ended problems”, where you don’t know how many iterations you will need to perform
+* What is the syntax for a while loop?
+
+```python
+while condition:
+    # Do something
+```
