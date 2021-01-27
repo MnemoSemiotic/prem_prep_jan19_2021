@@ -25,3 +25,17 @@ Remove_word_lst = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", 
 String to use: "Hello there! How are you? Why don’t you take a seat over there? Once we went to the store and we found ourselves in a strange place. We ran into two people. They were very interesting to talk to. Each of them had an interesting accent and we wondered where they were from."
 
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
