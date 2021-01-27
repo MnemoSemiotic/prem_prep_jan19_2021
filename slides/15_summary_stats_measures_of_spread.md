@@ -399,3 +399,20 @@ Code the `stdev()` function. Make sure to include a parameter that determines wh
 def stdev(lst, sample=True):
     return variance(lst, sample)**(1/2)
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+An issue of a recent magazine reported the following home sale amounts for a sample of homes in Alameda, CA, all of which were sold in the previous month (1000s of $) (use the sample calculations):
+
+```python
+house_prices = [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+```
+
+Find the variance of the homes sold in April
+
+Find the standard deviation of the homes sold in April 
+
+If we exclude the values we considered to be outliers, do you think the variance will increase or decrease? Check your answer by making the calculation.
