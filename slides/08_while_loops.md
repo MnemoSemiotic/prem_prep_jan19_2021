@@ -258,7 +258,7 @@ Would you use a for loop or a while loop?
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# BREAKOUT (2 minutes)
+# BREAKOUT SOLUTION
 Would you use a for loop or a while loop?
 
 1. Creating a letter counter based on a string
@@ -267,6 +267,27 @@ Would you use a for loop or a while loop?
     * Potentially a while loop, where eventually you wish to converge at the expected value, at which point you might use break to exit. However, you could use a for loop with many many iterations, with an exit condition.
 3. Iterating over a list to identify multiples of 5
     * `for` loop
-
 4. Creating a selection for an individual based on a given menu
+    * Potentially a `while` loop, though a `for` loop with a high count could be used as instead.
 5. Determine how long it might take to reach a certain threshold
+    * Potentially a `while` loop, with an exit condition for when the threshold is reached. However, a `for` loop could be used instead, where the `for` loop is allowed many many iterations, with an exit condition implied by the upper bound of the iteration count.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (8 minutes)
+Write a for loop to print a menu out of this list with their number options starting at 1? Store the choices (as the item names, not the numbers) in a list. Print out the list containing the food ordered.
+
+```python
+food_lst = [‘Pancakes’, ‘Omelet’, ‘Toast’, ‘Waffles’, ‘Bacon’, ‘Sausage’, ‘Orange Juice’]
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+
+```
