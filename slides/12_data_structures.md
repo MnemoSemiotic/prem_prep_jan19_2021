@@ -125,3 +125,101 @@ def function_name(tuple1, tuple2):
 
 
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionaries
+* Dictionaries contain key/value pairs in a mutable, unordered collection.
+* Keys must be immutable and unique.
+* Dictionaries are declared:
+    * Using curly braces `{}`
+    * `dict()` constructor
+* Syntax: `{key1 : value1, key2: value2, key3 : value3}`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Accessing and Updating Key Value Pairs
+* Access values by using the key as an index:
+    * `d[key]`
+    * This statement will throw an error if the key is not in the dictionary.
+* Keys can be added to dictionaries by:
+    * `d[new_key] = new_value`
+    * Note that if the key already exists in the dictionary, this syntax will reassign the value to this new_value
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Methods
+* The keys method will return a list of the keys in a dictionary
+    * `dct.keys()`
+* The values method will return a list of the values in a dictionary
+    * `dct.values()`
+* The items method will return a list of tuples that contain the key/ value pairs
+    * `dct.items()`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Membership
+* Membership for dictionaries
+    * `k in dct`
+    * `k in dct.keys()`
+    * `v in dct.values()`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Traversing a Dictionary
+* Creating a for loop allows us to iterate through a dictionary’s keys
+
+```python
+for key in dictionary:
+    print(key)
+```
+
+* Combining a for loop with the items method allows us to iterate through both the keys and the values of a dictionary:
+
+```python
+for key, value in dictionary.items():
+    print(key, value)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Deleting Key/Value Pairs
+* In order to remove key/value pairs, you can use the pop method or the del keyword
+    * `d.pop('some_key')`
+    * `del d['some_key']`
+* Create a copy of the original dictionary before changing it by adding and deleting key/value pairs
+    * `dictionary.copy()`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `.get()`
+* To check and see if a specific key is in a dictionary, you can use the get method
+    * Syntax: `dct.get(key, default=None)`
+
+```python
+states_caps_dict = {'Georgia': 'Atlanta', 'Colorado': 'Denver', 'Indiana': 'Indianapolis'}
+d.get(‘Washington’, ‘Capital not found’)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Copying a dictionary
+
+To make a copy of a dictionary you need to use the `.copy()` method
+* Syntax: `dct.copy()`
+* Err on the side of making copies of dictionaries
