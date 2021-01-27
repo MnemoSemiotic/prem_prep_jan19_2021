@@ -133,3 +133,8 @@ print(f'Sample Trimmed Mean Urban: {round(mean(urban, trim_by=1), 1)}')
 print(f'Sample Trimmed Mean Farmhouse: {round(mean(farmhouse, trim_by=1), 1)}')
 
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
