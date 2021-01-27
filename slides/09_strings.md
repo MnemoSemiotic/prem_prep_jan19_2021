@@ -233,3 +233,31 @@ letters, counts = get_letter_count(s)
 for i in range(len(letters)):
     print(f'{letters[i]}: {counts[i]}')
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `count()`
+* The `count` method is used to count every occurrence of a specified substring in the original string
+    * Syntax: `string.count('a')`
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Applying `count()` to the letter counter
+
+```python
+def get_letter_count(string):
+    letters = []
+    counts = []
+
+    for let in string:
+        if let not in letters:
+            letters.append(let)
+            counts.append(string.count(let))
+        else:
+            continue
+    
+    return letters, counts
+```
