@@ -171,3 +171,7 @@ print(f'Your order list: {selections}')
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+* Why would we use break in our code? What about continue and pass?
+* Why might we use a while loop?
+* What is the syntax for a while loop?
