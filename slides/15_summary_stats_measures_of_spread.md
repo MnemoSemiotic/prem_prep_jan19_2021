@@ -111,6 +111,13 @@ print(median(b))
 # BREAKOUT (4 minutes)
 Code the `iqr()` function
 
+* show the 5 number summary and IQR of `a` and `b`
+
+```python
+a = list(range(0, 50+1, 5)) 
+b = list(range(0, 100+1, 5))
+```
+
 
 <br><br><br><br><br><br><br><br><br>
 
