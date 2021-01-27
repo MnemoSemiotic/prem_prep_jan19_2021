@@ -275,3 +275,41 @@ a =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
 
 print(remove_outliers(house_prices))
 ```
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Variance
+
+* Much like measures of center, the “spread,” or variance of a distribution can be informative, and help us describe the distribution.
+* Average squared distance between each data point and the mean
+* Notation
+    * $s^2$ : refers to the variance of a sample
+    * $\sigma^2$ : refers to the variance of a population
+* The square root of the variance is the **Standard Deviation**
+    * $s$ : refers to the standard deviation of a sample
+    * $\sigma$: refers to the standard deviation of a population
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Variance Formula
+* Average squared distance between each data point and the mean
+
+* **Population Variance**:
+
+$$
+\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2
+$$
+
+* **Sample Variance**:
+
+$$
+\sigma^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \overline x)^2
+$$
+
+* Recall:
+    * $\mu$ : population mean
+    * $\overline x$ : sample mean
