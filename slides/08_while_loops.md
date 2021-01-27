@@ -240,3 +240,33 @@ print(all(x)) # False
 x = x[1:] + [x[0]]
 print(x)
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+Would you use a for loop or a while loop?
+
+1. Creating a letter counter based on a string
+2. Trying to identify whether a dice is fair or not
+3. Iterating over a list to identify multiples of 5
+4. Creating a selection for an individual based on a given menu
+5. Determine how long it might take to reach a certain threshold
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+Would you use a for loop or a while loop?
+
+1. Creating a letter counter based on a string
+    * `for` loop
+2. Trying to identify whether a dice is fair or not
+    * Potentially a while loop, where eventually you wish to converge at the expected value, at which point you might use break to exit. However, you could use a for loop with many many iterations, with an exit condition.
+3. Iterating over a list to identify multiples of 5
+    * `for` loop
+
+4. Creating a selection for an individual based on a given menu
+5. Determine how long it might take to reach a certain threshold
