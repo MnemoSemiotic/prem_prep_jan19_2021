@@ -103,6 +103,38 @@ print(median(b))
 * The interquartile range can be used to qualify outliers
 
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Code the `iqr()` function
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def iqr(lst):
+    _, q1, _, q3, _ = five_number_summary(lst)
+    return q3 - q1
+
+a = list(range(0, 50+1, 5)) 
+b = list(range(0, 100+1, 5))
+
+print(a)
+print(five_number_summary(a))
+print(iqr(a))
+
+print(b)
+print(five_number_summary(b))
+print(iqr(b))
+```
+
+
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
