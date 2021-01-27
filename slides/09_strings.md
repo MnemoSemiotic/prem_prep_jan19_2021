@@ -80,3 +80,15 @@ string = 'I love to look at the moon'
 
 string = string.replace('o', 'puppy', 2)
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `enumerate`
+* The `enumerate` function can be used on strings:
+
+```python
+for idx, ch in enumerate(string):
+    print(idx, ch)
+```
