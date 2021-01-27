@@ -69,4 +69,10 @@ l2 = [1, 2, 3, 4, 9]
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# The `tuple()` datatype
+* Tuples are ordered collections 
+* Tuples are very similar to list with two key differences:
+    * Tuples are immutable.
+    * Tuples are declared using parenthesis.
+* We can index and slice tuples because they are ordered
+* Tuples have two methods associated with them: count and index
