@@ -195,3 +195,113 @@ print(f'Your order list: {selections}')
 while condition:
     # Do something
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Review BREAKOUT (3 minutes)
+```python
+x = [4, 6, 1, 2, 8, 0]
+```
+
+* How would you sort your list to save it in place?
+* How would you sort your list to return a printed output?
+* How would you reverse your list to save it in place?
+* What would any(x) return? all(x)?
+* How would you remove the first element in the list and append it to the end? Can you write this in a single line of code?
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Review BREAKOUT (3 minutes)
+```python
+x = [4, 6, 1, 2, 8, 0]
+print(x)
+# * How would you sort your list to save it in place?
+x.sort()
+# or
+x = sorted(x)
+
+# * How would you sort your list to return a printed output?
+print(sorted(x))
+
+# * How would you reverse your list to save it in place?
+x.reverse()
+# or
+x = x[::-1]
+print(x)
+
+# * What would any(x) return? all(x)?
+print(any(x)) # True
+print(all(x)) # False
+
+# * How would you remove the first element in the list and append it to the end? Can you write this in a single line of code?
+x = x[1:] + [x[0]]
+print(x)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+Would you use a for loop or a while loop?
+
+1. Creating a letter counter based on a string
+2. Trying to identify whether a dice is fair or not
+3. Iterating over a list to identify multiples of 5
+4. Creating a selection for an individual based on a given menu
+5. Determine how long it might take to reach a certain threshold
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+Would you use a for loop or a while loop?
+
+1. Creating a letter counter based on a string
+    * `for` loop
+2. Trying to identify whether a dice is fair or not
+    * Potentially a while loop, where eventually you wish to converge at the expected value, at which point you might use break to exit. However, you could use a for loop with many many iterations, with an exit condition.
+3. Iterating over a list to identify multiples of 5
+    * `for` loop
+4. Creating a selection for an individual based on a given menu
+    * Potentially a `while` loop, though a `for` loop with a high count could be used as instead.
+5. Determine how long it might take to reach a certain threshold
+    * Potentially a `while` loop, with an exit condition for when the threshold is reached. However, a `for` loop could be used instead, where the `for` loop is allowed many many iterations, with an exit condition implied by the upper bound of the iteration count.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (8 minutes)
+Write a for loop to print a menu out of this list with their number options starting at 1? Store the choices (as the item names, not the numbers) in a list. Print out the list containing the food ordered.
+
+```python
+food_lst = [‘Pancakes’, ‘Omelet’, ‘Toast’, ‘Waffles’, ‘Bacon’, ‘Sausage’, ‘Orange Juice’]
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+food_lst = [‘Pancakes’, ‘Omelet’, ‘Toast’, ‘Waffles’, ‘Bacon’, ‘Sausage’, ‘Orange Juice’]
+order = []
+
+wish_to_continue = 'Y'
+
+while wish_to_continue == 'Y':
+    print('Make a selection from this list: ')
+    for idx, item in enumerate(food_lst, 1):
+        print(f'{idx}: {item}')
+
+    order.append(food_lst[int(input('Choose an item by number: ')) - 1])
+
+    wish_to_continue = input('Choose another item? (Y/N) ')
+
+print(order)
+```
