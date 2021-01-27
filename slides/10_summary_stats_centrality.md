@@ -5,6 +5,7 @@
 # Statistics: Measures of Centrality
 * Why Statistics?
 * Measures of Centrality
+* Continuous vs Discrete Data
 
 <br><br><br><br><br><br><br><br><br>
 
@@ -333,3 +334,25 @@ for _ in range(5):
 print(mean(sample_range))
 print(mean(samples))
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Continuous vs. Discrete
+
+* Continuous data
+    * “Measurable to an infinite precision” 
+    * “Not countable”
+    * Can take any value in a given range
+    * Always infinite
+    * Examples:
+        * Distance (or any magnitude)
+        * Weight
+        * Time
+* Discrete data
+    * “Countable”
+    * Can only take specific values in a given range
+    * Example
+        * Number of students in a class
+        * Steps on the way to class
