@@ -58,3 +58,10 @@
 * `string[start:end]`
 * `string[start:end:skip]`
 
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `string` membership
+* Check if a string is a substring of another string using the in keyword. 
+    * `'str' in 'string'`
+    * Returns a boolean
