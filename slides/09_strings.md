@@ -28,3 +28,10 @@
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# Casting to and from a `string`
+* Just about any data type can be cast to a `string`.
+    * Use the `string` casting function: `str()`
+* Not every `string` can be cast to another data type.
+    * `int('a')` will not work
+* String concatenation will only work between strings
+    * Need to cast any numeric variables to a `string` before concatenating. 
