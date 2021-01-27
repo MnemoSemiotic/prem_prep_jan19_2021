@@ -310,4 +310,26 @@ mode_lst = ['kangaroo', 'muskrat', 'platypus', 'muskrat', 'squid', 'squirrel', '
 # A quick note on **sampling**
 * A sample is comprised of materials selected from a **population**
 * It's important to compose a sample that is **representative**
+* We are often attempting to approach a **population parameter** by way of measuring **sample statistics**
+    * Notice the semantics here
+        * the mean of a population is considered a parameter
+        * the mean of a sample is considered a statistic
  
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# A sampling example using Python
+* What can you do to better approach the population parameter?
+
+```python
+from random import choice
+
+sample_range = list(range(0, 99+1))
+
+samples = []
+for _ in range(5):
+    samples.append(choice(sample_range))
+
+print(mean(sample_range))
+print(mean(samples))
+```
