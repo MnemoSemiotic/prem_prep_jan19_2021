@@ -289,5 +289,19 @@ food_lst = [‘Pancakes’, ‘Omelet’, ‘Toast’, ‘Waffles’, ‘Bacon�
 # BREAKOUT SOLUTION
 
 ```python
+food_lst = [‘Pancakes’, ‘Omelet’, ‘Toast’, ‘Waffles’, ‘Bacon’, ‘Sausage’, ‘Orange Juice’]
+order = []
 
+wish_to_continue = 'Y'
+
+while wish_to_continue == 'Y':
+    print('Make a selection from this list: ')
+    for idx, item in enumerate(food_lst, 1):
+        print(f'{idx}: {item}')
+
+    order.append(food_lst[int(input('Choose an item by number: ')) - 1])
+
+    wish_to_continue = input('Choose another item? (Y/N) ')
+
+print(order)
 ```
