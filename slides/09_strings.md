@@ -184,6 +184,8 @@ s = 'This is a string, we want you to count how many times each unique character
 # BREAKOUT SOLUTION Examples
 
 ```python
+s = 'This is a string, we want you to count how many times each unique character appears in this string!'
+
 def get_letter_count(string):
     letters = []
     counts = []
@@ -211,5 +213,23 @@ for i in range(len(letters)):
 or
 
 ```python
+s = 'This is a string, we want you to count how many times each unique character appears in this string!'
 
+def get_letter_count(string):
+    letters = []
+    counts = []
+
+    for let in string:
+        if let not in letters:
+            letters.append(let)
+            counts.append(1)
+        else:
+            counts[letters.index(let)] += 1
+    
+    return letters, counts
+
+letters, counts = get_letter_count(s)
+
+for i in range(len(letters)):
+    print(f'{letters[i]}: {counts[i]}')
 ```
