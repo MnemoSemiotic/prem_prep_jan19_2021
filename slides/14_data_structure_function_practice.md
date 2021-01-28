@@ -204,5 +204,7 @@ def text_content_analyzer(text):
     print(f'Average Sentence Length: {d['avg_sentence_len']}')
 
     d['word_list_desc_freq'] = word_counter(text_list)
-    print(f'Average Sentence Length: {d['avg_sentence_len']}')
+    print(f'Words in Desc Frequency: {d['word_list_desc_freq']}')
+
+    return d
 ```
