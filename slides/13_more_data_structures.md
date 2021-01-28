@@ -144,4 +144,25 @@ def num_chars(s):
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# BREAKOUT SOLUTION
+
+```python
+def clean_string(string):
+    new_string = ''
+    alpha = 'abcdefghijklmnopqrstuvwxyz'
+
+    for letter in string.lower():
+        if letter in alpha or letter = ' ':
+            new_string += letter
+    return new_string
+
+def word_letter_count(string):
+    d = dict()
+    cleaned = clean_string(string)
+    word_list = cleaned.split(' ')
+
+    for word in word_list:
+        d[word] = len(word)
+
+    return d
+```
