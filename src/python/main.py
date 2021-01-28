@@ -6,7 +6,8 @@ def main():
     # import day_3_lib
     # import day_4_lib
     # import day_5_lib
-    import day_6_lib
+    # import day_6_lib
+    import day_7_lib
 
 
 if __name__ == "__main__":
