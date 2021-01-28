@@ -307,3 +307,65 @@ bill_with_tax_and_tip
 
 >>> 121.0
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def calc_total_bill(bill, tax, tip):
+    bill_and_tax = bill * (1+tax)
+    tax_and_tip = bill * (1+tax) * (1+tip)
+    return bill_and_tax, tax_and_tip
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (7 minutes)
+1. Write a list comprehension of this list to get the len of each item, if an item doesn't have a len, make sure to change that item to a string before you take len.
+    * `L1 = ['hello', 'goodbye', [1,2,3], 44]`
+
+2. Write a list comprehension that takes in a list of positive integers and adds 100 to a single digit number else it will subtract 100 from the number.
+    * `L2  = [1, 5, 8, 100, 43, 254, 1000, 3, 0, 88888]`
+
+3. Write a dictionary comprehension of a dictionary, making the values the keys and the keys the values
+    * `D1 = {'Apple':5, 'Pear': 10, 'Banana':2, 'Orange': 1}`
+
+4. Write a dictionary comprehension of a dictionary, adding '_test' to the keys and finding the remainder of the value when divided by 13
+    * `D2 = {'a': 540, 'b': 222, 'c':88, 'd':1000,'e':13}`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+1.
+
+```python
+L1 = ['hello', 'goodbye', [1,2,3], 44]
+l1 = [len(item) if not isinstance(item, (int, float, complex, bool)) else len(str(item)) for item in L1]
+```
+
+2.
+
+```python
+L2  = [1, 5, 8, 100, 43, 254, 1000, 3, 0, 88888]
+l2 = [n + 100 if abs(n / 10) < 1 else n - 100 for n in L2>]
+```
+
+3.
+
+```python
+D1 = {'Apple':5, 'Pear': 10, 'Banana':2, 'Orange': 1}
+d1 = {v: k for k, v in D1.items()}
+```
+
+4.
+
+```python
+D2 = {'a': 540, 'b': 222, 'c':88, 'd':1000,'e':13}
+d2 = {k+'_test': v%13 for k, v in D2.items()}
+```
