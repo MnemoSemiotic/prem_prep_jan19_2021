@@ -240,3 +240,20 @@ for i in old_lst:
 
 new_lst = [i ** 2 for i in old_lst if i > 10]
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Comprehension w/ if else statement
+
+```python
+new_lst = []
+for i in old_lst:
+	if i > 10:
+        new_lst.append(i**2)
+    else:
+	    new_lst.append(i//2)
+
+new_lst = [i ** 2 if i > 10 else i//2 for i in old_lst]
+```
