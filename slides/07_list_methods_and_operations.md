@@ -23,8 +23,8 @@
 
 ---------------------------------------------------------------
 # Appending to a `list`
-* The `append` method places a new value at the end of the `list`. 
-    * Syntax: `list.append(new_item)`	
+* The `append` method places a new value at the end of the `list`.
+    * Syntax: `list.append(new_item)`
 * Can `append` a `list` to another `list` in order to create a nested `list`.
 
 
@@ -33,7 +33,7 @@
 ---------------------------------------------------------------
 # Extending a `list`
 * The `extend` method combines two lists
-    * Syntax: `list1.extend(list2)`	
+    * Syntax: `list1.extend(list2)`
     * In the above example, the `list2` elements will be inserted into `list1`
 
 
@@ -42,7 +42,7 @@
 ---------------------------------------------------------------
 # Removing Items From a `list`
 * Use the `remove` method to remove an element from a `list`
-    * Syntax: `list1.remove(some_item)`	
+    * Syntax: `list1.remove(some_item)`
     * Only removes the first instance of that element
 * Use `del` to remove a specific index of element, or slice of elements, in a `list`:
     * `del list[index]`
@@ -76,7 +76,7 @@
 # `sort`, `reverse`, `sorted`, and `reversed`
 * The `sort` and `reverse` methods are slightly different from the `sorted` and `reversed` functions
 * The `sort` method will sort all the values in a `list` in ascending order and change the `list` in place. `sorted` will return a `list` with elements sorted but does not modify the original `list`.
-    * Syntaxes: 
+    * Syntaxes:
         * `lst.sort()`
         * `sorted(lst)`
 * The `reverse` method will reverse the list in place. `reversed` will return an iterable object that must be cast to `list` to be indexed and used as a `list`. In fact, list slicing is preferable to `reversed` when wanting to get a reversed list.
@@ -127,6 +127,8 @@
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
 * What would be the result of `len([1, 2, [1, 2]])`
     * Solution: `3`
 * What would be the result of `list(reversed([1, 5, 6, 4, 2]))`
@@ -146,7 +148,7 @@
 ---------------------------------------------------------------
 # `enumerate()`
 * Sometimes you will need to write a `for` loop that can keep track of items in a `list` and their corresponding indices.
-* Syntax: 
+* Syntax:
 
 ```python
 for idx, num in enumerate(my_lst):
@@ -160,14 +162,14 @@ for idx, num in enumerate(my_lst):
 ---------------------------------------------------------------
 # Parallel Lists
 * Two lists that have equal length and contain associated values at each index are parallel.
-* The same index can be used in each of the parallel lists to access the related data. 
+* The same index can be used in each of the parallel lists to access the related data.
 
 
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Unpacking a nested `list`
-* In the case of nested lists, we can use an accumulator to unpack the nested items into a new `list`. 
+* In the case of nested lists, we can use an accumulator to unpack the nested items into a new `list`.
 * In the new `list`, the nesting will be “undone.”
 
 
@@ -175,7 +177,7 @@ for idx, num in enumerate(my_lst):
 
 ---------------------------------------------------------------
 # Unpacking a nested `list`
-* In the case of nested lists, we can use an accumulator to unpack the nested items into a new `list`. 
+* In the case of nested lists, we can use an accumulator to unpack the nested items into a new `list`.
 * In the new `list`, the nesting will be “undone.”
 
 <br><br><br><br><br><br><br><br><br>
