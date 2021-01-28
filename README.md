@@ -16,7 +16,28 @@
 
 [Our Learn Cohort](https://learn-2.galvanize.com/cohorts/2303)
 
+
+### Other Helpful Resources
+
 [Add this Chrome Extension to see rendered Math formulas on Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)
+
+[Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M) : Tutorial on how to take notes in order to have quick reference while in the DSI
+
+[MathJax Reference on StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) : Indispensible for writing Markdown with LaTEX
+
+[JB Statistics](https://www.jbstatistics.com/): Excellent supplemental resource!
+
+[Introduction to Statistical Learning (ISLR)](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf) : Seminal work on Machine Learning, highly recommended!
+
+[Elements of Statistical Learning (ESL)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) : Grad level of the ISLR
+
+[Khan Academy](https://www.khanacademy.org/math) : For refreshers in Algebra and Calculus
+
+[Desmos browser-based graphing app](https://www.desmos.com/calculator) : Quick visualization of math
+
+[Derivative Calculator](https://www.derivative-calculator.net/) : For checking Calculus work
+
+[Visual Go](https://visualgo.net/en) : A language-agnostic tour of data structures and algorithms
 
 ---------------------------------------------------------
 
@@ -139,7 +160,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 6 Lecture](https://youtu.be/6ZSuyJkeNBo)
 
 ---------------------------------------------------------
 ### Day 7: Wednesday Jan 27 (6pm - 8pm Pacific)
@@ -161,7 +182,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 7 Lecture](https://youtu.be/O1aDgSahVxE)
 
 
 ---------------------------------------------------------
