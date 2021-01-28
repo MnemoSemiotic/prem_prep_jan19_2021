@@ -37,7 +37,7 @@
 
 [Derivative Calculator](https://www.derivative-calculator.net/) : For checking Calculus work
 
-[Visual Go](https://visualgo.net/en) : A tour of data structures and algorithms
+[Visual Go](https://visualgo.net/en) : A language-agnostic tour of data structures and algorithms
 
 ---------------------------------------------------------
 
