@@ -21,7 +21,7 @@
 
 [Add this Chrome Extension to see rendered Math formulas on Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)
 
-[Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M)
+[Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M) : Tutorial on how to take notes in order to have quick reference while in the DSI
 
 [MathJax Reference on StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) : Indispensible for writing Markdown with LaTEX
 
