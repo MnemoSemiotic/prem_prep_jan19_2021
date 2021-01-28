@@ -145,7 +145,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 6 Lecture](https://youtu.be/6ZSuyJkeNBo)
 
 ---------------------------------------------------------
 ### Day 7: Wednesday Jan 27 (6pm - 8pm Pacific)
