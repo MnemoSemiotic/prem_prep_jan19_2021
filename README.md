@@ -8,7 +8,7 @@
 ### Important Links
 [Zoom Link](https://zoom.us/j/98989113857?pwd=UUwzcXRsTDZwNjJEQTh2WlBNNldoQT09)
 * Must be a registered user
-* See the Initialize Section for the pword 
+* See the Initialize Section for the pword
 
 [Galvanize Data Science YouTube Channel](https://www.youtube.com/galvanizedatascienceprep) SUBSCRIBE!
 
@@ -16,6 +16,7 @@
 
 [Our Learn Cohort](https://learn-2.galvanize.com/cohorts/2303)
 
+[Add this Chrome Extension to see rendered Math formulas on Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)
 
 ---------------------------------------------------------
 
