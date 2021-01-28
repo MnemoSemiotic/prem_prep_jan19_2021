@@ -131,3 +131,28 @@ def book_update(new_book, library):
             new_lib.add(new_book)
             return list(new_lib)
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (15 minutes)
+Create a text content analyzer. This is a tool used by writers to find statistics such as word and sentence count on essays or articles they are writing.
+
+Write a Python program that analyzes string and compiles statistics on it. Your sentence can end in a `.`, `!` or `?`, do not include punctuation in your words
+
+The program should PRINT using string formatting:
+1. The total word count
+2. The count of unique words
+3. The number of sentences 
+4. The average sentence length in words (whole number)
+5. A list of words used, in order of descending frequency
+
+The program should also `return` all the information in a dictionary
+To get your string to check is on the next slide
+
+Use this text:
+
+```python
+Mochi is a Maltese. He weighs only 4 lbs even though he is already 6 years old!!! He likes to eat blueberries. Mochi is sleeping. Is Mochi cute? Everyone thinks Mochi is cute!! Couple more lines for testing stdin. Is Disney Tsum Tsum a fun game?! Disney Tsum Tsum is very fun! Mochi is sleeping. Mochi loves Disney Tsum Tsum. Mochi is sleeping again.
+```
