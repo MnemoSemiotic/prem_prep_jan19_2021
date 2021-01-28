@@ -156,3 +156,30 @@ Use this text:
 ```python
 Mochi is a Maltese. He weighs only 4 lbs even though he is already 6 years old!!! He likes to eat blueberries. Mochi is sleeping. Is Mochi cute? Everyone thinks Mochi is cute!! Couple more lines for testing stdin. Is Disney Tsum Tsum a fun game?! Disney Tsum Tsum is very fun! Mochi is sleeping. Mochi loves Disney Tsum Tsum. Mochi is sleeping again.
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def text_content_analyzer(text):
+    d = {
+        'total_word_count': 0,
+        'unique_word_count': 0,
+        'sentence_count': 0,
+        'avg_sentence_len': 0,
+        'word_list_desc_freq': []
+    }
+
+    text_list = text.replace('.', '').replace('?', '').replace('!', '').lower().split(' ')
+    sentences = text.replace('?', '.').replace('!', '.').lower().split('. ')
+    sentences = [sentence.replace('.', ' ') for sentence in sentences]
+
+    d['total_word_count'] = len(text_list)
+    print(f'Total Word Count: {d['total_word_count']}')
+
+    d['unique_word_count'] = len(list(set(text_list)))
+    print(f'Unique Word Count: {d['unique_word_count']}')
+```
