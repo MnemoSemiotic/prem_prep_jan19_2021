@@ -214,9 +214,10 @@ for _ in range(100_000):
     # len()
     # .count()
     # checks for membership
+    # "hey" in "hello"
 
 # case transforms
-    # .lower(), .upper(), swapcase(), capitalize()
+    # .lower(), .upper(), .swapcase(), .capitalize()
 # my_string = "Hey There"
 # print(my_string.lower())
 # print(my_string.upper())

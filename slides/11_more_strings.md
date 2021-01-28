@@ -5,8 +5,8 @@
 ---------------------------------------------------------------
 # Review: Strings
 * Strings are simply a collection of characters
-* Strings are declared with single, double, and triple quotes. 
-    * Mostly interchangeable. Single and double quotes only work with strings that span one line. 
+* Strings are declared with single, double, and triple quotes.
+    * Mostly interchangeable. Single and double quotes only work with strings that span one line.
     * Strings that span multiple lines need to be declared using triple quotes.
 
 <br><br><br><br><br><br><br><br><br>
@@ -32,7 +32,24 @@ String to use: "Hello there! How are you? Why don’t you take a seat over there
 # BREAKOUT SOLUTION
 
 ```python
+def clean_string_lst(txt_in):
+    punct_lst = [",", ".", ";", ":", "!", "?", "'", '"'],
+    remove_words = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "can", "will", "just", "don", "should", "now"]
 
+    for punct in punct_lst:
+        if punct in txt_in:
+            txt_in = txt_in.replace(punct, "")
+
+    lst = []
+    for word in txt_in.lower().split():
+        if word not in lst + remove_words:
+            lst.append(word)
+
+    return " ".join(lst)
+
+
+my_txt = "Hello there! How are you? Why don’t you take a seat over there? Once we went to the store and we found ourselves in a strange place. We ran into two people. They were very interesting to talk to. Each of them had an interesting accent and we wondered where they were from."
+print( clean_string_lst(my_txt) )
 ```
 
 
