@@ -369,3 +369,50 @@ d1 = {v: k for k, v in D1.items()}
 D2 = {'a': 540, 'b': 222, 'c':88, 'd':1000,'e':13}
 d2 = {k+'_test': v%13 for k, v in D2.items()}
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (8 minutes)
+Create a function that will check to see if a book is in a library and if it isn’t, then update your library with the book and let the user know it was a new book, else tell the user that the book was not new.  (Remember capitalization matters) Return your library as a list
+    a. Try this if your library was a list - use list methods 
+    b. Try this if your library was a set - use set methods
+
+```python
+def book_update(new_book, library):
+	pass
+```
+
+```python
+library = [‘Catch-22’, ‘The Great Gatsby’, ‘Grapes of Wrath’, ‘Brave New World’, ‘To Kill a Mockingbird’, ‘Lord of the Rings’, ‘1984’, ‘Lord of the Flies’, ‘Moby Dick’]
+```
+
+Check to see if your library has these books:
+
+```python
+‘The Odyssey’, ‘catch-22’, ‘moby dick’, ‘The hitchhiker’s guide to the galaxy’
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def book_update(new_book, library):
+    if new_book.lower() in [book.lower() for book in library]:
+        print(f'Your book, {new_book}, is in the library')
+        return library
+    else:
+        print(f'Your book, {new_book}, is new!')
+        if isinstance(library, list):
+            new_lib = library[:]
+            new_lib.append(new_book)
+            return new_lib
+        elif isinstance(library, set):
+            new_lib = library.copy()
+            new_lib.add(new_book)
+            return list(new_lib)
+```
