@@ -164,6 +164,20 @@ Mochi is a Maltese. He weighs only 4 lbs even though he is already 6 years old!!
 # BREAKOUT SOLUTION
 
 ```python
+def word_counter(text_list):
+    d = dict()
+    out = []
+
+    for word in text_list:
+        if word not in d:
+            d[word] = 0
+        d[word] += 1
+    
+    for word, count in d.items():
+        out.append((count, word))
+
+    return [word for count, word in sorted(out, reverse=True)]
+
 def text_content_analyzer(text):
     d = {
         'total_word_count': 0,
@@ -182,4 +196,13 @@ def text_content_analyzer(text):
 
     d['unique_word_count'] = len(list(set(text_list)))
     print(f'Unique Word Count: {d['unique_word_count']}')
+
+    d['sentence_count'] = len(sentences)
+    print(f'Sentence Count: {d['sentence_count']}')
+
+    d['avg_sentence_len'] = sum([len(sentences) for sentence in sentences]) / len(sentences)
+    print(f'Average Sentence Length: {d['avg_sentence_len']}')
+
+    d['word_list_desc_freq'] = word_counter(text_list)
+    print(f'Average Sentence Length: {d['avg_sentence_len']}')
 ```
