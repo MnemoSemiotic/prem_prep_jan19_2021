@@ -17,13 +17,20 @@
 [Our Learn Cohort](https://learn-2.galvanize.com/cohorts/2303)
 
 
-### Other Resources
+### Other Helpful Resources
 
 [Add this Chrome Extension to see rendered Math formulas on Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)
 
 [Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M)
 
 [MathJax Reference on StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
+[JB Statistics](https://www.jbstatistics.com/): Excellent supplemental resource!
+
+[Introduction to Statistical Learning (ISLR)](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6009dd9fa7bc363aa822d2c7/1611259312432/ISLR+Seventh+Printing.pdf) : Seminal work on Machine Learning, highly recommended!
+
+[Elements of Statistical Learning (ESL)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) : Grad level of the ISLR
+
 
 ---------------------------------------------------------
 
