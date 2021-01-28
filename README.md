@@ -23,7 +23,7 @@
 
 [Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M)
 
-[MathJax Reference on StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+[MathJax Reference on StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) : Indispensible for writing Markdown with LaTEX
 
 [JB Statistics](https://www.jbstatistics.com/): Excellent supplemental resource!
 
@@ -33,7 +33,7 @@
 
 [Khan Academy](https://www.khanacademy.org/math) : For refreshers in Algebra and Calculus
 
-[Desmos browser-based graphing app](https://www.desmos.com/calculator)
+[Desmos browser-based graphing app](https://www.desmos.com/calculator) : Quick visualization of math
 
 [Derivative Calculator](https://www.derivative-calculator.net/) : For checking Calculus work
 
