@@ -31,9 +31,11 @@
 
 [Elements of Statistical Learning (ESL)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) : Grad level of the ISLR
 
+[Khan Academy](https://www.khanacademy.org/math) : For refreshers in Algebra and Calculus
+
 [Desmos browser-based graphing app](https://www.desmos.com/calculator)
 
-[Derivative Calculator](https://www.derivative-calculator.net/)
+[Derivative Calculator](https://www.derivative-calculator.net/) : For checking Calculus work
 
 
 ---------------------------------------------------------
