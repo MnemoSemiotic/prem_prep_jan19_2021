@@ -64,3 +64,36 @@ NOTE: Consider "cleaning" the string from punctuation. Also consider lower-casin
 ```python
 {'dense', 'sparse', 'complex', 'nested', 'complicated', 'flat'}
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Review: Tuples
+* Tuples are ordered collections 
+* Tuples are very similar to lists with two key differences:
+    * Tuples are immutable.
+    * Tuples are declared using parenthesis.
+* We can index and slice tuples because they are ordered
+* Tuples have two methods associated with them: count and index
+* Functions return tuples when returning more than one item
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Review: What is a Dictionary?
+* Dictionaries contain key/value pairs in a mutable, unordered collection.
+* Keys must be immutable and unique.
+* Dictionaries are declared:
+    * Using curly braces `{}`
+* Syntax: `{key1 : value1, key2: value2, key3 : value3}`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+Write a function that prompts the user to input numbers separated by dashes ( - ). Your script will take those numbers, and print a dictionary where the keys are the inputted numbers, and the values are the squares of those numbers.
+
+Example: If you inputted the numbers `‘1 - 5 - 8 - 10’`, your script should print `{8: 64, 1: 1, 10: 100, 5: 25}` (remember that dictionaries are unordered, which is why the script might print out the key-value pairs in a different order than the user inputted the numbers).
