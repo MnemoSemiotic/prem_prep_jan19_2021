@@ -23,6 +23,7 @@
 
 [Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M)
 
+[MathJax Reference on StackExchange](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 ---------------------------------------------------------
 
