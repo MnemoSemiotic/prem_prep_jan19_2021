@@ -257,3 +257,53 @@ for i in old_lst:
 
 new_lst = [i ** 2 if i > 10 else i//2 for i in old_lst]
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# `dict` Comprehension
+
+```python
+new_dict = {}
+for i in old_lst:
+	new_dict[i] = i**2
+
+new_dict = {i:i**2 for i in old_lst}
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Generalization of comprehensions
+
+```python
+[f(x) for x in sequence]
+
+[f(x) for x in sequence if condition]
+
+[f(x) if condition else g(x) for x in sequence]
+
+{key:value for x in sequence}
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+Let’s warm up with something easy:
+
+Write a function that will calculate the total amount of a dinner bill, given the total before tax, the tax rate, and percentage. Your function will accept these three values as arguments. It will then do the following:
+* Apply the tax rate to the bill total
+* Apply the tip percentage to the total amount
+* Return the total amount of bill before and after tip.
+
+Here’s an example of how you would call the function:
+
+```python
+bill_with_tax, bill_with_tax_and_tip = calc_total_bill(100, 0.10, 0.10)
+bill_with_tax_and_tip
+
+>>> 121.0
+```
