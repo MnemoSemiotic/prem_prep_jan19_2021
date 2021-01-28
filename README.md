@@ -31,6 +31,10 @@
 
 [Elements of Statistical Learning (ESL)](https://web.stanford.edu/~hastie/Papers/ESLII.pdf) : Grad level of the ISLR
 
+[Desmos browser-based graphing app](https://www.desmos.com/calculator)
+
+[Derivative Calculator](https://www.derivative-calculator.net/)
+
 
 ---------------------------------------------------------
 
