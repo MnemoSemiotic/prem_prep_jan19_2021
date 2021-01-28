@@ -171,4 +171,44 @@ def word_letter_count(string):
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# `zip()`
+You know how to iterate over a single data structure, but what if you have parallel lists? How can we iterate over these at the same time?
+Syntax: 
+
+```python
+for i, j in zip(lst1, lst2):
+	#some code here
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes) 
+Write a function that prompts the user to input numbers separated by commas. Your script will then take these inputted numbers and store them as a list of tuples, two at a time. Use the zip() function to do this.  If the user inputs an odd number of numbers, then only make a list of the largest number of pairs of two that are possible.
+
+Example: If you inputted the numbers `'1, 2, 3, 4, 5, 6'`, your function should return `[(1, 2), (3, 4), (5, 6)]`. If you inputted the numbers `1, 2, 3, 4, 5`, your function should return `[(1, 2), (3, 4)]`.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def build_tups():
+    inp = input('Enter numbers, separated by commas: ')
+    lst1 = []
+    lst2 = []
+
+    nums_str = inp.split(', ')
+
+    for i in range(0, len(nums_str), 2):
+        lst1.append(int(nums_str[i]))
+        if i+1 < len(nums_str):
+            lst2.append(int(nums_str[i+1]))
+
+    return list(zip(lst1, lst2))
+
+print(build_tups())
+```
