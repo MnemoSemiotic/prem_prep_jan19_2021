@@ -212,3 +212,31 @@ def build_tups():
 
 print(build_tups())
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Comprehensions
+
+```python
+new_lst = []
+for i in old_lst:
+    new_lst.append(i**2)
+
+new_lst = [ i ** 2 for i in old_lst ]
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# List Comprehension w/ if statement
+
+```python
+new_lst = []
+for i in old_lst:
+	if i > 10:
+        new_lst.append(i**2)
+
+new_lst = [i ** 2 for i in old_lst if i > 10]
+```
