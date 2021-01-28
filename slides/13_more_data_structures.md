@@ -97,3 +97,19 @@ NOTE: Consider "cleaning" the string from punctuation. Also consider lower-casin
 Write a function that prompts the user to input numbers separated by dashes ( - ). Your script will take those numbers, and print a dictionary where the keys are the inputted numbers, and the values are the squares of those numbers.
 
 Example: If you inputted the numbers `‘1 - 5 - 8 - 10’`, your script should print `{8: 64, 1: 1, 10: 100, 5: 25}` (remember that dictionaries are unordered, which is why the script might print out the key-value pairs in a different order than the user inputted the numbers).
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def square_dict():
+    inp = input('Enter numbers separated by dashes: ')
+    inp_list = inp.split(' - ')
+    d = {}
+    for num in inp_list:
+        d[int(num)] = int(num)**2
+    return d
+```
