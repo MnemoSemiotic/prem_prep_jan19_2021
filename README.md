@@ -16,7 +16,13 @@
 
 [Our Learn Cohort](https://learn-2.galvanize.com/cohorts/2303)
 
+
+### Other Resources
+
 [Add this Chrome Extension to see rendered Math formulas on Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)
+
+[Notetaking Strategy for Immersives](https://youtu.be/xdz1KyKVI5M)
+
 
 ---------------------------------------------------------
 
