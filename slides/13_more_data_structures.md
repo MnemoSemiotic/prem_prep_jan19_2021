@@ -32,6 +32,35 @@ str2 = set('Complex is better than complicated. Flat is better than nested. Spar
 ```
 
 * What is the intersection of str1 and str2?
-
 * What is the union of str1 and str2?
 * What is the difference of str1 - str2?
+
+NOTE: Consider "cleaning" the string from punctuation. Also consider lower-casing.
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+* What is the intersection of str1 and str2?
+
+```python
+{'is', 'better', 'than'}
+```
+
+* What is the union of str1 and str2?
+
+```python
+{'better', 'implicit', 'complex', 'nested', 'dense', 'beautiful', 'complicated', 'complex', 'explicit', 'than', 'sparse', 'is', 'simple', 'flat', 'ugly'}
+```
+
+* What is the difference of str1 - str2?
+
+```python
+{'implicit', 'explicit', 'beautiful', 'complex', 'simple', 'ugly'}
+```
+
+* What is the difference of str2 - str1?
+
+```python
+{'dense', 'sparse', 'complex', 'nested', 'complicated', 'flat'}
+```
