@@ -71,3 +71,26 @@ even_list = [15, 14, 10, 8, 12, 8, 16, 13]
 # print(median(even_list))
 
 
+'''
+Breakout
+
+An article published in the journal, Indoor Air, considered two different air samples
+ to test for endotoxin concentrations, the first in urban households, and the second 
+ in farmhouses.
+
+Urban: 6.0, 5.0, 11.0, 33.0, 4.0, 5.0, 80.0, 18.0, 35.0, 17.0, 23.0
+Farmhouse: 4.0, 14.0, 11.0, 9.0, 9.0, 8.0, 4.0, 20.0, 5.0, 8.9, 21.0, 9.2, 3.0, 2.0
+
+Calculate the Mean and Median of both groups and make a brief statement on 
+which is better as a measure of centrality
+'''
+
+urban = [6.0, 5.0, 11.0, 33.0, 4.0, 5.0, 80.0, 18.0, 35.0, 17.0, 23.0]
+farmhouse = [4.0, 14.0, 11.0, 9.0, 9.0, 8.0, 4.0, 20.0, 5.0, 8.9, 21.0, 9.2, 3.0, 2.0, 0.3]
+
+
+print(f'Sample Median Urban: {round(median(urban), 1)}')
+print(f'Sample Median Farmhouse: {round(median(farmhouse), 1)}')
+print()
+print(f'Sample Mean Urban: {round(mean(urban), 1)}')
+print(f'Sample Mean Farmhouse: {round(mean(farmhouse), 1)}')
