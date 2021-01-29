@@ -145,3 +145,21 @@ mode_lst = ['kangaroo', 'muskrat', 'platypus', 'muskrat', 'squid', 'squirrel', '
 # print(mode(mode_lst))
 
 
+'''
+A quick sampling process
+'''
+from random import choice
+
+sample_range = list(range(0, 99+1))
+
+samples = []
+
+for _ in range(5):
+    samples.append(choice(sample_range))
+
+print(sorted(samples))
+
+print(mean(sample_range))
+print()
+print(mean(samples))
+print(median(samples))
