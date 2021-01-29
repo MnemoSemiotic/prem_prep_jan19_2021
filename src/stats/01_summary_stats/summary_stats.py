@@ -107,19 +107,23 @@ homes in Alameda, CA, all of which were sold in the previous month (1000s of $):
 
 house_prices = [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
 
-print(sorted(house_prices))
+# print(sorted(house_prices))
 '''
 Find the mean value of the homes sold in April
 '''
-print(f'Mean House price: {round(mean(house_prices), 2)}')
+# print(f'Mean House price: {round(mean(house_prices), 2)}')
 
 '''
 Find the median value of the homes sold in April 
 '''
-print(f'Median House price: {round(median(house_prices), 2)}')
+# print(f'Median House price: {round(median(house_prices), 2)}')
 
 
 '''
 Do you think mean or median is a “better” measure of center for this data? why? 
 '''
-print('median bc of the extreme outlier')
+# print('median bc of the extreme outlier')
+
+
+
+
