@@ -159,7 +159,8 @@ for _ in range(5):
 
 print(sorted(samples))
 
-print(mean(sample_range))
 print()
+print(mean(sample_range))
+
 print(mean(samples))
 print(median(samples))
