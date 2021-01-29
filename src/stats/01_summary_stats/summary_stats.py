@@ -89,11 +89,37 @@ urban = [6.0, 5.0, 11.0, 33.0, 4.0, 5.0, 80.0, 18.0, 35.0, 17.0, 23.0]
 farmhouse = [4.0, 14.0, 11.0, 9.0, 9.0, 8.0, 4.0, 20.0, 5.0, 8.9, 21.0, 9.2, 3.0, 2.0, 0.3]
 
 
-print(sorted(urban))
-print(sorted(farmhouse))
-print()
-print(f'Sample Median Urban: {round(median(urban), 1)}')
-print(f'Sample Median Farmhouse: {round(median(farmhouse), 1)}')
-print()
-print(f'Sample Mean Urban: {round(mean(urban), 1)}')
-print(f'Sample Mean Farmhouse: {round(mean(farmhouse), 1)}')
+# print(sorted(urban))
+# print(sorted(farmhouse))
+# print()
+# print(f'Sample Median Urban: {round(median(urban), 1)}')
+# print(f'Sample Median Farmhouse: {round(median(farmhouse), 1)}')
+# print()
+# print(f'Sample Mean Urban: {round(mean(urban), 1)}')
+# print(f'Sample Mean Farmhouse: {round(mean(farmhouse), 1)}')
+
+
+'''
+An issue of a recent magazine reported the following home sale amounts for a sample of 
+homes in Alameda, CA, all of which were sold in the previous month (1000s of $):
+{ 590, 615, 575, 608, 350, 1285, 408, 540, 555, 679 }
+'''
+
+house_prices = [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+
+print(sorted(house_prices))
+'''
+Find the mean value of the homes sold in April
+'''
+print(f'Mean House price: {round(mean(house_prices), 2)}')
+
+'''
+Find the median value of the homes sold in April 
+'''
+print(f'Mean House price: {round(median(house_prices), 2)}')
+
+
+'''
+Do you think mean or median is a “better” measure of center for this data? why? 
+'''
+print('median bc of the extreme outlier')
