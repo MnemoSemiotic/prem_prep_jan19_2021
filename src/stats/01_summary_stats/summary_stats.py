@@ -35,3 +35,10 @@ A. Determine the sample mean for each group.
 '''
 print(f'Sample Mean Urban: {round(mean(urban), 1)}')
 print(f'Sample Mean Farmhouse: {round(mean(farmhouse), 1)}')
+
+'''
+B. Determine the trimmed mean for each group by trimming the smallest and largest value 
+from each group.
+'''
+print(f'Sample Mean Urban: {round(mean(urban, trim_by=1), 1)}')
+print(f'Sample Mean Farmhouse: {round(mean(farmhouse, trim_by=1), 1)}')
