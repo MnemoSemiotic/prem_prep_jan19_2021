@@ -44,3 +44,11 @@ from each group.
 # print(f'Sample Trimmed Mean Farmhouse: {round(mean(farmhouse, trim_by=1), 1)}')
 
 
+
+
+'''
+Median
+'''
+
+odd_list = [13, 18, 13, 14, 13, 16, 14, 21, 13]
+even_list = [15, 14, 10, 8, 12, 8, 16, 13]
