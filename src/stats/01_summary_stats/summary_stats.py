@@ -157,10 +157,10 @@ samples = []
 for _ in range(5):
     samples.append(choice(sample_range))
 
-print(sorted(samples))
+print(mean(sample_range))
 
 print()
-print(mean(sample_range))
+print(sorted(samples))
 
 print(mean(samples))
 print(median(samples))
