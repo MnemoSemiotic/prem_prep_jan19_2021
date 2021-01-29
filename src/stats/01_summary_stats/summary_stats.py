@@ -116,7 +116,7 @@ print(f'Mean House price: {round(mean(house_prices), 2)}')
 '''
 Find the median value of the homes sold in April 
 '''
-print(f'Mean House price: {round(median(house_prices), 2)}')
+print(f'Median House price: {round(median(house_prices), 2)}')
 
 
 '''
