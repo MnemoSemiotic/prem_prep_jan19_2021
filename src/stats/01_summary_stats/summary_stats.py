@@ -33,4 +33,5 @@ farmhouse = [4.0, 14.0, 11.0, 9.0, 9.0, 8.0, 4.0, 20.0, 5.0, 8.9, 21.0, 9.2, 3.0
 '''
 A. Determine the sample mean for each group.
 '''
-print(f'Sample Mean Urban: {mean(urban)}')
+print(f'Sample Mean Urban: {round(mean(urban), 1)}')
+print(f'Sample Mean Farmhouse: {round(mean(farmhouse), 1)}')
