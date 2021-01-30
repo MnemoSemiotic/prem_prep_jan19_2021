@@ -200,7 +200,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Day 8 Lecture](https://youtu.be/dQwgoOT2aAw)
 
 ---------------------------------------------------------
 ### Day 9: Saturday Jan 30 (11am - 1pm Pacific)
