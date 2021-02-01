@@ -247,7 +247,7 @@
 **Instructor**: Clark Walker
 
 **Slide Deck**: 
-**Review f-strings and `.format()`**
+* **Review f-strings and `.format()`**
 * [Accumulator Review](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/16_accumulator_review.md)
 
 **HW assignment**: N/A
