@@ -239,3 +239,19 @@ def examine_lst(l):
     out_l.append(i) 
     return out_l
 ```
+
+
+---------------------------------------------------------------
+# Dictionary Accumulators
+* Sometimes, you will need an accumulator that is an dictionary.
+* The accumulator either create a new key value pair or it will add something to the value of an already existing key value pair. 
+* Syntax for a dictionary counter: 
+
+```python
+accumulator = {}
+for element in some_list:
+	if element in accumulator.keys():
+		accumulator[element] += 1
+	else:
+		accumulator[element] = 1
+```
