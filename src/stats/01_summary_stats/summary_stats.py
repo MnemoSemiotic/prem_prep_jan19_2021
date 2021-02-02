@@ -232,12 +232,14 @@ def detect_outliers(lst, outlier_coef=1.5):
         if num < q1 - outlier_coef*iqr_:
             outliers.append(num)
 
-        if num > q3 3 outlier_coef*iqr_:
+        if num > q3 + outlier_coef*iqr_:
             outliers.append(num)
 
     return outliers
 
 
 test_outliers = list(range(0,100))
-test_outliers(10_000_000)
-test_outliers(-10_000)
+test_outliers.append(10_000_000)
+test_outliers.append(-10_000)
+
+print(detect_outliers(test_outliers, outlier_coef=1.5))
