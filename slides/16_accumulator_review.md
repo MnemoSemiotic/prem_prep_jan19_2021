@@ -210,3 +210,32 @@ def words_start_with(letters, string):
             lst.append(word) 
     return lst
 ```
+
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Write a function called `examine_lst()` that takes a list of various values as an argument, then returns a new list of those values processed by these rules:
+* Accumulate elements that are not integers
+    * If an element is a float, change it to a string
+    * If an element is a string, get the length of that string
+* Test String:
+
+```python
+l1 = [192, 504, 23.11, 3.14, 'table', 'chair', 55, 1039.1, 0, 0.0, '0.0', 'python']
+```
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def examine_lst(l): 
+    out_l = [] 
+    for i in l: 
+       if type(i) == float: 
+            out_l.append(str(i)) 
+       elif type(i) == str: 
+            out_l.append(len(i))
+		 elif type(i) != int:
+    out_l.append(i) 
+    return out_l
+```
