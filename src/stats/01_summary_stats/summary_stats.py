@@ -154,7 +154,7 @@ sample_range = list(range(0, 99+1))
 
 samples = []
 
-for _ in range(5):
+for _ in range(3):
     samples.append(choice(sample_range))
 
 print(mean(sample_range))
