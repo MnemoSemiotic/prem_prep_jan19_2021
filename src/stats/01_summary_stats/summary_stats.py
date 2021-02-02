@@ -172,4 +172,6 @@ Five Number Summary
 '''
 
 def five_number_summary(lst):
-    pass
+    min_ = min(lst)
+    max_ = max(lst)
+    med = median(lst)
