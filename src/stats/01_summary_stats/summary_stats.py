@@ -198,5 +198,8 @@ b = [6,1,4,51,7,16,10,14,46,22,24,56,48,54]
 # print(sorted(a))
 # print(five_number_summary(a))
 
-print(sorted(b))
-print(five_number_summary(b))
+# print(sorted(b))
+# print(five_number_summary(b))
+
+
+
