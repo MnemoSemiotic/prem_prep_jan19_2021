@@ -134,3 +134,20 @@ Pass in this string:
 ```python
 string = "It’s a beautiful day in the neighborhood, A beautiful day for a neighbor, could you be mine? Would you be mine?"
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def non_val(s):
+	new_s = ''
+	for char in s:
+		if char.lower() in ['a', 'e', 'i', 'o', 'u']:
+			continue
+		else:
+			new_s += char
+    return new_s
+```
