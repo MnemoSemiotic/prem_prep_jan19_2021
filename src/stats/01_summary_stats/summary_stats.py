@@ -265,3 +265,6 @@ def remove_outliers(lst, outlier_coef=1.5):
 # print(remove_outliers(house_prices))
 
 
+
+def variance(lst, sample=True):
+    pass
