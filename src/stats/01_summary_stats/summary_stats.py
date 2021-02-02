@@ -274,7 +274,15 @@ def variance(lst, sample=True):
     for x_i in lst:
         total += (x_i - x_bar)**2
 
-    if sample:
-        return total / (len(lst) - 1)
-    else:
-        return total / len(lst)
+    return total / (len(lst) - sample)
+
+    # if sample:
+    #     return total / (len(lst) - 1)
+    # else:
+    #     return total / len(lst)
+
+
+house_prices =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+
+print(sorted(house_prices))
+print(variance(house_prices, sample=True))
