@@ -223,4 +223,21 @@ b = list(range(0, 100+1, 5))
 
 
 def detect_outliers(lst, outlier_coef=1.5):
-    pass
+    _, q1, _, q3, _ = five_number_summary(lst)
+    iqr_ = iqr(lst)
+
+    outliers = []
+
+    for num in lst:
+        if num < q1 - outlier_coef*iqr_:
+            outliers.append(num)
+
+        if num > q3 3 outlier_coef*iqr_:
+            outliers.append(num)
+
+    return outliers
+
+
+test_outliers = list(range(0,100))
+test_outliers(10_000_000)
+test_outliers(-10_000)
