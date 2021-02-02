@@ -560,3 +560,16 @@ We have parallel dictionaries (like parallel lists) so our keys can be used to a
 
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
+
+#### Let’s say we rolled a `5` after rolling a `1`
+
+```python
+roll = random.randint(1, 6)
+       counts[roll] += 1
+       total_rolls += 1
+counts = {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0}
+total_rolls += 1
+for k, v in probs.items():
+	probs[k] = counts[k]/total_rolls
+probs = {1: 1/2, 2: 0/2, 3: 0/2, 4: 0/2, 5: 1/2, 6: 0/2}
+```
