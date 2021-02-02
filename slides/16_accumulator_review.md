@@ -173,3 +173,40 @@ def collect_evens(lst):
 			s += str(i)
 	return s
 ```
+
+
+---------------------------------------------------------------
+# `list` Accumulators
+* Sometimes, you will need an accumulator that is an empty list.
+* As the for loop gets evaluated, the accumulator will be appended with new values. 
+* Syntax: 
+
+```python
+accumulator = [ ]
+for element in some_list:
+	# ...some code...
+	accumulator.append(some_value)
+```
+
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Write a function called `words_start_with()` with two parameters, a list of letters and a string. The function should return a new list filled with words from the string that start with the letters in the list of letters.
+Test with this string:
+
+```python
+str1 = "It's a beautiful day in the neighborhood, A beautiful day for a neighbor, could you be mine? Would you be mine?"
+```
+
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+
+```python
+def words_start_with(letters, string): 
+    lst = []
+    for word in string.split(): 
+        if word[0].lower() in letters: 
+            lst.append(word) 
+    return lst
+```
