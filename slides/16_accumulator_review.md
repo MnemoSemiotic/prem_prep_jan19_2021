@@ -151,3 +151,25 @@ def non_val(s):
 			new_s += char
     return new_s
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Write a function called `collect_evens()` that takes a list of integers. The function should return a string that accumulates the even numbers into a string.
+* Example: `collect_evens([1, 2, 3, 4])` -> `'24'`
+
+
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION
+
+```python
+def collect_evens(lst):
+	s = ''
+	for i in l:
+		if i % 2 == 0:
+			s += str(i)
+	return s
+```
