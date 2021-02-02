@@ -155,7 +155,7 @@ print(iqr(b))
 # BREAKOUT (4 Minutes)
 Code the `detect_outliers()` function together
 * BONUS: Include a variable multiplier for the IQR, so that you can set outliers different from $1.5 \times IQR$, such as $1.75 \times IQR$, etc.
-
+* return outlier in a list, empty list if no outliers are detected.
 
 ```python
 def detect_outliers(lst, outlier_coef=1.5):
