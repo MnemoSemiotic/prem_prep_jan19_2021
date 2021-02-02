@@ -573,3 +573,22 @@ for k, v in probs.items():
 	probs[k] = counts[k]/total_rolls
 probs = {1: 1/2, 2: 0/2, 3: 0/2, 4: 0/2, 5: 1/2, 6: 0/2}
 ```
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+Now let’s put it all together in a function!
+
+```python
+def roll_dice(n_rolls):
+   counts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+   probs = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+   total_rolls = 0
+
+   for i in range(1, n_rolls+1):
+       roll = random.randint(1, 6)
+       counts[roll] += 1
+       total_rolls += 1
+       for k, v in probs.items():
+           probs[k] = counts[k]/total_rolls
+   return counts, probs
+```
