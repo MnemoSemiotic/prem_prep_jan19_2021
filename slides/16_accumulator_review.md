@@ -255,3 +255,58 @@ for element in some_list:
 	else:
 		accumulator[element] = 1
 ```
+
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+Write a function that will:
+* For any given string, return a dictionary that gives us the number of vowels, the number of non vowels, the number of non-alpha characters.
+
+## Let’s do this together!
+
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+
+**Step 1:**
+We need to first create a dictionary that we can store all our information in.
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}      
+```
+
+We can fill our dictionary like this because we know exactly what the question is asking and because we want counts, we can use integer accumulators for our values using addition.
+
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+```
+
+We now need to iterate over our string and identify each of the three types of characters we are interested.
+
+How can we identify vowels in a string?
+
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+```
+
+We now need to iterate over our string and identify each of the three types of characters we are interested.
+
+How can we identify vowels in a string?
+
+```python
+if char.lower() in ['a', 'e', 'i', 'o', 'u']:
+    # do something
+```
