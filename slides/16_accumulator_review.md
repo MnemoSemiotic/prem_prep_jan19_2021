@@ -106,3 +106,31 @@ def accum_nums(n):
             acc /=5
     return acc 
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Accumulators using a `string`
+* We can concatenate a string by using a `string` type accumulator
+
+```python
+str1 = ''
+for s in string:
+    str1 += s
+```
+
+* We can concatenate the string by letter, by word, or by some other separator within our string
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (4 minutes)
+Write a function called `build_non_vowel_str()` that takes in a string and returns a string accumulator that accumulates all non-vowels.
+
+Pass in this string:
+
+```python
+string = "It’s a beautiful day in the neighborhood, A beautiful day for a neighbor, could you be mine? Would you be mine?"
+```
