@@ -574,6 +574,9 @@ for k, v in probs.items():
 probs = {1: 1/2, 2: 0/2, 3: 0/2, 4: 0/2, 5: 1/2, 6: 0/2}
 ```
 
+
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
 Now let’s put it all together in a function!
