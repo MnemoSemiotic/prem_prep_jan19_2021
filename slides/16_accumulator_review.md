@@ -161,6 +161,7 @@ Write a function called `collect_evens()` that takes a list of integers. The fun
 * Example: `collect_evens([1, 2, 3, 4])` -> `'24'`
 
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -174,6 +175,7 @@ def collect_evens(lst):
 	return s
 ```
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # `list` Accumulators
@@ -188,6 +190,7 @@ for element in some_list:
 	accumulator.append(some_value)
 ```
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT (4 minutes)
@@ -198,6 +201,7 @@ Test with this string:
 str1 = "It's a beautiful day in the neighborhood, A beautiful day for a neighbor, could you be mine? Would you be mine?"
 ```
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT (4 minutes)
@@ -211,6 +215,7 @@ def words_start_with(letters, string):
     return lst
 ```
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT (4 minutes)
@@ -223,6 +228,8 @@ Write a function called `examine_lst()` that takes a list of various values as a
 ```python
 l1 = [192, 504, 23.11, 3.14, 'table', 'chair', 55, 1039.1, 0, 0.0, '0.0', 'python']
 ```
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # BREAKOUT SOLUTION
@@ -240,6 +247,7 @@ def examine_lst(l):
     return out_l
 ```
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Dictionary Accumulators
@@ -256,6 +264,7 @@ for element in some_list:
 		accumulator[element] = 1
 ```
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along ...
@@ -264,6 +273,8 @@ Write a function that will:
 
 ## Let’s do this together!
 
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along ...
@@ -278,6 +289,7 @@ d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}
 
 We can fill our dictionary like this because we know exactly what the question is asking and because we want counts, we can use integer accumulators for our values using addition.
 
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along ...
@@ -292,6 +304,8 @@ We now need to iterate over our string and identify each of the three types of c
 
 How can we identify vowels in a string?
 
+
+<br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along ...
@@ -310,3 +324,239 @@ How can we identify vowels in a string?
 if char.lower() in ['a', 'e', 'i', 'o', 'u']:
     # do something
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+```
+
+We now need to iterate over our string and identify each of the three types of characters we are interested.
+
+How can we identify non-alphas in a string?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+```
+
+We now need to iterate over our string and identify each of the three types of characters we are interested.
+
+How can we identify non-alphas in a string?
+
+```python
+elif not char.isalpha():
+    # do something
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+```
+
+We now need to iterate over our string and identify each of the three types of characters we are interested in.
+
+Based on this, we can use just a regular else statement to cover all other characters
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along ...
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+``` 
+
+Let’s put it all together - you now fill in the blanks of how to use our dictionary to accumulate here
+
+```python
+if char in ['a', 'e', 'i', 'o', 'u']:
+	pass
+elif not char.isalpha():
+	pass
+else:
+	pass
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along END
+
+**Step 2:**
+
+```python
+d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
+```
+
+Let’s put it all together - you now fill in the blanks of how to use our dictionary to accumulate here
+
+```python
+if char in ['a', 'e', 'i', 'o', 'u']:
+	d['vowels'] += 1
+elif not char.isalpha():
+	d['nonalpha'] += 1 
+else:
+	d['consonants'] += 1
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+Write a function that take in an integer and will roll a 6-sided dice randomly for that number of times and will update the proportions of each number occurring and update the counts also 
+* Have your function return:
+    * A dictionary of counts
+    * A dictionary of dice proportions
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+What is the first thing we need to do?
+Assume we have already 
+
+```python
+import random
+```
+
+What do we need to create?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+What is the first thing we need to do?
+Assume we have already 
+
+```python
+import random
+```
+
+What do we need to create?
+
+```python
+counts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+probs = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+total_rolls = 0
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+What is the first thing we need to do?
+Assume we have already 
+
+```python
+import random
+```
+
+Now we can iterate over our integer we called in our function and call `random.randint(1,6)` which will return a number randomly 1-6
+
+Based on what that roll is we can update our count dictionary and probability dictionary
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+What is the first thing we need to do?
+Assume we have already 
+
+```python
+import random
+```
+
+Now we can iterate over our integer we called in our function and call `random.randint(1,6)` which will return a number randomly 1-6
+
+Based on what that roll is we can update our count dictionary and probability dictionary
+
+```python
+roll = random.randint(1, 6)
+counts[roll] += 1
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+What is the first thing we need to do?
+Assume we have already 
+
+```python
+import random
+```
+
+Now we can iterate over our integer we called in our function and call `random.randint(1,6)` which will return a number randomly 1-6
+
+Based on what that roll is we can update our count dictionary and probability dictionary.
+
+How do we update the probability dictionary?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+Well we know we need to update every value in our probs dictionary, what does that lead you to want to use when we think about iterating over a dictionary?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+Well we know we need to update every value in our probs dictionary, what does that lead you to want to use when we think about iterating over a dictionary?
+
+```python
+for k, v in probs.items():
+```
+
+So now how do we update our probs where the numerator will be updated for the value that the dice rolled and the denominators will be updated for all of our key:value pairs?
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
+Well we know we need to update every value in our probs dictionary, what does that lead you to want to use when we think about iterating over a dictionary?
+
+```python
+for k, v in probs.items():
+	probs[k] = counts[k]/total_rolls
+```
+
+We have parallel dictionaries (like parallel lists) so our keys can be used to access values from both dictionaries!
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Dictionary Accumulators Code Along #2 ...
