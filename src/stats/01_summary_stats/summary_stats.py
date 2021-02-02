@@ -260,6 +260,8 @@ def remove_outliers(lst, outlier_coef=1.5):
 
     return output
 
-house_prices =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+# house_prices =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
 
-print(remove_outliers(house_prices))
+# print(remove_outliers(house_prices))
+
+
