@@ -253,6 +253,7 @@ D. What is the best measure of centrality for this data?
 ---------------------------------------------------------------
 # BREAKOUT (4 minutes)
 * Write a function called `remove_outliers` that takes a `list` as input and returns a new `list` with all values that are not outliers
+* return outlier in a list, empty list if no outliers are detected.
 
 
 <br><br><br><br><br><br><br><br><br>
