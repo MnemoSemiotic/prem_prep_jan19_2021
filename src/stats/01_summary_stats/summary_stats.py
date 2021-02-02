@@ -290,6 +290,9 @@ house_prices =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
 def stdev(lst, sample=True):
     return variance(lst, sample)**(1/2)
 
-print(sorted(house_prices))
-print(mean(house_prices))
-print(stdev(house_prices, sample=True))
+# print(sorted(house_prices))
+# print(mean(house_prices))
+# print(stdev(house_prices, sample=True))
+
+
+
