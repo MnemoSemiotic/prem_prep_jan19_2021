@@ -34,3 +34,15 @@ var1, var2 = 1, 3
 
 print('{} out of {} programmers prefer the format method'.format(var1, var2))
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Accumulators
+* An accumulator can be thought of as a running total that is held in a variable	
+* Accumulator Pattern: 
+    * Initialize the accumulator variable
+    * Repeat:
+        * Modify the accumulator variable
+    * When the above loop terminates, the accumulator will have the correct value. 
