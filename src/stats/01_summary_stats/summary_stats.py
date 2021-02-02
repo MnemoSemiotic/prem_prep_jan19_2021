@@ -267,4 +267,14 @@ def remove_outliers(lst, outlier_coef=1.5):
 
 
 def variance(lst, sample=True):
-    pass
+    x_bar = mean(lst)
+
+    total = 0.0
+
+    for x_i in lst:
+        total += (x_i - x_bar)**2
+
+    if sample:
+        return total / (len(lst) - 1)
+    else:
+        return total / len(lst)
