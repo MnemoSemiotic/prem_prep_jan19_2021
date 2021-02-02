@@ -245,3 +245,21 @@ def detect_outliers(lst, outlier_coef=1.5):
 # print(detect_outliers(test_outliers, outlier_coef=1.5))
 
 
+'''
+
+'''
+
+def remove_outliers(lst, outlier_coef=1.5):
+    outliers = detect_outliers(lst, outlier_coef)
+
+    output = []
+
+    for num in lst:
+        if num not in outliers:
+            output.append(num)
+
+    return output
+
+house_prices =  [590, 615, 575, 608, 350, 1285, 408, 540, 555, 679]
+
+print(remove_outliers(house_prices))
