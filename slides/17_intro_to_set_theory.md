@@ -1,8 +1,9 @@
 # Set Theory
 * Random Experiment, Sample Space, Events
-* Unions
-* Intersections
-* Complement
+* Set Operations
+    * Unions
+    * Intersections
+    * Complement
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -59,4 +60,5 @@ NOTE: Events are commonly represented by capital letters, starting at the beginn
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# Subsets aka Events
+# Venn Diagrams
+Venn Diagrams are often used to visualize sets, set operations, and probabilities.
