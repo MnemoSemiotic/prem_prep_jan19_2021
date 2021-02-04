@@ -1,14 +1,14 @@
 
 def main():
     print("\n" * 20)
-    # import day_1_lib
-    # import day_2_lib
-    # import day_3_lib
-    # import day_4_lib
-    # import day_5_lib
-    # import day_6_lib
-    # import day_7_lib
-    # import day_8_lib
+    # import day_01_lib
+    # import day_02_lib
+    # import day_03_lib
+    # import day_04_lib
+    # import day_05_lib
+    # import day_06_lib
+    # import day_07_lib
+    # import day_08_lib
     import day_9_lib
 
 
