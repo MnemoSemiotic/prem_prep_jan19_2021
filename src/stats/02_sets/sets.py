@@ -147,4 +147,19 @@ def difference(set1, set2):
 
 # print(difference(list1, list2))
 # print(difference(list2, list1))
-    
+
+
+
+'''
+Complement
+'''
+
+list1 = ['astronomy', 'nanoscience', 'datascience', 'biochemistry', 'sociology', 'chemistry', 'botony']
+list2 = ['psychology', 'chemistry', 'botony', 'bioengineering', 'robotics', 'computer science',]
+list3 = ['computer science', 'nanoscience', 'datascience', 'psychology', 'botony']
+
+extra_stuff = ['radiology', 'astrophysics']
+
+sample_space = union_mult_sets(list1, list2, list3, extra_stuff)
+
+print(sample_space)
