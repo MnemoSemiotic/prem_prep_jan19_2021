@@ -40,8 +40,8 @@ print('{} out of {} programmers prefer the format method'.format(var1, var2))
 
 ---------------------------------------------------------------
 # Accumulators
-* An accumulator can be thought of as a running total that is held in a variable	
-* Accumulator Pattern: 
+* An accumulator can be thought of as a running total that is held in a variable
+* Accumulator Pattern:
 
 ```
 Initialize the accumulator variable
@@ -49,7 +49,7 @@ Repeat:
     Modify the accumulator variable
 ```
 
-* When the above loop terminates, the accumulator will have the correct value. 
+* When the above loop terminates, the accumulator will have the correct value.
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -87,24 +87,24 @@ Write a function called `accum_nums` that takes in an integer `n` as an argument
 # BREAKOUT SOLUTION
 
 ```python
-def accum_nums(n): 
+def accum_nums(n):
     acc = 1
-    for num in range(1, n+1): 
-        if num % 4 == 0 and num % 5 == 0 and num % 3 == 0: 
-            continue 
-        if num % 4 == 0 and num % 3 == 0: 
-            acc -= 12 
-        if num % 3 == 0 and num % 5 == 0: 
-            acc //= 15 
-        if num % 4 == 0 and num % 5 == 0: 
-            acc %= 20 
-        if num % 3 == 0: 
-           acc += 3 
-        if num % 4 == 0: 
-            acc *= 4 
-        if num % 5 == 0: 
+    for num in range(1, n+1):
+        if num % 4 == 0 and num % 5 == 0 and num % 3 == 0:
+            continue
+        if num % 4 == 0 and num % 3 == 0:
+            acc -= 12
+        if num % 3 == 0 and num % 5 == 0:
+            acc //= 15
+        if num % 4 == 0 and num % 5 == 0:
+            acc %= 20
+        if num % 3 == 0:
+           acc += 3
+        if num % 4 == 0:
+            acc *= 4
+        if num % 5 == 0:
             acc /=5
-    return acc 
+    return acc
 ```
 
 
@@ -180,8 +180,8 @@ def collect_evens(lst):
 ---------------------------------------------------------------
 # `list` Accumulators
 * Sometimes, you will need an accumulator that is an empty list.
-* As the for loop gets evaluated, the accumulator will be appended with new values. 
-* Syntax: 
+* As the for loop gets evaluated, the accumulator will be appended with new values.
+* Syntax:
 
 ```python
 accumulator = [ ]
@@ -207,11 +207,11 @@ str1 = "It's a beautiful day in the neighborhood, A beautiful day for a neighbor
 # BREAKOUT (4 minutes)
 
 ```python
-def words_start_with(letters, string): 
+def words_start_with(letters, string):
     lst = []
-    for word in string.split(): 
-        if word[0].lower() in letters: 
-            lst.append(word) 
+    for word in string.split():
+        if word[0].lower() in letters:
+            lst.append(word)
     return lst
 ```
 
@@ -235,15 +235,15 @@ l1 = [192, 504, 23.11, 3.14, 'table', 'chair', 55, 1039.1, 0, 0.0, '0.0', 'pytho
 # BREAKOUT SOLUTION
 
 ```python
-def examine_lst(l): 
-    out_l = [] 
-    for i in l: 
-       if type(i) == float: 
-            out_l.append(str(i)) 
-       elif type(i) == str: 
+def examine_lst(l):
+    out_l = []
+    for i in l:
+        if type(i) == float:
+            out_l.append(str(i))
+        elif type(i) == str:
             out_l.append(len(i))
-		 elif type(i) != int:
-    out_l.append(i) 
+	    elif type(i) != int:
+            out_l.append(i)
     return out_l
 ```
 
@@ -251,9 +251,9 @@ def examine_lst(l):
 
 ---------------------------------------------------------------
 # Dictionary Accumulators
-* Sometimes, you will need an accumulator that is an dictionary.
-* The accumulator either create a new key value pair or it will add something to the value of an already existing key value pair. 
-* Syntax for a dictionary counter: 
+* Sometimes, you will need an accumulator that is a dictionary.
+* The accumulator either create a new key value pair or it will add something to the value of an already existing key value pair.
+* Syntax for a dictionary counter:
 
 ```python
 accumulator = {}
@@ -387,7 +387,7 @@ Based on this, we can use just a regular else statement to cover all other chara
 
 ```python
 d = {'vowels': 0, 'consonants': 0, 'nonalpha': 0}     
-``` 
+```
 
 Let’s put it all together - you now fill in the blanks of how to use our dictionary to accumulate here
 
@@ -418,7 +418,7 @@ Let’s put it all together - you now fill in the blanks of how to use our dicti
 if char in ['a', 'e', 'i', 'o', 'u']:
 	d['vowels'] += 1
 elif not char.isalpha():
-	d['nonalpha'] += 1 
+	d['nonalpha'] += 1
 else:
 	d['consonants'] += 1
 ```
@@ -427,7 +427,7 @@ else:
 
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
-Write a function that take in an integer and will roll a 6-sided dice randomly for that number of times and will update the proportions of each number occurring and update the counts also 
+Write a function that take in an integer and will roll a 6-sided dice randomly for that number of times and will update the proportions of each number occurring and update the counts also
 * Have your function return:
     * A dictionary of counts
     * A dictionary of dice proportions
@@ -438,7 +438,7 @@ Write a function that take in an integer and will roll a 6-sided dice randomly f
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
 What is the first thing we need to do?
-Assume we have already 
+Assume we have already
 
 ```python
 import random
@@ -452,7 +452,7 @@ What do we need to create?
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
 What is the first thing we need to do?
-Assume we have already 
+Assume we have already
 
 ```python
 import random
@@ -472,7 +472,7 @@ total_rolls = 0
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
 What is the first thing we need to do?
-Assume we have already 
+Assume we have already
 
 ```python
 import random
@@ -488,7 +488,7 @@ Based on what that roll is we can update our count dictionary and probability di
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
 What is the first thing we need to do?
-Assume we have already 
+Assume we have already
 
 ```python
 import random
@@ -509,7 +509,7 @@ counts[roll] += 1
 ---------------------------------------------------------------
 # Dictionary Accumulators Code Along #2 ...
 What is the first thing we need to do?
-Assume we have already 
+Assume we have already
 
 ```python
 import random
