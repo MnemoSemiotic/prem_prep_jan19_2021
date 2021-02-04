@@ -239,7 +239,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 10](https://youtu.be/T43iyEB8sOg)
 
 ---------------------------------------------------------
 ### Day 11: Tuesday Feb 2 (6pm - 8pm Pacific)
@@ -254,7 +254,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 11](https://youtu.be/ytZNBrRGR5s)
 
 ---------------------------------------------------------
 ### Day 12: Wednesday Feb 3 (6pm - 8pm Pacific)
