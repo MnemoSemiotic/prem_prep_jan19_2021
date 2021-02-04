@@ -172,3 +172,37 @@ def complement(sample_space, set1):
 # print(complement(sample_space, list1))
 
 
+
+'''
+Breakout
+
+Which of the following would not be considered a random experiment? Why?
+
+A. The selection of a numbered ball from a bucket of numbered balls (1-50)
+B. The amount of time needed to wait for a taxi cab
+C. Randomly selecting a colored marble from an urn full of numbered balls
+'''
+
+
+
+'''
+Write out the sample space for the random experiment which is defined as sequentially completing the following steps:
+
+1. First, rolling a four-sided die
+2. Then, flipping a coin
+3. And finally, flipping the coin a second time
+
+'''
+
+
+
+
+'''
+
+
+List the sample points in the following events:
+A = The event in which the die roll results in exactly one pip showing
+B = The event in which at least one of the coin flips results in heads
+
+List the sample points which are in the Union of events A and B from above
+'''
