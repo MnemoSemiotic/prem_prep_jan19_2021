@@ -201,8 +201,10 @@ for die_roll in range(1, 4+1):
         for flip2 in ['H', 'T']:
             outcomes.append([die_roll, flip1, flip2])
 
-for outcome in outcomes:
-    print(outcome)
+# for outcome in outcomes:
+#     print(outcome)
+
+
 
 
 
