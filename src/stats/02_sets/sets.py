@@ -99,3 +99,10 @@ def union_mult_sets(*mult_sets):
 # print(list1, list2, list3)
 # print(union_mult_sets(list1, list2, list3))
 
+
+'''
+Intersection
+'''
+
+def intersection(set1, set2):
+    pass
