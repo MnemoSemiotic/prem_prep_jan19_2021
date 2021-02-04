@@ -21,7 +21,7 @@ def twenty_flips():
 
     return flips
 
-print(twenty_flips().count('H'))
+# print(twenty_flips().count('H'))
 
 
 
@@ -52,3 +52,5 @@ def dedupe_in_order(lst):
 
 # print(lst)
 # print(dedupe_in_order(lst))
+
+
