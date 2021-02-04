@@ -145,6 +145,6 @@ def difference(set1, set2):
             set_difference.append(item)
     return set_difference
 
-print(difference(list1, list2))
-print(difference(list2, list1))
+# print(difference(list1, list2))
+# print(difference(list2, list1))
     
