@@ -57,6 +57,15 @@ def dedupe_in_order(lst):
 '''
 Set Union
 '''
+list1 = ['astronomy', 'nanoscience', 'datascience', 'biochemistry', 'sociology', 'chemistry', 'botony']
+list2 = ['psychology', 'chemistry', 'botony', 'bioengineering', 'robotics', 'computer science',]
+list3 = ['computer science', 'nanoscience', 'datascience', 'psychology']
 
-def union(lst1, lst2):
-    pass
+
+def union(set1, set2):
+    set_union = set1.copy()
+
+    for item in set2:
+        if item not in set_union:
+            set_union.append(item)
+    return set_union
