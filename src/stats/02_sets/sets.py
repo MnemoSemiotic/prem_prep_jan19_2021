@@ -112,4 +112,4 @@ def intersection(set1, set2):
             set_intersect.append(item)
     return set_intersect
 
-print(intersection(set1, set2))
+# print(intersection(list1, list2))
