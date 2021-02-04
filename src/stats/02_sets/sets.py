@@ -169,4 +169,6 @@ sample_space = union_mult_sets(list1, list2, list3, extra_stuff)
 def complement(sample_space, set1):
     return difference(sample_space, set1)
 
-print(complement(sample_space, list1))
+# print(complement(sample_space, list1))
+
+
