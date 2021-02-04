@@ -234,5 +234,12 @@ for outcome in outcomes:
 List the sample points which are in the Union of events A and B from above
 '''
 
-for outcome in union(A, B):
-    print(outcome)
+# for outcome in union(A, B):
+#     print(outcome)
+
+
+'''
+In the union of A and B, what elements are not present that are present in the sample space?
+'''
+
+# print(difference(outcomes, union(A, B)))
