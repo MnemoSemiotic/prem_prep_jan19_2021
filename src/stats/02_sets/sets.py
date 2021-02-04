@@ -1,3 +1,24 @@
+'''
+Random Experiment
+'''
+
+from random import choice
+
+def coin_flip():
+    return choice(['H', 'T'])
+
+# if the experiment is the outcome of a single coin flip
+{'H', 'T'}
+
+
+
+
+
+
+
+
+
+
 
 '''
 list/set trick
