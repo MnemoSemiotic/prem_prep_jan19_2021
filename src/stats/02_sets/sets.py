@@ -54,3 +54,9 @@ def dedupe_in_order(lst):
 # print(dedupe_in_order(lst))
 
 
+'''
+Set Union
+'''
+
+def union(lst1, lst2):
+    pass
