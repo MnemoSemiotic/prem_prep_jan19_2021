@@ -215,8 +215,8 @@ for outcome in outcomes:
     if outcome[0] == 1:
         A.append(outcome)
 
-for outcome in A:
-    print(outcome)
+# for outcome in A:
+#     print(outcome)
 
 '''
 B = The event in which at least one of the coin flips results in heads
