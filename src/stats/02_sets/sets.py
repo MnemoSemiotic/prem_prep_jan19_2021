@@ -10,8 +10,18 @@ def coin_flip():
 # if the experiment is the outcome of a single coin flip
 {'H', 'T'}
 
+# What if our random experiment is in regards 
+# to the count of Heads in 20 coin flips?
 
+def twenty_flips():
+    flips = []
 
+    for _ in range(20):
+        flips.append(coin_flip())
+
+    return flips
+
+print(twenty_flips().count('H'))
 
 
 
