@@ -113,3 +113,21 @@ def intersection(set1, set2):
     return set_intersect
 
 # print(intersection(list1, list2))
+
+
+def intersection_mult(*mult_sets):
+    set_intersect = []
+
+    if len(mult_sets) > 1 and len(mult_sets[0]) > 0:
+        for item in mult_sets[0]:
+            is_member = True
+
+            for set_ in mult_sets[1:]:
+                if item not in set_:
+                    is_member = False
+                    break
+            if is_member:
+                set_intersect.append(item)
+    return set_intersect
+        
+print(intersection_mult(list1, list2, list3))
