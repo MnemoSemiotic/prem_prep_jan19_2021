@@ -163,3 +163,8 @@ extra_stuff = ['radiology', 'astrophysics']
 sample_space = union_mult_sets(list1, list2, list3, extra_stuff)
 
 print(sample_space)
+
+['astronomy', 'nanoscience', 'datascience', 'biochemistry', 'sociology', 'chemistry', 'botony', 'psychology', 'bioengineering', 'robotics', 'computer science', 'radiology', 'astrophysics']
+
+def complement(sample_space, set1):
+    pass
