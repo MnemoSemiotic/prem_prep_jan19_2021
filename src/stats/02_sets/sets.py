@@ -133,3 +133,18 @@ def intersection_mult(*mult_sets):
 # print(intersection_mult(list1, list2, list3))
 
 
+'''
+Set Difference
+'''
+
+def difference(set1, set2):
+    set_difference = []
+
+    for item in set1:
+        if item not in set2:
+            set_difference.append(item)
+    return set_difference
+
+print(difference(list1, list2))
+print(difference(list2, list1))
+    
