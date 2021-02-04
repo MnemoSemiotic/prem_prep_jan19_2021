@@ -227,12 +227,12 @@ for outcome in outcomes:
     if outcome.count('H') >= 1:
         B.append(outcome)
 
-for outcome in B:
-    print(outcome)
-
-
-
+# for outcome in B:
+#     print(outcome)
 
 '''
 List the sample points which are in the Union of events A and B from above
 '''
+
+for outcome in union(A, B):
+    print(outcome)
