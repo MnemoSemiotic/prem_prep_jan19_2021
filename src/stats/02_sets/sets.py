@@ -86,6 +86,13 @@ def star_args(*args):
 # star_args('hi', 3.1415, 'dog', 'cat', 89702089, True, None, [6,5,4,9,8,7])
 
 
-def union_mult_sets(*args):
-    
+def union_mult_sets(*mult_sets):
+    set_union = []
+
+    for lst in mult_sets:
+        for item in lst:
+            if item not in set_union:
+                set_union.append(item)
+
+    return 
 
