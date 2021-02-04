@@ -19,5 +19,5 @@ def dedupe_in_order(lst):
             deduped.append(element)
     return deduped
 
-print(lst)
-print(dedupe_in_order(lst))
+# print(lst)
+# print(dedupe_in_order(lst))
