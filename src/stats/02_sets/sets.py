@@ -96,7 +96,6 @@ def union_mult_sets(*mult_sets):
 
     return set_union
 
-print(list1, list2, list3)
-print(union_mult_sets(list1, list2, list3))
+# print(list1, list2, list3)
+# print(union_mult_sets(list1, list2, list3))
 
-['astronomy', 'nanoscience', 'datascience', 'biochemistry', 'sociology', 'chemistry', 'botony', 'psychology', 'bioengineering', 'robotics', 'computer science']
