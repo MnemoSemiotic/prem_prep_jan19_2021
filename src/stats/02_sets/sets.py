@@ -204,15 +204,24 @@ for die_roll in range(1, 4+1):
 # for outcome in outcomes:
 #     print(outcome)
 
+'''
+List the sample points in the following events:
+A = The event in which the die roll results in exactly one pip showing
+'''
 
+A = []
 
+for outcome in outcomes:
+    if outcome[0] == 1:
+        A.append(outcome)
 
+for outcome in A:
+    print(outcome)
 
 '''
 
 
-List the sample points in the following events:
-A = The event in which the die roll results in exactly one pip showing
+
 B = The event in which at least one of the coin flips results in heads
 
 List the sample points which are in the Union of events A and B from above
