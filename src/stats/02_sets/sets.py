@@ -194,7 +194,11 @@ Write out the sample space for the random experiment which is defined as sequent
 
 '''
 
+outcomes = []
 
+for die_roll in range(1, 4+1):
+    for flip1 in ['H', 'T']:
+        for flip2 in ['H', 'T']
 
 
 '''
