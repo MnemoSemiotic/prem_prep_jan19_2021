@@ -94,5 +94,7 @@ def union_mult_sets(*mult_sets):
             if item not in set_union:
                 set_union.append(item)
 
-    return 
+    return set_union
 
+print(list1, list2, list3)
+print(union_mult_sets(list1, list2, list3))
