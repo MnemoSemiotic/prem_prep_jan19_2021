@@ -71,3 +71,15 @@ def union(set1, set2):
     return set_union
 
 # print(union(list1, list2))
+
+
+'''
+Star Args (*args)
+'''
+
+def star_args(*args):
+    print(type(args))
+    for item in args:
+        print(item)
+    return None
+
