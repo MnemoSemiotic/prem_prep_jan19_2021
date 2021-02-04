@@ -267,7 +267,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 12](https://youtu.be/ZOXw4kkJA8o)
 
 ---------------------------------------------------------
 ### Day 13: Thursday Feb 4 (6pm - 8pm Pacific)
