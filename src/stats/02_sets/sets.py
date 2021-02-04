@@ -59,7 +59,7 @@ Set Union
 '''
 list1 = ['astronomy', 'nanoscience', 'datascience', 'biochemistry', 'sociology', 'chemistry', 'botony']
 list2 = ['psychology', 'chemistry', 'botony', 'bioengineering', 'robotics', 'computer science',]
-list3 = ['computer science', 'nanoscience', 'datascience', 'psychology']
+list3 = ['computer science', 'nanoscience', 'datascience', 'psychology', 'botony']
 
 
 def union(set1, set2):
@@ -130,4 +130,6 @@ def intersection_mult(*mult_sets):
                 set_intersect.append(item)
     return set_intersect
         
-print(intersection_mult(list1, list2, list3))
+# print(intersection_mult(list1, list2, list3))
+
+
