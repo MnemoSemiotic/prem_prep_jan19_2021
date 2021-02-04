@@ -83,4 +83,6 @@ def star_args(*args):
         print(item)
     return None
 
-star_args('hi', 3.1415, 'dog', 'cat', 89702089, True, None, [6,5,4,9,8,7])
+# star_args('hi', 3.1415, 'dog', 'cat', 89702089, True, None, [6,5,4,9,8,7])
+
+
