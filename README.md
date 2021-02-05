@@ -280,7 +280,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 13](https://youtu.be/-r3esGuwTFU)
 
 ---------------------------------------------------------
 ### Day 14: Saturday Feb 6 (11am - 1pm Pacific)
