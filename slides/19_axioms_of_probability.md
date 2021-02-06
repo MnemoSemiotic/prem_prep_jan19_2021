@@ -119,30 +119,28 @@ print(a and (b or c) == (a and b) or (a and c)) # --> True
 
 ---------------------------------------------------------------
 # Idempotent Laws
-* A ∪ (BC) = (A ∪ B)(A ∪ C) 
-* A(B ∪ C) = (AB) ∪ (AC)
+* _when redundant operations achieve the same result_
+* A ∪ A = A
+* AA = A
+
 
 
 Set Logic
 
 ```python
 set1 = {'a', 'b', 'c'}
-set2 = {'c', 'd', 'e'}
-set3 = {'a', 'e', 'f'}
 
-print( (set2.intersection(set3)).union(set1) == (set1.union(set2)).intersection((set1.union(set3))) ) # --> True
-print( (set2.union(set3)).intersection(set1) == (set1.intersection(set2)).union((set1.intersection(set3))) ) # --> True
+print( set1.union(set1) == set1 ) # --> True
+print( set1.union(set1) == set1 ) # --> True
 ```
 
 Boolean Logic
 
 ```python
 a = True
-b = False
-c = True
 
-print(a or (b and c) == (a or b) and (a or c)) # --> True
-print(a and (b or c) == (a and b) or (a and c)) # --> True
+print(a or a == a) # --> True
+print(a and a == a) # --> True
 ```
 
 
