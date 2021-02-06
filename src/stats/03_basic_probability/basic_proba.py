@@ -104,9 +104,9 @@ How would you estimate the probability of getting 1800 heads in 3000 coin flips 
 '''
 
 num_samples = 100
-heads_counts = []
+heads_1800 = []
 
 for _ in range(num_samples):
-    heads_counts.append(series_of_flips(3000).count('H') == 1800)
+    heads_1800.append(series_of_flips(3000).count('H') == 1800)
 
-print(sum(heads_counts) / num_samples)
+print(sum(heads_1800) / num_samples)
