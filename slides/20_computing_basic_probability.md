@@ -55,4 +55,40 @@ Step 2 - Calculate the probability
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Probability Notation
+
+| Notation | Meaning |
+|----------|---------|
+|$P(A)$    | Probability of A|
+|$P(\text{not}  A)$    | Probability of A Complement|
+|$P(AB)$    | Probability of A intersect B|
+|$P(A \cup B)$    | Probability of A union B|
+| $ P(A \mid B) $    | Probability of A given B|
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Building a Sample Space through counting
+* Can consider elements of a set as "numbers" in a counting system, where the cardinality is the "base" of that system.
+
+Example: Counting using pets
+
+$S$ = {cat, dog, ferret, goldfish}
+
+List all the possible outcomes for 4 pets, randomly selected *with replacement*
+
+```python
+pets = [cat, dog, ferret, goldfish]
+
+pet_outcomes = []
+
+for pet1 in pets:
+    for pet2 in pets:
+        for pet3 in pets:
+            for pet4 in pets:
+                pet_outcomes.append([pet1, pet2, pet3, pet4])
+
+for pet_outcome in pet_outcomes:
+    print(pet_outcome)
+```
