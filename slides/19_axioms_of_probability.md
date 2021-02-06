@@ -165,6 +165,8 @@ print(a and a == a) # --> True
 * A ∪ (AB) = A
 * A(A ∪ B) = A
 
+Set Logic
+
 ```python
 set1 = {'a', 'b', 'c'}
 set2 = {'c', 'd', 'e'}
@@ -183,37 +185,81 @@ c = True
 print(a or (a and b) == a) # --> True
 print(a and (a or b) == a) # --> True
 ```
- 
 
 
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Identity Property
+* A ∪ ∅ = A
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Complement Laws for Universal and Empty Set
+* ~∅ = U
+* ~U = ∅
 
 
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Involution Law
+* ~( ~A) = A
 
+```python
+a = True
+print(not (not a) == a) # --> True
 
-<br><br><br><br><br><br><br><br><br>
+```
 
----------------------------------------------------------------
-# 
-
-
-<br><br><br><br><br><br><br><br><br>
-
----------------------------------------------------------------
-# 
 
 
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# A helpful, unnamed law
+* AB ∪ A~B = A
+
+
+```python
+a = True
+b = False
+
+print((a and b) or (a and not b) == a) # --> True
+
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# DeMorgan’s Laws
+* 1st: ~(A ∪ B) = ~A ~B
+* 2nd: ~(AB) = ~A ∪ ~B
+
+These laws are very helpful for logic and circuit reduction. They are commonly explored in interview questions
+
+
+### ~(A ∪ B) = ~A ~B
+
+```python
+a = True
+b = False
+
+print(not (a or b) == (not a) and (not b)) # --> True
+
+```
+
+
+### ~(AB) = ~A ∪ ~B
+
+```python
+a = True
+b = False
+
+print(not (a and b) == not a or not b) # --> True
+
+```
 
 
 <br><br><br><br><br><br><br><br><br>
