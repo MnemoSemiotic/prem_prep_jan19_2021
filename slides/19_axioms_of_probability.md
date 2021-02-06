@@ -87,7 +87,32 @@ print((a and b) and c == a and (b and c)) # --> True
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Distributive
+* A ∪ (BC) = (A ∪ B)(A ∪ C) 
+* A(B ∪ C) = (AB) ∪ (AC)
+
+
+Set Logic
+
+```python
+set1 = {'a', 'b', 'c'}
+set2 = {'c', 'd', 'e'}
+set3 = {'a', 'e', 'f'}
+
+print( (set2.intersection(set3)).union(set1) == (set1.union(set2)).intersection((set1.union(set3))) ) # --> True
+print( (set2.union(set3)).intersection(set1) == (set1.intersection(set2)).union((set1.intersection(set3))) ) # --> True
+```
+
+Boolean Logic
+
+```python
+a = True
+b = False
+c = True
+
+print((a or b) or c == a or (b or c)) # --> True
+print((a and b) and c == a and (b and c)) # --> True
+```
 
 
 <br><br><br><br><br><br><br><br><br>
