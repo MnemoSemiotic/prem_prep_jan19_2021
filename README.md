@@ -296,7 +296,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 14](https://youtu.be/CdHtkrf76Zg)
 
 ---------------------------------------------------------
 ### Day 15: Monday Feb 8 (6pm - 8:00pm Pacific) 
