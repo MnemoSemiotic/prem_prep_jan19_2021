@@ -50,8 +50,8 @@ Boolean Logic
 a = True
 b = False
 
-print(a or b == b or a) # --> True
-print(a and b == b and a) # --> True
+print( (a or b) == (b or a) ) # --> True
+print( (a and b) == (b and a) ) # --> True
 ```
 
 <br><br><br><br><br><br><br><br><br>
@@ -79,8 +79,8 @@ a = True
 b = False
 c = True
 
-print((a or b) or c == a or (b or c)) # --> True
-print((a and b) and c == a and (b and c)) # --> True
+print( ((a or b) or c) == (a or (b or c)) ) # --> True
+print( ((a and b) and c) == (a and (b and c)) ) # --> True
 ```
 
 
@@ -110,8 +110,8 @@ a = True
 b = False
 c = True
 
-print(a or (b and c) == (a or b) and (a or c)) # --> True
-print(a and (b or c) == (a and b) or (a and c)) # --> True
+print( (a or (b and c)) == ((a or b) and (a or c)) ) # --> True
+print( (a and (b or c)) == ((a and b) or (a and c)) ) # --> True
 ```
 
 
@@ -139,8 +139,8 @@ Boolean Logic
 ```python
 a = True
 
-print(a or a == a) # --> True
-print(a and a == a) # --> True
+print( (a or a) == a ) # --> True
+print( (a and a) == a ) # --> True
 ```
 
 
@@ -182,8 +182,8 @@ a = True
 b = False
 c = True
 
-print(a or (a and b) == a) # --> True
-print(a and (a or b) == a) # --> True
+print( (a or (a and b)) == a) # --> True
+print( (a and (a or b)) == a) # --> True
 ```
 
 
@@ -209,7 +209,7 @@ print(a and (a or b) == a) # --> True
 
 ```python
 a = True
-print(not (not a) == a) # --> True
+print( (not (not a)) == a) # --> True
 
 ```
 
@@ -226,7 +226,7 @@ print(not (not a) == a) # --> True
 a = True
 b = False
 
-print((a and b) or (a and not b) == a) # --> True
+print( ((a and b) or (a and not b)) == a) # --> True
 
 ```
 
@@ -246,7 +246,7 @@ These laws are very helpful for logic and circuit reduction. They are commonly e
 a = True
 b = False
 
-print(not (a or b) == (not a) and (not b)) # --> True
+print( (not (a or b)) == ((not a) and (not b)) ) # --> True
 
 ```
 
@@ -257,7 +257,7 @@ print(not (a or b) == (not a) and (not b)) # --> True
 a = True
 b = False
 
-print(not (a and b) == a or not b) # --> True
+print( (not (a and b)) == (not a or not b) ) # --> True
 
 ```
 
