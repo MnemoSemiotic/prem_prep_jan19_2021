@@ -219,3 +219,45 @@ outcomes = four_flip_sample_space()
 # for outcome in outcomes:
 #     print(outcome)
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Breakout (4 minutes)
+Reference the Previous Breakout
+
+What is the probability that in 4 coin flips, you get exactly 3 heads?
+
+Write code that traverses the outcomes and delivers 
+* $A$ = {HHHT, HHTH, HTHH, THHH} == three_heads
+* $S$ == all_outcomes
+
+$$
+P(3heads) = \frac{|3heads|}{|outcomes|}
+$$
+
+
+---------------------------------------------------------------
+# Breakout Solution
+What is the probability that in 4 coin flips, you get exactly 3 heads?
+
+Write code that traverses the outcomes and delivers 
+* $A$ = {HHHT, HHTH, HTHH, THHH} == three_heads
+* $S$ == all_outcomes
+
+$$
+P(3heads) = \frac{|3heads|}{|outcomes|}
+$$
+
+```python
+three_heads = []
+
+for outcome in outcomes:
+    if outcome.count('H') == 3:
+        three_heads.append(outcome)
+
+print(len(three_heads))
+print(len(outcomes))
+print(len(three_heads) / len(outcomes))
+```
