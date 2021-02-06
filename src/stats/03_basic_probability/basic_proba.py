@@ -77,5 +77,7 @@ def four_flip_sample_space():
 
 outcomes = four_flip_sample_space()
 
-for outcome in outcomes:
-    print(outcome)
+# for outcome in outcomes:
+#     print(outcome)
+
+
