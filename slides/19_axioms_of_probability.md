@@ -149,7 +149,41 @@ print(a and a == a) # --> True
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Domination Laws
+* Recall:
+    * U = Universal Set, he set which contains all subsets
+    * ∅  = Empty Set = { }
+* A ∩ U = A
+* A ∩ ∅ = ∅
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Absorption Laws
+* A ∪ (AB) = A
+* A(A ∪ B) = A
+
+```python
+set1 = {'a', 'b', 'c'}
+set2 = {'c', 'd', 'e'}
+
+print( set1.intersection(set2).union(set1) == set1 ) # --> True
+print( set1.intersection(set1.union(set2)) == set1) # --> True
+```
+
+Boolean Logic
+
+```python
+a = True
+b = False
+c = True
+
+print(a or (a and b) == a) # --> True
+print(a and (a or b) == a) # --> True
+```
+ 
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -311,10 +345,3 @@ print(a and a == a) # --> True
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
-
-
-<br><br><br><br><br><br><br><br><br>
-
----------------------------------------------------------------
-# 
