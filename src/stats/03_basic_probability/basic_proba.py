@@ -80,4 +80,19 @@ outcomes = four_flip_sample_space()
 # for outcome in outcomes:
 #     print(outcome)
 
+'''
+What is the probability that in 4 coin flips, you get exactly 3 heads?
+write code that traverses the outcomes and delivers P(3heads) = |3heads| / |outcomes|
+A = {HHHT, HHTH, HTHH, THHH} == three_heads
+S == outcomes
+'''
+three_heads = []
+for outcome in outcomes:
+    if outcomes.count('H') == 3:
+        three_heads.append(outcome)
+
+print(three_heads)
+
+print(len(three_heads) / len(outcomes))
+
 
