@@ -107,6 +107,6 @@ num_samples = 100
 heads_counts = []
 
 for _ in range(num_samples):
-    heads_counts.append(series_of_flips(3000).count('H'))
+    heads_counts.append(series_of_flips(3000).count('H') == 1800)
 
 print(sum(heads_counts) / num_samples)
