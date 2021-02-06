@@ -132,10 +132,43 @@ print(len(two_plus_cats) / len(pet_outcomes)) # --> 0.2617
 ```
 
 
+<br><br><br><br><br><br><br><br><br>
+
 ---------------------------------------------------------------
 # Breakout (4 minutes)
-* Reference the previous slide
+Write a function called `series_of_flips`.
+* define one parameter, `n`, which represents the number of coin flips
+* return a list of length `n` containing `n` random coin flips
 
-What is the probability that a person will select 2 or more cats when randomuly choosing 4 pets (with replacement)?
+
+```python
+from random import choice
+
+def coin_flip():
+    flip = ['H', 'T']
+    return choice(flip)
+```
+
 
 <br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Breakout Solution
+Write a function called `series_of_flips`.
+* define one parameter, `n`, which represents the number of coin flips
+* return a list of length `n` containing `n` random coin flips
+
+
+```python
+from random import choice
+
+def coin_flip():
+    flip = ['H', 'T']
+    return choice(flip)
+
+def series_of_flips(n):
+    flips = []
+    for _ in range(n):
+        flips.append(coin_flip())
+    return flips
+```
