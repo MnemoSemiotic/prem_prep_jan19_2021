@@ -99,14 +99,14 @@ for outcome in outcomes:
 
 
 '''
-How would you estimate the probability of getting 1800 heads in 3000 coin flips ()
+How would you estimate the probability of getting 18 heads in 30 coin flips ()
 (do not use the binomial pmf)
 '''
 
 num_samples = 10000
-heads_1800 = []
+heads_18 = []
 
 for _ in range(num_samples):
-    heads_1800.append(series_of_flips(3000).count('H') == 1800)
+    heads_18.append(series_of_flips(30).count('H') == 18)
 
-print(sum(heads_1800) / num_samples)
+print(sum(heads_18) / num_samples)
