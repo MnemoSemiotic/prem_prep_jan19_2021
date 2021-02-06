@@ -101,3 +101,32 @@ for pet_outcome in pet_outcomes:
 # ['cat', 'cat', 'dog', 'ferret']
 # ...
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Breakout (4 minutes)
+* Reference the previous slide
+
+What is the probability that a person will select 2 or more cats when randomuly choosing 4 pets (with replacement)?
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Breakout (4 minutes)
+* Reference the previous slide
+
+What is the probability that a person will select 2 or more cats when randomly choosing 4 pets (with replacement)?
+
+```python
+# ... utilize previous code to build sample space
+
+two_plus_cats = []
+
+for pet_outcome in pet_outcomes:
+    if pet_outcome.count('cat') >= 2:
+        two_plus_cats.append(pet_outcome)
+
+print(len(two_plus_cats) / len(pet_outcomes)) # --> 0.2617
+
+```
