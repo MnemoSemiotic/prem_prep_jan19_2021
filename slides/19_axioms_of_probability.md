@@ -77,9 +77,10 @@ Boolean Logic
 ```python
 a = True
 b = False
+c = True
 
-print(a or b == b or a) # --> True
-print(a and b == b and a) # --> True
+print((a or b) or c == a or (b or c)) # --> True
+print((a and b) and c == a and (b and c)) # --> True
 ```
 
 
