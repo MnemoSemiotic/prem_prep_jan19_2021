@@ -257,7 +257,7 @@ print(not (a or b) == (not a) and (not b)) # --> True
 a = True
 b = False
 
-print(not (a and b) == not a or not b) # --> True
+print(not (a and b) == a or not b) # --> True
 
 ```
 
