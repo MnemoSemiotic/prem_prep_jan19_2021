@@ -93,8 +93,15 @@ for outcome in outcomes:
 
 # print(three_heads)
 
-# print(len(three_heads) / len(outcomes))
+# print(len(three_heads) / len(outcomes)) # --> 0.25
 
 
 
 
+'''
+How would you estimate the probability of getting 1800 heads in 3000 coin flips ()
+(do not use the binomial pmf)
+'''
+
+
+print(series_of_flips(3000).count('H'))
