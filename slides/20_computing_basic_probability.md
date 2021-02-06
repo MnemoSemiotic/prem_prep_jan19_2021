@@ -79,7 +79,7 @@ $S$ = {cat, dog, ferret, goldfish}
 List all the possible outcomes for 4 pets, randomly selected *with replacement*
 
 ```python
-pets = [cat, dog, ferret, goldfish]
+pets = ['cat', 'dog', 'ferret', 'goldfish']
 
 pet_outcomes = []
 
@@ -91,4 +91,13 @@ for pet1 in pets:
 
 for pet_outcome in pet_outcomes:
     print(pet_outcome)
+
+# ['cat', 'cat', 'cat', 'cat']
+# ['cat', 'cat', 'cat', 'dog']
+# ['cat', 'cat', 'cat', 'ferret']
+# ['cat', 'cat', 'cat', 'goldfish']
+# ['cat', 'cat', 'dog', 'cat']
+# ['cat', 'cat', 'dog', 'dog']
+# ['cat', 'cat', 'dog', 'ferret']
+# ...
 ```
