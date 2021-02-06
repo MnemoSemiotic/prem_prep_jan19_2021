@@ -172,3 +172,50 @@ def series_of_flips(n):
         flips.append(coin_flip())
     return flips
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Breakout (4 minutes)
+Write a function called four_flip_sample_space that takes 
+no arguments. It should return a list of all 
+possible outcomes for 4 coin flips.
+
+```
+[
+    ['H', 'H', 'H', 'H'],
+    ['H', 'H', 'H', 'T'],
+    ['H', 'H', 'T', 'H'],
+    ['H', 'H', 'T', 'T'],
+    ...
+    ['T', 'T', 'T', 'T'],
+]
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Breakout Solution
+Write a function called four_flip_sample_space that takes 
+no arguments. It should return a list of all 
+possible outcomes for 4 coin flips.
+
+```python
+def four_flip_sample_space():
+    flip = ['H', 'T']
+    outcomes = []
+
+    for f1 in flip:
+        for f2 in flip:
+            for f3 in flip:
+                for f4 in flip:
+                    outcomes.append([f1,f2,f3,f4])
+    return outcomes
+
+outcomes = four_flip_sample_space()
+
+# for outcome in outcomes:
+#     print(outcome)
+```
