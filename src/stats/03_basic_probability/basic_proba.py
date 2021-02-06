@@ -13,3 +13,14 @@ for pet1 in pets:
 # for pet_outcome in pet_outcomes:
 #     print(pet_outcome)
 
+two_plus_cats = []
+
+for pet_outcome in pet_outcomes:
+    if pet_outcome.count('cat') >= 2:
+        two_plus_cats.append(pet_outcome)
+
+for cats in two_plus_cats:
+    print(cats)
+
+print(len(two_plus_cats) / len(pet_outcomes))
+
