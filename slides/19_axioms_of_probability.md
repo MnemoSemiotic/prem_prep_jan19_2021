@@ -20,14 +20,27 @@
 * In this sense, all the above laws will apply to both Sets and Boolean operations
 
 
+| Set Operator     | Python Boolean Operator |
+|------------------|------------------|
+|  <center> Union </center> | <center> `or` </center> |
+|  <center> Intersection </center> | <center> `and` </center> |
+|  <center> Complement </center> | <center> `not` </center> |
+
+
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 # Commutative
 * A ∪ B = B ∪ A
-AB = BA
+* AB = BA
 
+```python
+set1 = {'a', 'b', 'c'}
+set2 = {'c', 'd', 'e'}
 
+print(set1.union(set2) == set2.union(set1)) # --> True
+
+```
 
 <br><br><br><br><br><br><br><br><br>
 
