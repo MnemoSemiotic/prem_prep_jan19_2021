@@ -44,7 +44,7 @@ print(set1.union(set2) == set2.union(set1)) # --> True
 print(set1.intersection(set2) == set2.intersection(set1)) # --> True
 ```
 
-Set Logic
+Boolean Logic
 
 ```python
 a = True
@@ -57,7 +57,30 @@ print(a and b == b and a) # --> True
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Associative
+* (A ∪ B) ∪ C = A ∪ (B ∪ C) = A ∪ B ∪ C
+* (AB)C = A(BC) = ABC
+
+Set Logic
+
+```python
+set1 = {'a', 'b', 'c'}
+set2 = {'c', 'd', 'e'}
+set3 = {'a', 'e', 'f'}
+
+print((set1.union(set2)).union(set3) == (set3.union(set2)).union(set1)) # --> True
+print((set1.intersection(set2)).intersection(set3) == (set3.intersection(set2)).intersection(set1)) # --> True
+```
+
+Boolean Logic
+
+```python
+a = True
+b = False
+
+print(a or b == b or a) # --> True
+print(a and b == b and a) # --> True
+```
 
 
 <br><br><br><br><br><br><br><br><br>
