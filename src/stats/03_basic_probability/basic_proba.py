@@ -109,4 +109,4 @@ heads_18 = []
 for _ in range(num_samples):
     heads_18.append(series_of_flips(30).count('H') == 18)
 
-print(sum(heads_18) / num_samples)
+# print(sum(heads_18) / num_samples)
