@@ -1,4 +1,4 @@
-# Laws of Logic/Set Algebra
+# Laws of Boolean Logic/Set Algebra
 * Commutative
 * Associative
 * Distributive
@@ -34,9 +34,20 @@
 * A ∪ B = B ∪ A
 * AB = BA
 
+Set Logic
+
 ```python
 set1 = {'a', 'b', 'c'}
 set2 = {'c', 'd', 'e'}
+
+print(set1.union(set2) == set2.union(set1)) # --> True
+print(set1.intersection(set2) == set2.intersection(set1)) # --> True
+```
+
+Set Logic
+
+```python
+A
 
 print(set1.union(set2) == set2.union(set1)) # --> True
 
