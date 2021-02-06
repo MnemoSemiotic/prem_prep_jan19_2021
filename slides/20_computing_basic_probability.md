@@ -261,3 +261,99 @@ print(len(three_heads))
 print(len(outcomes))
 print(len(three_heads) / len(outcomes))
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Subsets with $S$ containing only one element
+Suppose you call the function `series_of_flips(14)`
+What is the probability that you get all 'H' values?
+
+```
+HHHHHHHHHHHHHH <----------
+HHHHHHHHHHHHHT
+HHHHHHHHHHHHTH
+HHHHHHHHHHHHTT
+...
+```
+first consider the probability $P(H)$ for one flip:
+$P(\text{H in one flip}) = 0.5$
+
+```
+H <----
+T
+```
+
+
+next consider the P(HH) for two flips:
+$P(HH) = 0.25$
+
+```
+HH <---- A
+HT
+TH
+TT
+```
+
+... P(HHH) ...
+$P(HHH) = 0.125 = 0.5 * 0.5 * 0.5 = 0.5^3$
+
+```
+HHH <----
+HHT
+HTH
+HTT
+THH
+THT
+TTH
+TTT
+```
+
+Abstract from there:
+
+$P(\text{H 14 times in 14 flips}) = 0.5^{14} $
+'''
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Complement of Subsets with $S$ containing only one element
+
+Suppose you call the function series_of_flips(14)
+
+What is the probability that you get at least one 'T' value?
+
+```
+HHHHHHHHHHHHHH <----------
+HHHHHHHHHHHHHT
+HHHHHHHHHHHHTH
+HHHHHHHHHHHHTT
+...
+```
+
+$1 - \frac{1}{2}^{14}$
+
+A little more justification
+
+```
+HHHH <---- 1/16
+HHHT
+HHTH
+HHTT
+HTHH
+HTHT
+HTTH
+HTTT
+THHH
+THHT
+THTH
+THTT
+TTHH
+TTHT
+TTTH
+TTTT
+```
+
+$1 - 1/16 = 15/16$
+'''
