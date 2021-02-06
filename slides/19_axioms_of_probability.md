@@ -110,8 +110,8 @@ a = True
 b = False
 c = True
 
-print((a or b) or c == a or (b or c)) # --> True
-print((a and b) and c == a and (b and c)) # --> True
+print(a or (b and c) == (a or b) and (a or c)) # --> True
+print(a and (b or c) == (a and b) or (a and c)) # --> True
 ```
 
 
