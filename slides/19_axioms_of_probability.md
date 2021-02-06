@@ -47,10 +47,11 @@ print(set1.intersection(set2) == set2.intersection(set1)) # --> True
 Set Logic
 
 ```python
-A
+a = True
+b = False
 
-print(set1.union(set2) == set2.union(set1)) # --> True
-
+print(a or b == b or a) # --> True
+print(a and b == b and a) # --> True
 ```
 
 <br><br><br><br><br><br><br><br><br>
