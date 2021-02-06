@@ -103,7 +103,7 @@ How would you estimate the probability of getting 1800 heads in 3000 coin flips 
 (do not use the binomial pmf)
 '''
 
-num_samples = 100
+num_samples = 10000
 heads_1800 = []
 
 for _ in range(num_samples):
