@@ -103,5 +103,10 @@ How would you estimate the probability of getting 1800 heads in 3000 coin flips 
 (do not use the binomial pmf)
 '''
 
+num_samples = 100
+heads_counts = []
 
-print(series_of_flips(3000).count('H'))
+for _ in range(num_samples):
+    heads_counts.append(series_of_flips(3000).count('H'))
+
+print(sum(heads_counts) / num_samples)
