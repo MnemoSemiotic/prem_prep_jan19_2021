@@ -1,1 +1,4 @@
-https://docs.google.com/presentation/d/1PvcJM1KOLom7oJ_5FB6Cq4NYo4Wr5rVWnEVco24eMhY/edit#slide=id.p
+# Statistical counting
+* Factorial
+* Permutations
+* Combinations
