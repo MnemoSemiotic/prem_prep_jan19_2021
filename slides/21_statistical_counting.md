@@ -32,3 +32,23 @@ Possible Sequences:
 |  <center>2</center> | <center>3</center> | <center>1</center>|
 |  <center>3</center> | <center>1</center> | <center>2</center>|
 |  <center>3</center> | <center>2</center> | <center>1</center>|
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes) code `factorial()`
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+
+```python
+def factorial(num):
+    prod = 1
+    for n in range(2, num+1):
+        prod *= n
+    return prod
+```
