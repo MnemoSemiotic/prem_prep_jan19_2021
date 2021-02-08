@@ -110,7 +110,7 @@ If we consider $n$ to be the base of a counting system, then we can determine al
 001 011 021 101 111 121 201 211 221
 002 012 022 102 112 122 202 212 222
                             
-2. Reduce counts that have duplicate items
+2. **Reduce** counts that have duplicate items
 
 000 010 020 100 110 **120** 200 **210** 220
 001 011 **021** 101 111 121 **201** 211 221
@@ -119,10 +119,129 @@ If we consider $n$ to be the base of a counting system, then we can determine al
 3. Consider $k$ items
 
 ex: $k=3$
-<b>012
-021
-102
-120
-201
-210
-</b>
+
+|012 | 021 | 102 | 120 | 201 | 210| 
+|----|-----|-----|-----|-----|-----|
+
+ex: $k=2$
+| 12 | 21 | 02 | 20| 01|  10|
+|-----|-----|-----|-----|-----|-----|
+
+ex: $k=1$ 
+| 2 | 1 | 0 |
+|-----|-----|-----|
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes)
+Code the `permutations(n,k)` function
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+Code the `permutations(n,k)` function
+
+```python
+def permutations(n, k):
+    return int(factorial(n) / factorial(n-k))
+```
+
+Slightly more optimized:
+
+```python
+def permutations(n, k):
+    perm = 1
+    for i in range(n, n-k, -1):
+        perm *= i
+    return perm
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (2 minutes)
+$nPk = \frac{n!}{(n-k)!}$
+
+You have 10 students and you are conducting a science fair where 4 students will win 1st, 2nd, 3rd, 4th. How many different arrangements of those 4 winners is possible?
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT SOLUTION (3 minutes)
+You have 10 students and you are conducting a science fair where 4 students will win 1st, 2nd, 3rd, 4th. How many different arrangements of those 4 winners is possible?
+
+$$
+nPk = \frac{n!}{(n-k)!}
+$$
+
+$$
+10P4 = \frac{10!}{(10-4)!}
+$$
+
+$$
+10P4 = \frac{10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{(6 \times 5 \times 4 \times 3 \times 2 \times 1)}
+$$
+
+$$
+10P4 = \frac{10 \times 9 \times 8 \times 7 \times \cancel{6 \times 5 \times 4 \times 3 \times 2 \times 1}}{\cancel{(6 \times 5 \times 4 \times 3 \times 2 \times 1)}}
+$$
+
+$$
+10P4 = 10 \times 9 \times 8 \times 7 = 5040
+$$
+
+There are 5040 different possible ways for the 10 students to win the 1st, 2nd, 3rd, and 4th prizes.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Permutations Intuition (Reductive Approach)
+1. Count in Base $n$ system
+2. Reduce space by removing outcomes with duplicate items
+
+Five pets and 5 beds. What are all the ways that you can
+arrange those 5 pets in 5 beds?
+
+```python
+base_5 = ['bat', 'cat', 'frog', 'eel', 'hamster']
+
+animals_counting = []
+
+for an1 in base_5:
+    for an2 in base_5:
+        for an3 in base_5:
+            for an4 in base_5:
+                for an5 in base_5:
+                    animals_counting.append([an1, an2, an3, an4, an5])
+
+# for an_number in animals_counting:
+#     print(an_number)
+
+animal_perms = []
+
+for an_number in animals_counting:
+    perm = True
+
+    for an in an_number:
+        if an_number.count(an) > 1:
+            perm = False
+            break
+    if perm == True:
+        animal_perms.append(an_number)
+
+# for an_number in animal_perms:
+#     print(an_number)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Heap's Algorithm: A better way to get Permutations
