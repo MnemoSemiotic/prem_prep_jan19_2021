@@ -155,3 +155,18 @@ def combinations(n, k): # nCk
 # print(combinations(52, 5))
 
 
+
+
+'''
+Combinations Intuition
+An expensive Counting Approach
+Ex:
+
+Out of a set of 11 basketball players, only
+5 can be on the court at a time. What are all
+the combinations possible for that basketball team.
+'''
+
+num_combs = combinations(11, 5)
+
+print(num_combs)
