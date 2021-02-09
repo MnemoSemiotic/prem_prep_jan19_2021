@@ -285,8 +285,35 @@ def combs_alg_from_itertools(lst, k):
 
 player_range = range(1, 21+1)
 
-c = list(combs_alg_from_itertools(player_range, 5))
+# c = list(combs_alg_from_itertools(player_range, 5))
 
-for comb in c:
-    print(comb)
+# for comb in c:
+#     print(comb)
 
+
+
+
+'''
+https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/04_Basic_Probability/04_permutations.md
+
+Ch 3
+'''
+
+elems = list('abcdefghijklmnopqrstuvwxyz0123456789')
+
+ss = []
+
+for e1 in elems:
+    for e2 in elems:
+        for e3 in elems:
+            ss.append(e1,e2,e3)
+
+perms = []
+
+for outcome in ss:
+    o = list(set(outcome))
+    if o not in perms:
+        perms.append(o)
+
+for perm in perms:
+    print(perm)
