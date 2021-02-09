@@ -193,8 +193,17 @@ def basketball_combs():
         if len(list(set(five))) == 5:
             perms.append(five)
 
-    for five in perms:
-        print(five)
+    # for five in perms:
+    #     print(five)
      
+    combs = []
+
+    for five in perms:
+        sorted_five = sorted(five)
+
+        if sorted_five not in combs:
+            combs.append(sorted_five)
+
+    return combs
 
 basketball_combs()
