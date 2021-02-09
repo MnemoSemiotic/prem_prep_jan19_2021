@@ -311,9 +311,8 @@ for e1 in elems:
 perms = []
 
 for outcome in ss:
-    o = list(set(outcome))
-    if o not in perms:
-        perms.append(o)
+    if len(list(set(outcome))) == 3:
+        perms.append(outcome)
 
 for perm in perms:
     print(perm)
