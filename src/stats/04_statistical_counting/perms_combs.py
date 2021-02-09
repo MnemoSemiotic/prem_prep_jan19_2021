@@ -1,3 +1,5 @@
+from math import factorial
+
 def factorial(n):
     prod = 1
 
