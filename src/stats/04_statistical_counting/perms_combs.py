@@ -15,3 +15,7 @@ There are ten people standing in a line for beignets at the world famous cafe du
 
 Given that the line was formed organically (i.e, people got into line as they arrived without any organization or coordination), what is the probability that they are standing in the queue in alphabetical order. Assume everyone has a different last name?
 '''
+# print(factorial(10))
+# card_S = factorial(10)
+# card_A = 1
+# print(card_A / card_S)
