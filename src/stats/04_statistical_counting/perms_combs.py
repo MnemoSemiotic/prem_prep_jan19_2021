@@ -314,5 +314,7 @@ for outcome in ss:
     if len(list(set(outcome))) == 3:
         perms.append(outcome)
 
-for perm in perms:
-    print(perm)
+# for perm in perms:
+#     print(perm)
+
+print(1 / len(perms))
