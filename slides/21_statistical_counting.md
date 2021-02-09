@@ -289,6 +289,8 @@ procedure generate(n : integer, A : array of any):
 # [Heap's Algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) in Python
 We'll write this version close to the algorithm on wikipedia
 
+
+
 ```python
 def swap(lst, idx_1, idx_2):
     lst_ = lst.copy()
@@ -333,3 +335,28 @@ def heaps_non_recursive(lst, k):
 ```
 
 
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Combinations: $nCk = \frac{n!}{((n-k)! k!)}$
+**ORDER DOESN'T MATTER**
+Combinations can be thought of as a reduction of the Permutations space, as order doesn't matter.
+Thus
+
+1. Count in Base $n$ system
+2. Reduce space by removing outcomes containing duplicate items
+3. Sort items in each outcome and remove duplicate outcomes
+
+Cardinal Example of a Combination: How many different 5 card hands in a game of poker?
+* It doesn't matter how you arrange the cards in your hand
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (3 minutes)
+Code the `combinations Function`
+
+$$
+nCk = \frac{n!}{((n-k)! k!)}
+$$
