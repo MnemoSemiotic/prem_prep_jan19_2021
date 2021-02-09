@@ -493,5 +493,28 @@ print(combinations(team_size, num_players))
 #### Based on Itertools implementation
 
 ```python
+def combs_alg_from_itertools(lst, k):
+    # get a frozen version of the input, 
+    lst_frozen = tuple(lst)
+    n = len(lst_frozen)
+    
+    combs = []
 
+    # fault control
+    if k > n:
+        return
+
+
+    indices = list(range(k))
+    yield tuple(lst_frozen[i] for i in indices)
+    while True:
+        for i in reversed(range(k)):
+            if indices[i] != i + n - k:
+                break
+        else:
+            return
+        indices[i] += 1
+        for j in range(i+1, k):
+            indices[j] = indices[j-1] + 1
+        yield tuple(lst_frozen[i] for i in indices)
 ```
