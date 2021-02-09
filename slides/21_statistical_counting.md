@@ -484,3 +484,14 @@ num_players = 5
 print(len(basketball_combs_samp(team_size, num_players)))
 print(combinations(team_size, num_players))
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Combinations Algorithm (Better) 
+#### Based on Itertools implementation
+
+```python
+
+```
