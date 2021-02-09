@@ -491,6 +491,7 @@ print(combinations(team_size, num_players))
 ---------------------------------------------------------------
 # Combinations Algorithm (Better) 
 #### Based on Itertools implementation
+* Notice the `yield` keyword, which allows for the creation of a [generator](https://wiki.python.org/moin/Generators) object. 
 
 ```python
 def combs_alg_from_itertools(lst, k):
