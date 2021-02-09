@@ -246,7 +246,7 @@ def basketball_combs_samp(team_size=11, num_players=5):
             combs.append(player_comb)
     return combs
 
-team_size = 11
+team_size = 21
 num_players = 5
 
 print(len(basketball_combs_samp(team_size, num_players)))
