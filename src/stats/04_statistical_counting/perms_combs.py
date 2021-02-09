@@ -266,7 +266,7 @@ def combs_alg_from_itertools(lst, k):
     if k > n:
         return 
 
-    indices = lst(range(k))
+    indices = list(range(k))
 
     yield tuple(lst_frozen[i] for i in indices)
 
@@ -282,4 +282,11 @@ def combs_alg_from_itertools(lst, k):
             indices[j] = indices[j-1] + 1
 
         yield tuple(lst_frozen[i] for i in indices)
+
+player_range = range(1, 11+1)
+
+c = list(combs_alg_from_itertools(player_range, 5))
+
+for comb in c:
+    print(comb)
 
