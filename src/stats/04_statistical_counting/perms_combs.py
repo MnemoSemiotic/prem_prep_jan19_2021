@@ -317,4 +317,4 @@ for outcome in ss:
 # for perm in perms:
 #     print(perm)
 
-print(1 / len(perms))
+print(len(perms))
