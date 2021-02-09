@@ -27,3 +27,37 @@ Given that the line was formed organically (i.e, people got into line as they ar
 # print(card_A / card_S)
 
 
+'''
+Permutations
+'''
+
+def permutation(n, k):
+    return int(factorial(n) / factorial(n-k))
+
+
+def permutation(n, k):
+    perm = 1
+    for i in range(n, n-k, -1):
+        perm *= i
+    return perm
+
+
+
+'''
+Five pets and 5 beds. What are all the ways that you can
+arrange those 5 pets in 5 beds?
+'''
+
+base_5 = ['bat', 'cat', 'frog', 'eel', 'hamster']
+
+animals_counting = []
+
+for an1 in base_5:
+    for an2 in base_5:
+        for an3 in base_5:
+            for an4 in base_5:
+                for an5 in base_5:
+                    animals_counting.append([an1, an2, an3, an4, an5])
+
+for an_number in animals_counting:
+    print(an_number)
