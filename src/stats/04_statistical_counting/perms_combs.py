@@ -146,8 +146,10 @@ Combinations
 def combinations(n, k): # nCk
     return int(factorial(n) / (factorial(n-k) * factorial(k)))
 
-def combinations(n, k): # nCk
-    perm = 1
-    for i in range(n, n-k, -1):
-        perm *= i
-    return int(perm / factorial(k))
+# def combinations(n, k): # nCk
+#     perm = 1
+#     for i in range(n, n-k, -1):
+#         perm *= i
+#     return int(perm / factorial(k))
+
+print(combinations(52, 5))
