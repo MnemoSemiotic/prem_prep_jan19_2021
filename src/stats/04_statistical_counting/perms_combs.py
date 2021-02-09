@@ -306,7 +306,7 @@ ss = []
 for e1 in elems:
     for e2 in elems:
         for e3 in elems:
-            ss.append(e1,e2,e3)
+            ss.append([e1,e2,e3])
 
 perms = []
 
