@@ -127,13 +127,27 @@ def heaps_non_recursive(lst, k):
 
     return perms
 
-base_5 = ['bat', 'cat', 'frog', 'eel', 'hamster']
+# base_5 = ['bat', 'cat', 'frog', 'eel', 'hamster']
 
-perms = heaps_non_recursive(base_5, 4)
+# perms = heaps_non_recursive(base_5, 4)
 
-for perm in perms:
-    print(perm)
+# for perm in perms:
+#     print(perm)
 
-print()
-print(len(perms))
-print(permutation(5, 4))
+# print()
+# print(len(perms))
+# print(permutation(5, 4))
+
+
+'''
+Combinations
+'''
+
+def combinations(n, k): # nCk
+    return int(factorial(n) / (factorial(n-k) * factorial(k)))
+
+def combinations(n, k): # nCk
+    perm = 1
+    for i in range(n, n-k, -1):
+        perm *= i
+    return int(perm / factorial(k))
