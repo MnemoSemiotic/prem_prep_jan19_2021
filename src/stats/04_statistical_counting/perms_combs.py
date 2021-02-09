@@ -6,8 +6,12 @@ def factorial(n):
 
     return prod
 
-# print(factorial(5))
-# print(factorial(0))
+def factorial(x): 
+    if x == 1: return x 
+    else: return x * factorial(x-1)
+
+print(factorial(5))
+print(factorial(0))
 
 
 '''
