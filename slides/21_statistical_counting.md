@@ -287,6 +287,49 @@ procedure generate(n : integer, A : array of any):
 
 ---------------------------------------------------------------
 # [Heap's Algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) in Python
-We'll write this close to the algorithm
+We'll write this version close to the algorithm on wikipedia
+
+```python
+def swap(lst, idx_1, idx_2):
+    lst_ = lst.copy()
+    temp = lst_[idx_2]
+    lst_[idx_2] = lst_[idx_1]
+    lst_[idx_1] = temp
+    return lst_
+
+
+def heaps_non_recursive(lst, k):
+    # avoid modifying parameter
+    lst_copy = lst.copy()
+
+    # holds stack state
+    c = [0] * len(lst)
+
+    # collect permutations, collect initial perm
+    perms = [lst_copy[:k]]
+
+    i = 0 # acts like a stack pointer
+    while i < len(lst_copy):
+        if c[i] < i:
+            if i % 2 == 0:
+                lst_copy = swap(lst_copy, 0, i)
+            else:
+                lst_copy = swap(lst_copy, c[i], i)
+            
+            if lst_copy[:k] not in perms:
+                perms.append(lst_copy[:k])
+
+            # incr the counter
+            c[i] += 1
+
+            # reset i
+            i = 0
+        else:
+            # reset state of count state at i
+            c[i] = 0
+            i += 1
+
+    return perms
+```
 
 
