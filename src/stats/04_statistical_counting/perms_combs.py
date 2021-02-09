@@ -94,3 +94,33 @@ def swap(lst, idx_1, idx_2):
 
 # print(swap(base_5, 0, 3))
 
+def heaps_non_recursive(lst, k):
+    # avoid modifying param
+    lst_copy = lst.copy()
+
+    # holds stack state
+    c = [0] * len(lst)
+
+    # collect perms, give initial lst
+    perms = [lst_copy[:k]]
+
+    i = 0 # acts as a pointer
+    while i < len(lst_copy):
+        if c[i] < i:
+            if  i % 2 == 0:
+                lst_copy = swap(lst_copy, 0, i)
+            else:
+                lst_copy = swap(lst_copy, c[i], i)
+
+            if lst_copy[:k] not in perms:
+                perms.append(lst_copy[:k])
+
+            # incr the counter
+            c[i] += 1
+
+        else:
+            # reset state of count state at i
+            c[i] = 0
+            i += 1
+    return perms
+
