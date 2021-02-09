@@ -6,12 +6,12 @@ def factorial(n):
 
     return prod
 
-def factorial(x): 
-    if x == 1: return x 
-    else: return x * factorial(x-1)
+# def factorial(x): 
+#     if x == 1: return x 
+#     else: return x * factorial(x-1)
 
-print(factorial(5))
-print(factorial(0))
+# print(factorial(5))
+# print(factorial(0))
 
 
 '''
@@ -23,3 +23,5 @@ Given that the line was formed organically (i.e, people got into line as they ar
 # card_S = factorial(10)
 # card_A = 1
 # print(card_A / card_S)
+
+
