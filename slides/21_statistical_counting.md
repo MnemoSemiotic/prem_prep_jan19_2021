@@ -341,14 +341,10 @@ def heaps_non_recursive(lst, k):
 # Combinations: $nCk = \frac{n!}{((n-k)! k!)}$
 **ORDER DOESN'T MATTER**
 Combinations can be thought of as a reduction of the Permutations space, as order doesn't matter.
-Thus
 
-1. Count in Base $n$ system
-2. Reduce space by removing outcomes containing duplicate items
-3. Sort items in each outcome and remove duplicate outcomes
-
-Cardinal Example of a Combination: How many different 5 card hands in a game of poker?
-* It doesn't matter how you arrange the cards in your hand
+**Cardinal Example of a Combinations Prob**: 
+How many different 5 card hands in a game of poker?
+It doesn't matter how you arrange the cards in your hand
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -360,3 +356,131 @@ Code the `combinations Function`
 $$
 nCk = \frac{n!}{((n-k)! k!)}
 $$
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+Code the `combinations Function`
+
+$$
+nCk = \frac{n!}{((n-k)! k!)}
+$$
+
+```python
+def combinations(n, k):
+    return int(factorial(n) / (factorial(n-k) * factorial(k)))
+
+# Slightly more optimal:
+def combinations(n, k):
+    perm = 1
+    for i in range(n, n-k, -1):
+        perm *= i
+    return int(perm / factorial(k))
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Combinations Intuition
+1. Make a counter list, treating the elements as the base in a number system
+2. Create a sublist of the counter list that is the Permutations
+3. Sort the elements of the sublist
+4. Remove any duplicate sublists
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Combinations Intuition
+#### An expensive Counting Approach
+
+Ex:
+
+Out of a set of 11 basketball players, only
+5 can be on the court at a time. What are all
+the combinations possible for that basketball team.
+
+```python
+num_combs = combinations(11, 5)
+
+def basketball_combs():
+    eleven_nums = range(1, 11+1)
+
+    # every arrangement of 5
+    possible_five = []
+
+    for i in eleven_nums:
+        for j in eleven_nums:
+            for k in eleven_nums:
+                for l in eleven_nums:
+                    for m in eleven_nums:
+                        possible_five.append([i,j,k,l,m])
+
+    # for five in possible_five:
+    #     print(five)
+
+    perms = []
+
+    for five in possible_five:
+        if len(list(set(five))) == 5:
+            perms.append(five)
+
+    # for five in perms:
+    #     print(five)
+
+    combs = []
+
+    for five in perms:
+        sorted_five = sorted(five)
+
+        if sorted_five not in combs:
+            combs.append(sorted_five)
+    
+    return combs
+
+# for five in basketball_combs():
+#     print(five)
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Combinations Intuition
+#### An expensive Sampling Approach
+We can sample 5 players from our list of 11,
+can continue to build combinations until we reach
+11C5 combinations
+
+```python
+from random import choice
+
+def basketball_combs_samp(team_size=11, num_players=5):
+    combs = []
+
+    player_range = range(1, team_size+1)
+
+    while len(combs) < combinations(team_size, num_players):
+        player_comb = []
+
+        while len(player_comb) < num_players:
+            player_num = choice(player_range)
+
+            if player_num not in player_comb:
+                player_comb.append(player_num)
+
+        player_comb = sorted(player_comb)
+
+        if player_comb not in combs:
+            print(player_comb)
+            combs.append(player_comb)
+    return combs
+
+
+team_size = 11
+num_players = 5
+
+print(len(basketball_combs_samp(team_size, num_players)))
+print(combinations(team_size, num_players))
+```
