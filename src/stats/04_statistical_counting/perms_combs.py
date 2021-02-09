@@ -186,3 +186,6 @@ def basketball_combs():
 
     for five in possible_five:
         print(five)
+
+
+basketball_combs()
