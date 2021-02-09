@@ -283,7 +283,7 @@ def combs_alg_from_itertools(lst, k):
 
         yield tuple(lst_frozen[i] for i in indices)
 
-player_range = range(1, 11+1)
+player_range = range(1, 21+1)
 
 c = list(combs_alg_from_itertools(player_range, 5))
 
