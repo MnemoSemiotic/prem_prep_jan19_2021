@@ -319,7 +319,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_ 
+**Video Lecture**: [Lecture 15](https://youtu.be/BhVWx-nqQPw)
 
 ---------------------------------------------------------
 ### Day 16: Tuesday Feb 9 (6pm - 8pm Pacific)
