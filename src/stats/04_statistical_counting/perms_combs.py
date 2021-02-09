@@ -206,11 +206,51 @@ def basketball_combs():
 
     return combs
 
-five_combs = basketball_combs()
+# five_combs = basketball_combs()
 
-for five in five_combs:
-    print(five)
+# for five in five_combs:
+#     print(five)
 
-print()
-print(len(five_combs))
-print(combinations(11, 5))
+# print()
+# print(len(five_combs))
+# print(combinations(11, 5))
+
+
+'''
+A slightly less expensive Sampling approach
+
+We can sample 5 players from our list of 11
+until we reach 11C5 combinations
+'''
+
+from random import choice
+
+def basketball_combs_samp(team_size=11, num_players=5):
+    combs = []
+
+    player_range = range(1, team_size+1)
+
+    num_combs = combinations(team_size, num_players)
+
+    while len(combs) < num_combs:
+        player_comb = []
+
+        while len(player_comb) < num_players:
+            player_num = choice(player_range)
+
+            if player_num not in player_comb:
+                player_comb.append(player_num)
+
+            player_comb = sorted(player_comb)
+
+            if player_comb not in combs:
+                print(player_comb)
+                combs.append(player_comb)
+
+    return combs
+
+team_size = 11
+num_players = 5
+
+print(len(basketball_combs_samp(team_size, num_players)))
+print(combinations(team_size, num_players))
