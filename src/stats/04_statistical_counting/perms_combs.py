@@ -184,8 +184,17 @@ def basketball_combs():
                     for m in eleven_nums:
                         possible_five.append([i,j,k,l,m])
 
-    for five in possible_five:
-        print(five)
+    # for five in possible_five:
+    #     print(five)
 
+    perms = []
+
+    for five in possible_five:
+        if len(list(set(five))) == 5:
+            perms.append(five)
+
+    for five in perms:
+        print(five)
+     
 
 basketball_combs()
