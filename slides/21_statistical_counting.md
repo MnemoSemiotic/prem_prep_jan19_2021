@@ -251,7 +251,8 @@ Non-Recursive Algorithm from [Wikipedia](https://en.wikipedia.org/wiki/Heap%27s_
 
 ```
 procedure generate(n : integer, A : array of any):
-    //c is an encoding of the stack state. c[k] encodes the for-loop counter for when generate(k - 1, A) is called
+    //c is an encoding of the stack state. 
+    //c[k] encodes the for-loop counter for when generate(k - 1, A) is called
     c : array of int
 
     for i := 0; i < n; i += 1 do
@@ -281,3 +282,11 @@ procedure generate(n : integer, A : array of any):
         end if
     end while
 ```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# [Heap's Algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) in Python
+We'll write this close to the algorithm
+
+
