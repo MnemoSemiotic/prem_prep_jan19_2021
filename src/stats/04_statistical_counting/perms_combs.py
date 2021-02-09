@@ -83,3 +83,13 @@ for an_number in animals_counting:
 Permutation using non-recursive Heaps algorithm
 '''
 
+base_5 = ['bat', 'cat', 'frog', 'eel', 'hamster']
+
+def swap(lst, idx_1, idx_2):
+    lst_ = lst.copy()
+    temp = lst_[idx_2]
+    lst_[idx_2] = lst_[idx_1]
+    lst_[idx_1] = temp
+    return lst_
+
+print(swap(base_5, 0, 3))
