@@ -246,8 +246,40 @@ def basketball_combs_samp(team_size=11, num_players=5):
             combs.append(player_comb)
     return combs
 
-team_size = 21
-num_players = 5
+# team_size = 21
+# num_players = 5
 
-print(len(basketball_combs_samp(team_size, num_players)))
-print(combinations(team_size, num_players))
+# print(len(basketball_combs_samp(team_size, num_players)))
+# print(combinations(team_size, num_players))
+
+
+'''
+Combinations based on Itertools algorithm
+'''
+
+def combs_alg_from_itertools(lst, k):
+    # get a frozen version of input
+    lst_frozen = tuple(lst)
+    n = len(lst_frozen)
+
+    # fault control
+    if k > n:
+        return 
+
+    indices = lst(range(k))
+
+    yield tuple(lst_frozen[i] for i in indices)
+
+    while True:
+        for i in reversed(range(k)):
+            if indices[i] != i + n-k:
+                break
+        else:
+            return
+        
+        indices[i] += 1
+        for j in range(i+1, k):
+            indices[j] = indices[j-1] + 1
+
+        yield tuple(lst_frozen[i] for i in indices)
+
