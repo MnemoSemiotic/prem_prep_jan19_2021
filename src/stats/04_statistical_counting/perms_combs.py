@@ -169,4 +169,20 @@ the combinations possible for that basketball team.
 
 num_combs = combinations(11, 5)
 
-print(num_combs)
+# print(num_combs)
+
+def basketball_combs():
+    eleven_nums = list(range(1, 11+1))
+
+    # counting in base 5
+    possible_five = []
+
+    for i in eleven_nums:
+        for j in eleven_nums:
+            for k in eleven_nums:
+                for l in eleven_nums:
+                    for m in eleven_nums:
+                        possible_five.append([i,j,k,l,m])
+
+    for five in possible_five:
+        print(five)
