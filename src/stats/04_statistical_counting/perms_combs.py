@@ -6,6 +6,7 @@ def factorial(n):
 
     return prod
 
-print(factorial(5))
-print(factorial(0))
-print(factorial(-4))
+# print(factorial(5))
+# print(factorial(0))
+
+
