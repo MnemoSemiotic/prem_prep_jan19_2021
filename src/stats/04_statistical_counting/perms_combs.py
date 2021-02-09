@@ -92,4 +92,5 @@ def swap(lst, idx_1, idx_2):
     lst_[idx_1] = temp
     return lst_
 
-print(swap(base_5, 0, 3))
+# print(swap(base_5, 0, 3))
+
