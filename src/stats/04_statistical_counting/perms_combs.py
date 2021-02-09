@@ -206,4 +206,11 @@ def basketball_combs():
 
     return combs
 
-basketball_combs()
+five_combs = basketball_combs()
+
+for five in five_combs:
+    print(five)
+
+print()
+print(len(five_combs))
+print(combinations(11, 5))
