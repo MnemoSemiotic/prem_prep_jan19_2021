@@ -38,7 +38,7 @@ cards = []
 
 for suit in suits:
     for card in card_nums:
-        cards.append(f'{card_nums} of {suits}')
+        cards.append(f'{card} of {suit}')
 
 print(cards)
 ```
