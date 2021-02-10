@@ -332,11 +332,11 @@
 
 
 **HW assignment**: 
-* Review the code and materials regarding the Binomial Distribution at the stats code
+* Review the code and materials regarding the General Analytic Approach
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 16](https://youtu.be/1fGq5hhPrCI)
 
 ---------------------------------------------------------
 ### Day 17: Wednesday Feb 10 (6pm - 8pm Pacific)
