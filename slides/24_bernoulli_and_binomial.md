@@ -206,4 +206,41 @@ for dec, bin_ in gen_4_bit_binary().items():
     print(f'{dec}: {bin_}')
 ```
 
-But, what if we want to count arbitrarily high value in Decimal?
+But, what if we want to count arbitrarily high values in Binary corresponding to some Decimal value?
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Decimal to Binary Algorithm
+
+```
+Given a decimal number
+    - take the modulus by 2
+        - set aside the result
+    - floor divide the number by 2
+        - until that number is 0
+    - reverse the sequence of outcomes
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Decimal to Binary Algorithm Example
+
+```
+dec_to_bin(43)
+--------------
+43 % 2     ==> 1
+43 // 2 = 21
+21 % 2     ==> 1
+21 // 2 = 10
+10 % 2     ==> 0
+10 // 2 = 5
+5 % 2      ==> 1
+5 // 2  = 2
+2 % 2      ==> 0
+2 // 2  = 1
+1 % 2      ==> 1
+1 // 2  = 0
+
+reversed ==> 101011 is the binary representation of 43
+```
