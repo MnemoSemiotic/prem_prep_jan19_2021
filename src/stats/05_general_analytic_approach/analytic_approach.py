@@ -44,7 +44,7 @@ hits = []
 range_to_hit = 18
 
 for outcome in S:
-    if outcome[0] >= range_to_hit and outcome[2].count('H') >= 2:
+    if outcome[0] >= range_to_hit and outcome[2].count('H') == 2:
         hits.append(outcome)
 
 print(f'proba: {round(len(hits) / len(S), 3)}')
