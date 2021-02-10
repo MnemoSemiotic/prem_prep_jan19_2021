@@ -329,7 +329,7 @@
 **Slide Deck**: 
 * [General Analytic Approach](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/22_general_analytic_approach.md)
 * [Discrete Random Variables](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/23_discrete_random_variables.md)
-* [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/24_bernoulli_and_binomial.md)
+
 
 **HW assignment**: 
 * Review the code and materials regarding the Binomial Distribution at the stats code
