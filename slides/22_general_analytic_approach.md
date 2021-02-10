@@ -1,6 +1,6 @@
 # General Analytic Approach
 * Counting
-* Sampling
+* Random Sampling
 * Closed Formula
 
 
@@ -103,4 +103,26 @@ print(f'Proba of hit: {round((len(hits)/len(S)),3)}') #--> 0.264
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-# 
+# Random Sampling Example
+* Can be used to approach a theoretical distribution and estimate parameters of that distribution
+
+Consider invitations for a small party you want to have with two of your friends. You let them know that they can each invite one more person. They in term let those friends that they 
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 1. Synthesize outcomes, model a phenomenon, look at data
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 2. Observe or interpret values
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 3. Answer questions
