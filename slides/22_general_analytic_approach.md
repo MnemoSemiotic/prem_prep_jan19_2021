@@ -147,6 +147,8 @@ for k, v in sorted(outcomes.items()):
     print(f'{k}: {v}')
 ```
 
+Notice that we are very unlikely to get less than 40 guests, and it is near impossible to get no guests in this scenario.
+
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
@@ -177,7 +179,7 @@ print(f'{round(eighty_to_ninety/total,3)}')
 ---------------------------------------------------------------
 # Closed Formula Example
 
-Consider a collection of spherical containers used to hold jelly beans. These containers range from 1 inch in diameter up to 100 inches in diameter. 
+Consider a collection of spherical containers used to hold gumballs. These containers range from 1 inch in diameter up to 100 inches in radius. 
 
 Spherical Volume:
 
@@ -189,9 +191,15 @@ $$
 
 ---------------------------------------------------------------
 ## 1. Synthesize outcomes, model a phenomenon, look at data
+$$
+V = \frac{4}{3}\pi r^3
+$$
 
-```
+```python
+from math import pi
 
+def spherical_volume(r):
+    return (4/3) * pi * r**3
 ```
 
 
@@ -199,7 +207,17 @@ $$
 
 ---------------------------------------------------------------
 ## 2. Observe or interpret values
+* Packing volume into a dictionary
 
+```python
+d = dict()
+
+for r in range(1, 100+1):
+    d[r] = spherical_volume(r)
+
+for r, v in d.items():
+    print(f'{r}: {v}')
+```
 
 
 <br><br><br><br><br><br><br><br><br>
