@@ -102,3 +102,88 @@ for _ in range(trials):
 
 print(true_count / trials)
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Counting in Binary
+* Can think of binary, initially, as a 2 symbol translation from our well-known decimal system
+* 2 symbols in binary: [0, 1]
+
+Decimal to Binary relationship in 2-bit binary:
+
+```
+DEC  BIN
+0:    0
+1:    1
+```
+
+Decimal to Binary relationship in 2-bit binary:
+
+```
+DEC  BIN
+0:    00
+1:    01
+2:    10
+3:    11
+```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Counting in Binary cont'd
+
+Decimal to Binary relationship in 3-bit binary:
+
+```
+DEC   BIN
+0:    000
+1:    001
+2:    010
+3:    011
+4:    100
+5:    101
+6:    110
+7:    111
+```
+
+Decimal to Binary relationship in 4-bit binary:
+
+```
+DEC    BIN      DEC   BIN
+0:    0000       8:   1000
+1:    0001       9:   1001
+2:    0010      10:   1010
+3:    0011      11:   1011
+4:    0100      12:   1100
+5:    0101      13:   1101
+6:    0110      14:   1110
+7:    0111      15:   1111
+```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Binomial Distribution
+Series of Bernoulli trials, where we keep a fixed probability $p$. We're usually trying to find the probability of a certain number of successes $k$.
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Place values in Binary
+
+Consider the Binary word
+10110110
+
+This can be broken down into place values
+
+|128's place|64's|32's|16's|8's|4's|2's|1's|
+|---------------|--------------|-------------|-------------|------------|------------|-------------|--------------|
+|      1        |             0|            1|            1|           0|           1|            1|             0|
+| $1 \cdot 128$ | $0 \cdot 64$ | $1 \cdot 32$| $1 \cdot 16$| $0 \cdot 8$| $1 \cdot 4$|  $1 \cdot 2$|   $0 \cdot 1$|
+| 128 +       |         0 +    | 32 +        | 16 +        | 0 +        | 4 +        |  2 +        |    0         |
+
+$128 + 0 + 32 + 16 + 0 + 4 + 2 + 0 = 182$
+
+Thus:
+|  BIN    |    DEC  |
+|---------|---------|
+|10110110 |    182  |
