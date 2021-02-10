@@ -179,7 +179,7 @@ print(f'{round(eighty_to_ninety/total,3)}')
 ---------------------------------------------------------------
 # Closed Formula Example
 
-Consider a collection of spherical containers used to hold gumballs. These containers range from 1 inch in diameter up to 100 inches in radius. 
+Consider a collection of spherical containers used to hold super gumballs of radius 1 inch. These containers range from 4 inch in radius up to 100 inches in radius. 
 
 Spherical Volume:
 
