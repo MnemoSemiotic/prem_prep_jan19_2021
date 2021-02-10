@@ -160,11 +160,6 @@ DEC    BIN      DEC   BIN
 7:    0111      15:   1111
 ```
 
-<br><br><br><br><br><br><br><br><br><br>
----------------------------------------
-# Binomial Distribution
-Series of Bernoulli trials, where we keep a fixed probability $p$. We're usually trying to find the probability of a certain number of successes $k$.
-
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
@@ -187,3 +182,28 @@ Thus:
 |  BIN    |    DEC  |
 |---------|---------|
 |10110110 |    182  |
+
+### What is the maximum decimal value we can represent in 8-bit binary?
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Simple Code to Count in 4-bit Binary
+
+```python
+def gen_4_bit_binary():
+    bin_dct = dict()
+    decimal = 0
+
+    for i in range(2):
+        for j in range(2):
+            for k in range(2):
+                for l in range(2):
+                    bin_dct[decimal] = [i,j,k,l]
+                    decimal += 1
+    return bin_dct
+
+for dec, bin_ in gen_4_bit_binary().items():
+    print(f'{dec}: {bin_}')
+```
+
+But, what if we want to count arbitrarily high value in Decimal?
