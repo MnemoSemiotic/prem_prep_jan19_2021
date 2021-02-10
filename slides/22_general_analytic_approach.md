@@ -27,7 +27,11 @@ This can often be thought of as an "exhaustive" approach, for discrete outcomes,
 # Counting Example:
 In a particular table top game, when in a battle, a player first rolls a 36-sided die, then pulls a card from a standard deck of cards. Finally, the player flips a coin three times.
 
-1. Synthesize Outcomes by counting
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 1. Synthesize Outcomes by counting
 
 ```python
 rolls = range(1,36+1)
@@ -53,9 +57,44 @@ for roll in rolls:
             S.append([roll, card, flip])
 ```
 
-2. Observe/Interpret values in a list
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 2. Observe/Interpret values in a list
 
 ```python
 
-for 
+for outcome in S:
+    print(outcome)
+
+print(len(S))
+```
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+## 3. Answer Questions
+
+Suppose that the 36-sided die represents the range of an attack. To hit an opponent, that opponent must be in range, for example, a roll of 29 will potentially hit another player 29 or less spaces away. The card represents the amount of damage that the attack will commit. In order to actually inflict damage, two of the three coin flips must be Heads.
+
+**What is the probability of hitting an opponent that is 18 spaces away?**
+* Write a code snippet that will provide the probability
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+
+```python
+hits = []
+range_to_hit = 18
+
+for outcome in S:
+    if outcome[0] <= range_to_hit and outcome[2].count('H') >= 2:
+        hits.append(outcome)
+
+print(f'Proba of hit: {round((len(hits)/len(S)),3)}')
 ```
