@@ -217,7 +217,7 @@ def gumball_capacity():
         d[r] = int(spherical_volume(r) / spherical_volume(1))
     return d
 
-for r, v in gumball_capacity.items():
+for r, v in gumball_capacity().items():
     print(f'{r}: {v}')
 ```
 
@@ -236,3 +236,14 @@ Write a function called `get_sphere()` that takes in a number of gumballs and re
 
 ---------------------------------------------------------------
 # BREAKOUT Solution
+
+```python
+def get_sphere(gumball_inventory):
+    d = gumball_capacity()
+
+    for k, v in d.items():
+        if v > gumball_inventory:
+            return k
+    
+    return 'No appropriate sphere available'
+```
