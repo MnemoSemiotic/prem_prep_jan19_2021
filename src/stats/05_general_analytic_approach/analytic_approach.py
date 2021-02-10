@@ -105,8 +105,8 @@ def gumball_capacity():
 
     return d
 
-# for r, v in gumball_capacity().items():
-#     print(f'{r}: {v}')
+for r, v in gumball_capacity().items():
+    print(f'{r}: {v}')
 
 
 def get_sphere(gumball_inventory):
@@ -118,3 +118,4 @@ def get_sphere(gumball_inventory):
 
     return 'No appropriate sphere available'
 
+print(get_sphere(10000))
