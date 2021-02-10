@@ -1,1 +1,8 @@
-https://docs.google.com/presentation/d/16KgSJGs2Tkn1U7znkehsWHWAQ6H4JtTqiI9JShJK9Dg/edit#slide=id.g82609e7697_0_5
+# Discrete Random Variables
+* Discrete vs Continuous
+* Defining a Random Variable
+* Probability Mass Function (PMF)
+* Cumulative Density Function (CDF)
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+-----------------------------------------
