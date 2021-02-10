@@ -80,7 +80,7 @@ print(len(S))
 Suppose that the 36-sided die represents the range of an attack. To hit an opponent, that opponent must be in range, for example, a roll of 29 will potentially hit another player 29 or less spaces away. The card represents the amount of damage that the attack will commit. In order to actually inflict damage, two of the three coin flips must be Heads.
 
 **What is the probability of hitting an opponent that is 18 spaces away?**
-* Write a code snippet that will provide the probability
+* Write a code snippet that will provide the probability rounded to 3 places
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -93,8 +93,8 @@ hits = []
 range_to_hit = 18
 
 for outcome in S:
-    if outcome[0] <= range_to_hit and outcome[2].count('H') >= 2:
+    if outcome[0] >= range_to_hit and outcome[2].count('H') >= 2:
         hits.append(outcome)
 
-print(f'Proba of hit: {round((len(hits)/len(S)),3)}')
+print(f'Proba of hit: {round((len(hits)/len(S)),3)}') #--> 0.264
 ```
