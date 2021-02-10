@@ -67,17 +67,17 @@ def num_attendees():
 # print(num_attendees())
 
 
-# outcomes = dict()
+outcomes = dict()
 
-# for _ in range(100000):
-#     attending = num_attendees()
+for _ in range(100000):
+    attending = num_attendees()
 
-#     if attending not in outcomes:
-#         outcomes[attending] = 0
-#     outcomes[attending] += 1
+    if attending not in outcomes:
+        outcomes[attending] = 0
+    outcomes[attending] += 1
 
-# for k, v in sorted(outcomes.items()):
-#     print(f'{k}: {v}')
+for k, v in sorted(outcomes.items()):
+    print(f'{k}: {v}')
 
 
 # eighty_to_ninety = 0
