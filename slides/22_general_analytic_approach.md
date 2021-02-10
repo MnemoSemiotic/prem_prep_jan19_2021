@@ -106,8 +106,7 @@ print(f'Proba of hit: {round((len(hits)/len(S)),3)}') #--> 0.264
 # Random Sampling Example
 * Can be used to approach a theoretical distribution and estimate parameters of that distribution
 
-Consider invitations for a small party you want to have with two of your friends. You let them know that they can each invite one more person. They in term let those friends that they 
-
+Consider invitations sent for a party (as if). 20 invitations are sent out. Each guest can possibly bring up to ten guests (with equal probability of between not going and 10 guests). No matter what, at least one person (you) will be at the party. 
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -115,12 +114,38 @@ Consider invitations for a small party you want to have with two of your friends
 ---------------------------------------------------------------
 ## 1. Synthesize outcomes, model a phenomenon, look at data
 
+```python
+from random import choice
+
+def num_attendees():
+    num_peeps = 1
+
+    for _ in range(20):
+        num_peeps += choice(range(0, 10+1))
+
+    return num_peeps
+
+```
 
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
 ## 2. Observe or interpret values
+* can pack into dictionary
 
+```python
+outcomes = dict()
+
+for _ in range(100000):
+    attending = num_attendees()
+
+    if attending not in outcomes:
+        outcomes[attending] = 0
+    outcomes[attending] += 1
+
+for k, v in sorted(outcomes.items()):
+    print(f'{k}: {v}')
+```
 
 <br><br><br><br><br><br><br><br><br>
 
