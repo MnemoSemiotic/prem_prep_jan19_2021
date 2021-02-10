@@ -150,4 +150,59 @@ for k, v in sorted(outcomes.items()):
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
+# BREAKOUT
+## 3. Answer questions
+
+Given a sample of outcomes, provide code to deliver an estimated probability that between 80 and 90 people will attend the party. Round the result to 3 decimal places.
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT Solution
+
+```python
+eighty_to_ninety = 0
+total = sum(outcomes.values())
+
+for attendees in range(80, 90+1):
+    eighty_to_ninety += outcomes[attendees]
+
+print(f'{round(eighty_to_ninety/total,3)}')
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# Closed Formula Example
+
+Consider a collection of spherical containers used to hold jelly beans. These containers range from 1 inch in diameter up to 100 inches in diameter. 
+
+Spherical Volume:
+
+$$
+V = \frac{4}{3}\pi r^3
+$$
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 1. Synthesize outcomes, model a phenomenon, look at data
+
+```
+
+```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+## 2. Observe or interpret values
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
 ## 3. Answer questions
