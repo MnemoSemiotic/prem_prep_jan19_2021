@@ -76,8 +76,8 @@ for _ in range(100000):
         outcomes[attending] = 0
     outcomes[attending] += 1
 
-# for k, v in sorted(outcomes.items()):
-#     print(f'{k}: {v}')
+for k, v in sorted(outcomes.items()):
+    print(f'{k}: {v}')
 
 
 eighty_to_ninety = 0
