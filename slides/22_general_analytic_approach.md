@@ -98,3 +98,9 @@ for outcome in S:
 
 print(f'Proba of hit: {round((len(hits)/len(S)),3)}') #--> 0.264
 ```
+
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# 
