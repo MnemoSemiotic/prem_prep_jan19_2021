@@ -42,4 +42,63 @@ Represents the number of Failures in Bernoulli Trials up to the First success. T
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
-# 
+# Uniform Distribution
+Every outcome is discrete and has equal probability.
+
+When rolling a 32 sided die, the probability of getting any one outcome is $\frac{1}{32}$. The probability of getting less than or equal to a given outcome is $P(X \le x) = \sum \frac{1}{32} \cdot x$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Bernoulli Trial
+A bernoulli trial is a single event with a binary outcome and set probability of success $p$.
+
+Example:
+If you have a bag full of red and blue balls, where you have 30 red balls, and 70 blue. 
+
+If you reach into the bag thousands of times and average the counts of these balls what percentage would you expect of your draws would be red?
+
+What is the $P(Red)$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+Code the `bernoulli()` function. It should take one argument, `p_success`.
+
+You will want to use `from random import random`. The `random()` function will return a uniformly distributed random float between 0 and 1.
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+Code the `bernoulli()` function. It should take one argument, `p_success`.
+
+```python
+def bernoulli(p_success=0.5):
+    draw = random() # gets a val betw 0 and 1
+
+    if draw < p_success:
+        return True
+    else:
+        return False
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Let's verify the prior Breakout
+By sampling a high number of times from the `bernoulli()` function, we should see the value of $p$ as the number of successes divided by the number of samples taken.
+
+```python
+trials = 10000000
+print([bernoulli(p_success=0.5) for _ in range(trials)].count(True) / trials)
+
+# in other words
+true_count = 0
+for _ in range(trials):
+    if bernoulli(p_success=0.5) == True:
+        true_count += 1
+
+print(true_count / trials)
+```
