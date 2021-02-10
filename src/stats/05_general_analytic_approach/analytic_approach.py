@@ -105,5 +105,5 @@ def gumball_capacity():
 
     return d
 
-for r, v in gumball_capacity.items():
+for r, v in gumball_capacity().items():
     print(f'{r}: {v}')
