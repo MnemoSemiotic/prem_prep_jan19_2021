@@ -88,7 +88,7 @@ def bernoulli(p_success=0.5):
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # Let's verify the prior Breakout
-By sampling a high number of times from the `bernoulli()` function, we should see the value of $p$ as the number of successes divided by the number of samples taken.
+By sampling a high number of times from the `bernoulli()` function, we should approach the value of $p$, by way of dividing the number of successes by the number of samples taken.
 
 ```python
 trials = 10000000
