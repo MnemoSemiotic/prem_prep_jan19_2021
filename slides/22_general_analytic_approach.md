@@ -129,10 +129,9 @@ def num_attendees():
     num_peeps = 1
 
     for _ in range(20):
-        num_peeps += choice(range(0, 10+1))
+        num_peeps += choice(range(0, 11+1))
 
     return num_peeps
-
 ```
 
 <br><br><br><br><br><br><br><br><br>
@@ -142,6 +141,7 @@ def num_attendees():
 * can pack into dictionary
 
 ```python
+
 outcomes = dict()
 
 for _ in range(100000):
