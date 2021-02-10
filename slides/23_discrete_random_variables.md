@@ -125,3 +125,8 @@ Corresponding values of $Z$
 3: ****
 4: *
 ```
+
+What is $P(Z \le 2)$?
+* Count the number of occurrences of less than or equal to 2, divide by the total number of outcomes
+
+$P(Z \le 2) = \frac{11}{16}$
