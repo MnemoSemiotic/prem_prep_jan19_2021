@@ -89,4 +89,39 @@ The above example probability questions are of the PMF Type.
 
 A PMF describes the probability that a discrete random variable is equal to a certain value, and is written in the form:
 
-$P(X=x)$, where $X$ represents the random variable, and $x$ represents a specific outcome of that random variable.
+$P(X=x)$, where big $X$ represents the random variable (all potential outcomes), and little $x$ represents a specific outcome of that random variable.
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+-----------------------------------------
+# Cumulative Density Function (CDF)
+The CDF can generally be thought of as the sum of all probabilities up to and including a given outcome, and is written in the form:
+
+$P(X \le x)$, where big $X$ represents the random variable (all potential outcomes), and little $x$ represents a specific outcome of that random variable.
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+-----------------------------------------
+# CDF Example
+
+Let the random variable $Z$ represent the sum of ones in four bit binary.
+
+All possible 4-bit binary words:
+
+```
+0000 0001 0010 0011 0100 0101 0110 0111
+1000 1001 1010 1011 1100 1101 1110 1111
+```
+
+Corresponding values of $Z$
+
+```
+  0    1    1    2    1    2    2    3
+  1    2    2    3    2    3    3    4
+
+0: *
+1: ****
+2: ******
+3: ****
+4: *
+```
