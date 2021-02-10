@@ -102,3 +102,8 @@ def gumball_capacity():
 
     for r in range(4, 100+1):
         d[r] = int(spherical_volume(r) / spherical_volume(1))
+
+    return d
+
+for r, v in gumball_capacity.items():
+    print(f'{r}: {v}')
