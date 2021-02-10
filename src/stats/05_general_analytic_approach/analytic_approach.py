@@ -95,3 +95,10 @@ def spherical_volume(r):
     return (4/3) * pi * r**3
 
 # print(spherical_volume(10))
+
+
+def gumball_capacity():
+    d = dict()
+
+    for r in range(4, 100+1):
+        d[r] = int(spherical_volume(r) / spherical_volume(1))
