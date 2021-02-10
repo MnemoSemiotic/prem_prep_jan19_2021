@@ -210,17 +210,29 @@ def spherical_volume(r):
 * Packing rough gumball count of spheres related to 
 
 ```python
-d = dict()
+def gumball_capacity():
+    d = dict()
 
-for r in range(4, 100+1):
-    d[r] = int(spherical_volume(r) / spherical_volume(1))
+    for r in range(4, 100+1):
+        d[r] = int(spherical_volume(r) / spherical_volume(1))
+    return d
 
-for r, v in d.items():
+for r, v in gumball_capacity.items():
     print(f'{r}: {v}')
 ```
+
+Note that the number of gumballs that can be held in a sphere increases dramatically with the increase in volume of the sphere.
+
+<br><br><br><br><br><br><br><br><br>
+
+---------------------------------------------------------------
+# BREAKOUT (5 minutes)
+## 3. Answer questions
+
+Write a function called `get_sphere()` that takes in a number of gumballs and returns the radius of sphere necessary to accommodate that inventory.
 
 
 <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
-## 3. Answer questions
+# BREAKOUT Solution
