@@ -31,6 +31,14 @@ In a particular table top game, when in a battle, a player first rolls a 36-side
 
 ```python
 rolls = range(1,36+1)
-suits = ['Spades ','Clubs','D','H']
-card_nums = ['A']
+suits = ['Spades ','Clubs','Diamonds','Hearts']
+card_nums = ['Ace', 'One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Jack','Queen','King']
+
+cards = []
+
+for suit in suits:
+    for card in card_nums:
+        cards.append(f'{card_nums} of {suits}')
+
+print(cards)
 ```
