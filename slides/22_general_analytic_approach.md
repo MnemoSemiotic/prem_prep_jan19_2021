@@ -34,9 +34,10 @@ In a particular table top game, when in a battle, a player first rolls a 36-side
 ## 1. Synthesize Outcomes by counting
 
 ```python
-rolls = range(1,36+1)
-suits = ['Spades ','Clubs','Diamonds','Hearts']
-card_nums = ['Ace', 'One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Jack','Queen','King']
+rolls = range(1, 36+1)
+
+suits = ['Spades', 'Clubs', 'Diamonds', 'Hearts']
+card_nums = ['Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Ace', 'Jack', 'Queen', 'King']
 
 cards = []
 
@@ -44,17 +45,24 @@ for suit in suits:
     for card in card_nums:
         cards.append(f'{card} of {suit}')
 
+# for card in cards:
+#     print(card)
+
+# print(len(cards))
+
 coin_flips = []
 for flip1 in ['T', 'H']:
     for flip2 in ['T', 'H']:
         for flip3 in ['T', 'H']:
             coin_flips.append([flip1, flip2, flip3])
 
+
 S = []
 for roll in rolls:
     for card in cards:
         for flip in coin_flips:
             S.append([roll, card, flip])
+
 ```
 
 
