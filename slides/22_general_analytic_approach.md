@@ -179,7 +179,7 @@ print(f'{round(eighty_to_ninety/total,3)}')
 ---------------------------------------------------------------
 # Closed Formula Example
 
-Consider a collection of spherical containers used to hold super gumballs of radius 1 inch. These containers range from 4 inch in radius up to 100 inches in radius. 
+Consider a collection of spherical containers used to hold super gumballs of radius 1 inch. These containers range from 4 inch in radius up to 100 inches in radius. Consider a rough count of gumballs per sphere.
 
 Spherical Volume:
 
@@ -207,13 +207,13 @@ def spherical_volume(r):
 
 ---------------------------------------------------------------
 ## 2. Observe or interpret values
-* Packing volume into a dictionary
+* Packing rough gumball count of spheres related to 
 
 ```python
 d = dict()
 
-for r in range(1, 100+1):
-    d[r] = spherical_volume(r)
+for r in range(4, 100+1):
+    d[r] = int(spherical_volume(r) / spherical_volume(1))
 
 for r, v in d.items():
     print(f'{r}: {v}')
