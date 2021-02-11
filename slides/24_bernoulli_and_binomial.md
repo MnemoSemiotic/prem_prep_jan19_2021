@@ -867,3 +867,13 @@ Suppose you are building some sort of machine that relies on a specific componen
 What is the probability that 1 or more of these components work?
 
 How many of these components would you need to install in parallel to ensure that there is over 99.5% probability that your machine is working upon any given observation?
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
+#### Solve this Binomial CDF problems
+
+There are 8 components in parallel and at least 3 of those components need to be operational for a circuit to function. The probability of any given component being operational upon observation is 0.7. What is the probability that at least 3 components are operational?
+
