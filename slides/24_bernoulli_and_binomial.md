@@ -726,7 +726,7 @@ etc...
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT (3 minutes)
-### Code the Binomial Distribution 
+### Code the Binomial PMF (`binomial_pmf(n,p,k)`)
 * 3 parameters
 $n$ = number of bernoulli trials
 $p$ = probability of success on any given bernoulli trial
@@ -813,3 +813,57 @@ p = 0.4
 print(binomial_pmf(n, k, p)) # --> 0.2066
 ```
 
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Binomial Cumulative Distribution Function (CDF)
+Note that this is an accumulator pattern
+
+$$
+P(X \le k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-i}
+$$
+
+For example, flipping a fair coin 9 times, what is the probability that there will be 4 or fewer heads?
+
+$$
+P(X \le 4) = P(X = 0) + P(X = 1) + P(X = 2) + P(X = 3) + P(X = 4)
+$$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes) 
+### Code the Binomial CDF (`binomial_pmf(n,p,k_high)`)
+
+$$
+P(X \le k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-i}
+$$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+### Code the Binomial CDF (`binomial_pmf(n,p,k_high)`)
+
+```python
+def binomial_cdf(n, k_high, p=0.5):
+    cumulative = 0.0
+
+    for k in range(0, k_high+1):
+        cumulative += binomial_pmf(n, k, p)
+
+    return cumulative
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
+#### Solve this Binomial CDF problems
+
+Suppose you are building some sort of machine that relies on a specific component. The component is very delicate and the probability of it being in a failed state upon observation is 0.32. You decide to install 3 of these components in parallel, such that they are independent to each  other, given that you only need 1 to work to get your machine working. 
+
+What is the probability that 1 or more of these components work?
+
+How many of these components would you need to install in parallel to ensure that there is over 99.5% probability that your machine is working upon any given observation?
