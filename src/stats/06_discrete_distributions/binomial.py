@@ -60,5 +60,9 @@ def binomial_distr(n_trials=8):
 d = binomial_distr(n_trials=12)
 
 # for the counts
+# for k, v in d.items():
+#     print(f'{k}: {v}')
+
+# for the probabilities
 for k, v in d.items():
-    print(f'{k}: {v}')
+    print(f'{k}: {v / sum(d.values())}')
