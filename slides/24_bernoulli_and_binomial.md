@@ -860,20 +860,19 @@ def binomial_cdf(n, k_high, p=0.5):
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT (3 minutes)
-#### Solve this Binomial CDF problems
+#### Solve this Binomial CDF problem
 
-Suppose you are building some sort of machine that relies on a specific component. The component is very delicate and the probability of it being in a failed state upon observation is 0.32. You decide to install 3 of these components in parallel, such that they are independent to each  other, given that you only need 1 to work to get your machine working. 
-
-What is the probability that 1 or more of these components work?
-
-How many of these components would you need to install in parallel to ensure that there is over 99.5% probability that your machine is working upon any given observation?
+There are 8 components in parallel and functioning independent of each other. At least 3 of those components need to be operational for a given circuit to function. The probability of any given component being operational upon observation is 0.7. What is the probability that at least 3 components are operational upon observation?
 
 
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT (3 minutes)
-#### Solve this Binomial CDF problems
+#### Solve this Binomial CDF problem
 
-There are 8 components in parallel and at least 3 of those components need to be operational for a circuit to function. The probability of any given component being operational upon observation is 0.7. What is the probability that at least 3 components are operational?
+There are 8 components in parallel and functioning independent of each other. At least 3 of those components need to be operational for a given circuit to function. The probability of any given component being operational upon observation is 0.7. What is the probability that at least 3 components are operational upon observation?
 
+```python
+print(1 - binomial_cdf(8, 2, 0.7))
+```
