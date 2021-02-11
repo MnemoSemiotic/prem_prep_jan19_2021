@@ -1,1 +1,9 @@
-https://docs.google.com/presentation/d/1_WIXdpg2M1oMGEJIMAFpdlNQMxlCMazPGU2nU4oTwvM/edit#slide=id.p
+# Poisson Distribution
+* Poisson Phenomena
+* Poisson PMF
+* Relationship with Binomial
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# 
