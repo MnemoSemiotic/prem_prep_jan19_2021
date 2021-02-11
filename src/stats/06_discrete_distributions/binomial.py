@@ -12,5 +12,7 @@ def gen_4_bit_binary():
                     decimal += 1
     return bin_dct
 
-for dec, bin_ in gen_4_bit_binary().items():
-    print(f'{dec}: {bin_}')
+# for dec, bin_ in gen_4_bit_binary().items():
+#     print(f'{dec}: {bin_}')
+
+
