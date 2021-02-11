@@ -304,3 +304,27 @@ def get_binary(n_bits=8):
 for dec, bin_ in get_binary(n_bits=8).items():
     print(f'{dec}: {bin_}')
 ```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Why Binary?
+#### We can think of a binary number (word) as being a series of successes and failures
+
+```
+1 1 0 0
+S S F F
+```
+
+#### The count of 1's in 4-bit binary will follow a binomial distribution
+
+```
+0: *            0: 1/16
+1: ****         1: 4/16
+2: ******       2: 6/16
+3: ****         3: 4/16
+4: *            4: 1/16
+```
+
+
+
+
