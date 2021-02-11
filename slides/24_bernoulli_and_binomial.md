@@ -377,7 +377,7 @@ You flip a coin 12 times.
 
 
 
-#### What is the probability that you get 9 heads in 12 flips?
+#### What is the probability of getting 4 or less heads in 12 flips?
 * What are the values for $n$, $k$, and $p$
 
 <br><br><br><br><br><br><br><br><br><br>
