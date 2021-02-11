@@ -343,7 +343,9 @@
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/24_bernoulli_and_binomial.md)
+**Slide Deck**: 
+* [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/24_bernoulli_and_binomial.md)
+* [Discrete Random Variables](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/23_discrete_random_variables.md)
 
 **HW assignment**: 
 * Wrap up these Lessons in [Discrete Probability Distributions](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/00_discrete_distr_overview.md)
