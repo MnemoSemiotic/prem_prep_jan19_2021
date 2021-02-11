@@ -68,7 +68,7 @@ All possible length 3 trinary outcomes
 200 201 202 210 211 212 220 221 222
 ```
 
-Corresponding values of $X$
+Corresponding values of $Y$
 ```
   0   0   1   0   0   1   1   1   1
   0   0   1   0   0   1   1   1   1
