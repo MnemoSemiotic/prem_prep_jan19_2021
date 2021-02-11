@@ -326,5 +326,33 @@ S S F F
 ```
 
 
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Construct Binomial for $n$ trials with $p=0.5$
+* Using a Counting approach
+* Note that, in this binary approach, we are "stuck with" probability per trial of $0.5$
 
+```python
+def binomial_distr(n_trials=8):
+    binomial_dict = dict()
 
+    bin_dict = get_binary(n_bits=n_trials)
+
+    for _, val in bin_dict.items():
+        sum_bits = sum(val)
+        if sum_bits not in binomial_dict:
+            binomial_dict[sum_bits] = 0
+        binomial_dict[sum_bits] += 1
+
+    return binomial_dict
+
+d = binomial_distr(n_trials=12)
+
+# for the counts
+for k, v in d.items():
+    print(f'{k}: {v}')
+
+# for the probabilities
+for k, v in d.items():
+    print(f'{k}: {round(v / sum(d.values()), 5)}')
+```
