@@ -66,3 +66,8 @@ d = binomial_distr(n_trials=12)
 # for the probabilities
 for k, v in d.items():
     print(f'{k}: {v / sum(d.values())}')
+
+
+# # prob of getting 4 or less heads in 12 fair coin flips
+# (d[0] + d[1] + d[2] + d[3] + d[4]) / sum(d.values()
+
