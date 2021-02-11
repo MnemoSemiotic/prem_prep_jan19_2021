@@ -289,4 +289,18 @@ def dec_to_bin(dec, n_bits=8):
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
-# 
+# Building a DEC to BIN table
+Can collect values into a dictionary
+
+```python
+def get_binary(n_bits=8):
+    bins_d = dict()
+
+    for dec in range(2**n_bits):
+        bins_d[dec] = dec_to_bin(dec, n_bits)
+
+    return bins_d
+
+for dec, bin_ in get_binary(n_bits=8).items():
+    print(f'{dec}: {bin_}')
+```
