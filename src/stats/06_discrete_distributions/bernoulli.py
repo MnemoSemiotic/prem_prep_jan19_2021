@@ -8,4 +8,8 @@ def bernoulli(p_success=0.5):
     else:
         return False
 
-print(bernoulli(p_success=0.3))
+# print(bernoulli(p_success=0.3))
+
+
+trials = 10000000
+print([bernoulli(p_success=0.3) for _ in range(trials)].count(True) / trials)
