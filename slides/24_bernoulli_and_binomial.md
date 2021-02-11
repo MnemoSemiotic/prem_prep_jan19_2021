@@ -782,32 +782,34 @@ p = ?
 # BREAKOUT Solution
 #### Solve these 3 Binomial PMF problems
 
-'''
-What is the probability in 12 coin flips of a fair coin, that you get 7 heads?
-'''
+
+##### What is the probability in 12 coin flips of a fair coin, that you get 7 heads?
+
+```python
 n = 12
 k = 7
 p = 0.5
 
-# print(binomial_pmf(n, k, p))
+print(binomial_pmf(n, k, p)) # --> 0.1934
+```
 
+##### Sitting on a park bench you observe geese walking by. There's a probability of 0.3 that any goose walking by has black feet. What is the probability that 4 out of the next 15 geese walking by has black feet?
 
-'''
-Sitting on a park bench you observe geese walking by. There's a probability
-of 0.3 that any goose walking by has black feet. What is the probability
-that 4 out of the next 12 geese walking by has black feet?
-'''
-n = 12
+```python
+n = 15
 k = 4
 p = 0.3
 
-# print(binomial_pmf(n, k, p))
+print(binomial_pmf(n, k, p)) # --> 0.2187
+```
 
-'''
-At the dog park, there is a 0.4% chance that any one dog you see is a german shepherd.  What is the probability that 6 out of the 14 dogs at the park are german shepherds?
-'''
+##### At the cat cafe, there is a 40% chance that any one dog you see is a Siberian.  What is the probability that 6 out of the 14 dogs at the park are Siberian?
+
+```python
 n = 14
 k = 6
 p = 0.4
 
-# print(binomial_pmf(n, k, p))
+print(binomial_pmf(n, k, p)) # --> 0.2066
+```
+
