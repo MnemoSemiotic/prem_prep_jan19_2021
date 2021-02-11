@@ -456,11 +456,11 @@ of that number of successes occurring.
 ---------------------------------------
 # BREAKOUT Solution
 #### Write a function called binary_sampling_dict that has two params
-* `num_bits`
-* `num_samples`
+* `num_bits=8`
+* `num_samples=1000`
 
 ```python
-def binary_sampling_dict(num_bits, num_samples=1000):
+def binary_sampling_dict(num_bits=8, num_samples=1000):
     d = dict()
 
     for _ in range(num_samples):
