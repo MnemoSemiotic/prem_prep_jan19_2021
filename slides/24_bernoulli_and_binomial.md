@@ -412,4 +412,85 @@ You flip a coin 12 times.
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
-# 
+# Constructing Binomial with a fixed $p$
+### using `choice`
+
+```python
+from random import choice
+
+def get_bit():
+    return choice([0,1])
+
+def generate_n_bits(n=8):
+    return [get_bit() for _ in range(n)]
+    # lst = []
+    # for _ in range(n):
+    #     lst.append(get_bit())
+    # return lst
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+#### Write a function called binary_sampling_dict that has two params
+* `num_bits=8`
+* `num_samples=1000`
+
+return a `dict` where the keys represent the number of successes,
+and the values associated with those keys represent the count
+of that number of successes occurring.
+
+```python
+{
+    0: 35,
+    1: 63,
+    ...
+    num_bits: count of num_bits successes
+}
+
+# 00101101 : 4 successes
+```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+#### Write a function called binary_sampling_dict that has two params
+* `num_bits`
+* `num_samples`
+
+```python
+def binary_sampling_dict(num_bits, num_samples=1000):
+    d = dict()
+
+    for _ in range(num_samples):
+        binary = generate_n_bits(num_bits)
+        observed_k = sum(binary)
+
+        if observed_k not in d:
+            d[observed_k] = 0
+        d[observed_k] += 1
+
+    return d
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
+Run the code below and describe the difference in outcomes between the 2 resulting dictionaries:
+
+```python
+''' one trial of 100 samples '''
+d1 = binary_sampling_dict(num_bits=16, num_samples=100)
+
+for k, v in sorted(d1.items()):
+    print(f'{k}: {v / sum(d1.values)}')
+
+
+''' one trial of 1000 samples '''
+d2 = binary_sampling_dict(num_bits=16, num_samples=1000)
+
+for k, v in sorted(d2.items()):
+    print(f'{k}: {v / sum(d2.values)}')
+```
