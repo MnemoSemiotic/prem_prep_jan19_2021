@@ -42,3 +42,23 @@ def get_binary(n_bits=8):
 
 # for dec, bin_ in get_binary(n_bits=8).items():
 #     print(f'{dec}: {bin_}')
+
+
+def binomial_distr(n_trials=8):
+    binomial_dict = dict()
+
+    bin_dict = get_binary(n_bits=n_trials)
+
+    for _, val in bin_dict.items():
+        sum_bits = sum(val)
+        if sum_bits not in binomial_dict:
+            binomial_dict[sum_bits] = 0
+        binomial_dict[sum_bits] += 1
+
+    return binomial_dict
+
+d = binomial_distr(n_trials=12)
+
+# for the counts
+for k, v in d.items():
+    print(f'{k}: {v}')
