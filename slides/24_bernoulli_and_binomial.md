@@ -391,9 +391,9 @@ You flip a coin 12 times.
 
 #### What is the probability that you get 9 heads in 12 flips?
 * What are the values for $n$, $k$, and $p$
-    * $n=$
-    * $k=$
-    * $p=$
+    * $n=12$
+    * $k=9$
+    * $p=0.5$
     * $P(X=9) = 0.05371$
 
 #### What is the probability of getting 4 or less heads in 12 flips?
