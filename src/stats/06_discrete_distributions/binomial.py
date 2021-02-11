@@ -40,5 +40,5 @@ def get_binary(n_bits=8):
     
     return bins_d
 
-for dec, bin_ in get_binary(n_bits=8).items():
-    print(f'{dec}: {bin_}')
+# for dec, bin_ in get_binary(n_bits=8).items():
+#     print(f'{dec}: {bin_}')
