@@ -336,7 +336,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: [Lecture 16](https://youtu.be/1fGq5hhPrCI)
+**Video Lecture**: [Lecture 16b](https://youtu.be/1fGq5hhPrCI)
 
 ---------------------------------------------------------
 ### Day 17: Wednesday Feb 10 (6pm - 8pm Pacific)
@@ -363,7 +363,9 @@
 
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: [Poisson Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/25_poisson_distribution.md)
+**Slide Deck**: 
+* [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/24_bernoulli_and_binomial.md)
+* [Poisson Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/25_poisson_distribution.md)
 
 **HW assignment**: 
 * Complete this Lesson in [Discrete Probability Distributions](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/06_Discrete_Prob_Dists/00_discrete_distr_overview.md)
@@ -375,7 +377,22 @@
 
 ---------------------------------------------------------
 ### Day 19: Saturday Feb 13 (11am - 1pm Pacific)
- 
+**Instructor**: Tovio Roberts
+
+**Slide Deck**: [Geometric Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/29_geometric_distribution.md)
+
+**HW assignment**: 
+* Complete the [Continuous Probability Distributions Unit](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/07_Continuous_Prob_Dists/00_continuous_distr_overview.md) on Learn
+* Code out your own analytic approach to a phenomenon 
+(mathematical, probabilistic, etc), and submit a .py file, a collab link, 
+or a github link in the associated thread
+
+**HW Solutions**: N/A
+
+**Video Lecture**: _Lecture Link_ 
+
+---------------------------------------------------------
+### Day 20: Monday Feb 15 (6pm - 8pm Pacific)
 **Instructor**: Clark Walker
 
 **Slide Deck**: 
@@ -389,8 +406,9 @@
 
 **Video Lecture**: _Lecture Link_
 
+
 ---------------------------------------------------------
-### Day 20: Monday Feb 15 (6pm - 8pm Pacific)
+### Day 21: Tuesday Feb 16 (6pm - 8pm Pacific)
 
 **Instructor**: Clark Walker
 
@@ -410,24 +428,23 @@
 **Video Lecture**: _Lecture Link_
 
 ---------------------------------------------------------
-### Day 21: Tuesday Feb 16 (6pm - 8pm Pacific)
-
+### Day 22: Wednesday Feb 17 (6pm - 8pm Pacific)
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: [Geometric Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/29_geometric_distribution.md)
+**Slide Deck**: [Continuous Distributions](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/31_continuous_distributions.md)
 
-**HW assignment**: 
-* Complete the [Continuous Probability Distributions Unit](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/07_Continuous_Prob_Dists/00_continuous_distr_overview.md) on Learn
-* Code out your own analytic approach to a phenomenon 
-(mathematical, probabilistic, etc), and submit a .py file, a collab link, 
-or a github link in the associated thread
+**HW assignment** 
+* These are optional: 
+	* Do the [Kaggle Pandas Tutorial](https://www.kaggle.com/learn/pandas)
+	* Read 2.2, 4.6.5, and 5.1 of [Introduction to Statistical Learning](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_ 
+**Video Lecture**: _Lecture Link_
+
 
 ---------------------------------------------------------
-### Day 22: Wednesday Feb 17 (6pm - 8pm Pacific)
+### Day 23: Thursday Feb 18 (6pm - 8pm Pacific)
 
 **Instructor**: Tovio Roberts
 
@@ -437,22 +454,6 @@ or a github link in the associated thread
 * Complete these units on Learn
     * [Law of Total Probability](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/03_total_probability.md)
     * [Bayes Theorem](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/05_Conditional_Probability/04_Bayes_theorem.md)
-
-**HW Solutions**: N/A
-
-**Video Lecture**: _Lecture Link_
-
----------------------------------------------------------
-### Day 23: Thursday Feb 18 (6pm - 8pm Pacific)
-
-**Instructor**: Tovio Roberts
-
-**Slide Deck**: [Continuous Distributions](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/31_continuous_distributions.md)
-
-**HW assignment** 
-* These are optional: 
-	* Do the [Kaggle Pandas Tutorial](https://www.kaggle.com/learn/pandas)
-	* Read 2.2, 4.6.5, and 5.1 of [Introduction to Statistical Learning](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
 
 **HW Solutions**: N/A
 
