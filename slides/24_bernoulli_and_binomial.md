@@ -315,7 +315,7 @@ for dec, bin_ in get_binary(n_bits=8).items():
 S S F F
 ```
 
-#### The count of 1's in 4-bit binary will follow a binomial distribution
+#### The count of 1's in 4-bit binary will follow a binomial distribution, with a probability of $0.5$ per trial
 
 ```
 0: *            0: 1/16
