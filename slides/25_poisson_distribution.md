@@ -22,14 +22,19 @@ The Poisson Probability Distribution represents the number of events occuring in
 # The Poisson Probability Mass Function (PMF)
 * Given a typical frequency, $\lambda$, find the probability for a specific number of outcomes $k$
 * $\lambda$ can be adapted to different sizes of interval
+
 $$
-P(k events) = \frac{e^{-\lambda}\lambda^k}{k!}
+P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
 $$
 
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # Poisson Example Problems
+
+$$
+P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
+$$
 
 **Example 1**
 On average, ten people visit the ATM in an hour. What is the probability that 12 people visit the ATM in an hour?
@@ -38,5 +43,16 @@ $\lambda = 10$
 $k = 12$
 
 $$
-P(k \text{ events} ) = \frac{e^{-10} \cdot 10^{12}}{12!} = 0.0948
+P(\lambda=10, k=12) = \frac{e^{-10} \cdot 10^{12}}{12!} = 0.0948
+$$
+
+
+**Example 2**
+A specific space telescope takes random images of deep space. On average 23 Super Giant stars are seen in an image. What is the probability that two randomly selected images will have a total count of 35 Super Giant stars in them?
+
+$\lambda = 23 * 2$
+$k = 35$
+
+$$
+P(\lambda=46, k=35) = \frac{e^{-46} \cdot 46^{35}}{35!} = 0.01602
 $$
