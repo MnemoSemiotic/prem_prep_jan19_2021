@@ -71,3 +71,10 @@ for k, v in d.items():
 # # prob of getting 4 or less heads in 12 fair coin flips
 # (d[0] + d[1] + d[2] + d[3] + d[4]) / sum(d.values()
 
+
+'''
+Binomial through sampling
+'''
+
+
+
