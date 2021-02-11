@@ -536,3 +536,9 @@ for k, v in sorted(d.items()):
     print(f'{k}: {v / sum(d.values())}') # averaged (observed) probability
 
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Variable $p$ in Binomial sampling approach
+#### Using `random()`, we can change our $p$ value
