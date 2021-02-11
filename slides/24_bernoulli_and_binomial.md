@@ -542,3 +542,29 @@ for k, v in sorted(d.items()):
 ---------------------------------------
 # Variable $p$ in Binomial sampling approach
 #### Using `random()`, we can change our $p$ value
+
+```python
+def get_success(p=0.5):
+    if random() < p:
+        return 1
+    else:
+        return 0
+
+print(get_success(0.25))
+
+def generate_n_successes(n=8, p=0.5):
+    lst = []
+    for _ in range(n):
+        lst.append(get_success(p))
+    return lst
+
+print(generate_n_successes(n=8, p=0.05))
+
+# verify, as 12*0.25 = 3
+test_trials = 100000
+trial_results = []
+for _ in range(test_trials):
+    trial_results.append(generate_n_successes(12, p=0.25).count(1))
+
+print(sum(trial_results) / test_trials)
+```
