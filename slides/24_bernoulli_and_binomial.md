@@ -379,3 +379,21 @@ You flip a coin 12 times.
 ---------------------------------------
 # BREAKOUT Solution
 
+You flip a coin 12 times. 
+* $n$ is the number of Bernoulli trials
+* $k$ is the number of successes for which we want the probability
+* $p$ is the probability of success on any given trial
+
+#### What is the probability that you get 9 heads in 12 flips?
+* What are the values for $n$, $k$, and $p$
+    * $n=$
+    * $k=$
+    * $p=$
+    * $P(X=9) = $
+
+#### What is the probability of getting 4 or less heads in 12 flips?
+* What are the values for $n$, $k$, and $p$
+    * $n=$
+    * $k=$
+    * $p=$
+    * $P(X \le 4) = P(X=0) + P(X=1) + P(X=2) + P(X=3) + P(X=4) = 0.19384$
