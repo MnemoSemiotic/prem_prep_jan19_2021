@@ -244,3 +244,49 @@ dec_to_bin(43)
 
 reversed ==> 101011 is the binary representation of 43
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (6 minutes)
+
+Code the `dec_to_bin` function
+Should take as input 2 things:
+* a decimal value (dec)
+* a number of bits (n_bits=8)
+
+
+Algorithm:
+```
+Given a decimal number
+    - take the modulus by 2
+        - set aside the result
+    - floor divide the number by 2
+        - until that number is 0
+    - reverse the sequence of outcomes
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (6 minutes)
+
+Code the `dec_to_bin` function
+
+```python
+def dec_to_bin(dec, n_bits=8):
+    bin_list = []
+    x = dec
+
+    for _ in range(n_bits):
+        bit = x % 2
+        bin_list.append(bit)
+        x //= 2
+
+    return bin_list[::-1] # list(reversed(bin_list))
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# 
