@@ -345,7 +345,6 @@
 
 **Slide Deck**: 
 * [Discrete Random Variables](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/23_discrete_random_variables.md)
-
 * [Bernoulli and Binomial](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/24_bernoulli_and_binomial.md)
 
 **HW assignment**: 
@@ -359,7 +358,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 17](https://youtu.be/E5VSsPpvIPE)
 
 ---------------------------------------------------------
 ### Day 18: Thursday Feb 11 (6pm - 8pm Pacific)
