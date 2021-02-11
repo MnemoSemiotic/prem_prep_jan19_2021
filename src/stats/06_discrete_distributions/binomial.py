@@ -1,4 +1,4 @@
-
+from random import choice, random
 
 def gen_4_bit_binary():
     bin_dct = dict()
