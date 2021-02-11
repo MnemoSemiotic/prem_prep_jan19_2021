@@ -59,13 +59,13 @@ def binomial_distr(n_trials=8):
 
 d = binomial_distr(n_trials=12)
 
-# for the counts
+# # for the counts
 # for k, v in d.items():
 #     print(f'{k}: {v}')
 
-# for the probabilities
-for k, v in d.items():
-    print(f'{k}: {v / sum(d.values())}')
+# # for the probabilities
+# for k, v in d.items():
+#     print(f'{k}: {v / sum(d.values())}')
 
 
 # # prob of getting 4 or less heads in 12 fair coin flips
