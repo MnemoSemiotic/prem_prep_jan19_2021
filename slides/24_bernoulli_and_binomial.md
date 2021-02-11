@@ -106,6 +106,11 @@ print(true_count / trials)
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
+# Understanding the Binomial Distribution
+## Through Counting
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
 # Counting in Binary
 * Can think of binary, initially, as a 2 symbol translation from our well-known decimal system
 * 2 symbols in binary: [0, 1]
@@ -397,3 +402,14 @@ You flip a coin 12 times.
     * $k=$
     * $p=$
     * $P(X \le 4) = P(X=0) + P(X=1) + P(X=2) + P(X=3) + P(X=4) = 0.19384$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Understanding the Binomial Distribution
+## Through Sampling
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# 
