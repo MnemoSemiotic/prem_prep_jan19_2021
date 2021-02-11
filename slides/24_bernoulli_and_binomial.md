@@ -621,3 +621,193 @@ d = binary_sampling_clt_vary_p(n_bits=8, p=0.3, num_samples=1000, num_sample_tri
 for k, v in sorted(d.items()):
     print(f'{k}: {v}')
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Understanding the Binomial Distribution
+## via the PMF
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Binomial Probability Mass Function (PMF)
+
+$$
+P(X=k) = {n \choose k} p^k(1-p)^{n-k}
+$$
+
+$n$ = number of bernoulli trials
+$p$ = probability of success on any given bernoulli trial
+$k$ = specific number of successes for which to find the probability
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Other parameters of the Binomial Distribution
+$n$ = number of bernoulli trials
+$p$ = probability of success on any given bernoulli trial
+$k$ = specific number of successes for which to find the probability
+
+$$
+P(X=k) = {n \choose k} p^k(1-p)^{n-k}
+$$
+
+Mean or Expected Value
+
+$$
+E[X] = np
+$$
+
+Variance 
+
+$$
+Var(X) = np(1-p)
+$$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Reading Notation
+
+#### X~binomial(n, p)
+is read as "The random variable X follows a binomial distribution with n trials and probability p per trial"
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+#### Code the Components of the Binomial PMF
+* `factorial()`
+* `combinations`
+
+recall the Combinations formula
+
+$$
+nCk = \frac{n!}{(n-k)!k!}
+$$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+```python
+def factorial(n):
+    prod = 1
+    for num in range(1, n+1):
+        prod *= num
+    return prod
+
+
+def combinations(n, k):
+    return int(factorial(n) / (factorial(n-k) * factorial(k)))
+```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
+#### Why do you think combinations is part of the Binomial PMF?
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+Essentially there are multiple ways to arrange successes over a series of bernoulli trials. However, the arrangement of those successes is irrelevant. Thus the presence of combinations handles the different ways that $k$ successes can occur over $n$ trials.
+
+Different ways to arrange 3 successes over 8 trials
+```
+00000111
+01010100
+10000101
+etc...
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
+### Code the Binomial Distribution 
+* 3 parameters
+$n$ = number of bernoulli trials
+$p$ = probability of success on any given bernoulli trial
+$k$ = specific number of successes for which to find the probability
+
+$$
+P(X=k) = {n \choose k} p^k(1-p)^{n-k}
+$$
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+### Code the Binomial Distribution 
+
+```python
+def binomial_pmf(n, k, p=0.5):
+    return combinations(n, k) * (p**k) * (1-p)**(n-k)
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+#### Solve these 3 Binomial PMF problems
+
+
+##### What is the probability in 12 coin flips of a fair coin, that you get 7 heads?
+
+n = ?
+k = ?
+p = ?
+
+
+##### Sitting on a park bench you observe geese walking by. There's a probability of 0.3 that any goose walking by has black feet. What is the probability that 4 out of the next 12 geese walking by has black feet?
+
+n = ?
+k = ?
+p = ?
+
+
+
+##### At the cat cafe, there is a 40% chance that any one dog you see is a Siberian.  What is the probability that 6 out of the 14 dogs at the park are Siberian?
+
+n = ?
+k = ?
+p = ?
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+#### Solve these 3 Binomial PMF problems
+
+'''
+What is the probability in 12 coin flips of a fair coin, that you get 7 heads?
+'''
+n = 12
+k = 7
+p = 0.5
+
+# print(binomial_pmf(n, k, p))
+
+
+'''
+Sitting on a park bench you observe geese walking by. There's a probability
+of 0.3 that any goose walking by has black feet. What is the probability
+that 4 out of the next 12 geese walking by has black feet?
+'''
+n = 12
+k = 4
+p = 0.3
+
+# print(binomial_pmf(n, k, p))
+
+'''
+At the dog park, there is a 0.4% chance that any one dog you see is a german shepherd.  What is the probability that 6 out of the 14 dogs at the park are german shepherds?
+'''
+n = 14
+k = 6
+p = 0.4
+
+# print(binomial_pmf(n, k, p))
