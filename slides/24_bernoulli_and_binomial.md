@@ -494,3 +494,45 @@ d2 = binary_sampling_dict(num_bits=16, num_samples=1000)
 for k, v in sorted(d2.items()):
     print(f'{k}: {v / sum(d2.values)}')
 ```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+Descriptions here will vary. The main thing to observe is that the greater the `num_samples`, the more confidence we will have in the resulting probabilities for each value of `k`
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Running more trials of samples
+#### will get us closer and closer to the theoretical distribution we encountered via counting
+
+```python
+
+''' 500 trials of 1000 samples '''
+def binary_sampling_clt(n_bits=16, num_samples=1000, num_sample_trials=500):
+    d_out = dict()
+
+    for _ in range(num_sample_trials):
+        d = binary_sampling_dict(n_bits, num_samples)
+
+        for k, v in d.items():
+            if k not in d_out:
+                d_out[k] = []
+            d_out[k].append(v)
+
+    for k, v in d_out.items():
+        d_out[k] = sum(v) / len(v)
+
+    return d_out
+
+d = binary_sampling_clt(n_bits=16, num_samples=1000, num_sample_trials=500)
+
+# observing counts
+for k, v in sorted(d.items()):
+    print(f'{k}: {v}')
+
+observing probabilities
+for k, v in sorted(d.items()):
+    print(f'{k}: {v / sum(d.values())}') # averaged (observed) probability
+
+```
