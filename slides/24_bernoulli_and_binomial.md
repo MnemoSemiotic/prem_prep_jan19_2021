@@ -876,3 +876,55 @@ There are 8 components in parallel and functioning independent of each other. At
 ```python
 print(1 - binomial_cdf(8, 2, 0.7))
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT
+#### Code the `binomial_pmf_dict()` function.
+This should take 4 parameters:
+* `n`: the number of trials
+* `k_low`: the low value of $k$ in the dictionary
+* `k_high`: the high value of $k$ in the dictionary
+* `p=0.5`: the probability of success of a given bernoulli trial
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+```python
+def binomial_pmf_dict(n, k_low, k_high, p=0.5):
+    d = dict()
+
+    for k in range(k_low, k_high+1):
+        d[k] = binomial_pmf(n, k, p)
+
+    return d
+
+d = binomial_pmf_dict(8, 0, 8, p=0.25)
+
+for k, v in d.items():
+    print(f'{k}: {v}')
+```
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Consider the `binomial_cdf_dict()` function
+
+```python
+def binomial_cdf_dict(n, k_low, k_high, p=0.5):
+    d = dict()
+
+    for k in range(k_low, k_high+1):
+        d[k] = binomial_cdf(n, k, p)
+
+    return d
+
+d = binomial_cdf_dict(8, 0, 8, p=0.25)
+
+for k, v in d.items():
+    print(f'{k}: {v}')
+```
