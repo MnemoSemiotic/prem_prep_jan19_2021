@@ -593,8 +593,8 @@ def binary_sampling_vary_p(num_bits=8, p=0.5, num_samples=1000):
 ''' One trial of 1000 samples '''
 d = binary_sampling_vary_p(num_bits=8, p=0.3, num_samples=1000)
 
-# for k, v in sorted(d.items()):
-#     print(f'{k}: {v}')
+for k, v in sorted(d.items()):
+    print(f'{k}: {v}')
 
 ''' 500 trials of 1000 samples '''
 
@@ -616,7 +616,7 @@ def binary_sampling_clt_vary_p(n_bits=8, p=0.5, num_samples=1000, num_sample_tri
 
 ''' 500 trials of 1000 samples '''
 
-d = binary_sampling_clt_vary_p(n_bits=8, p=0.5, num_samples=1000, num_sample_trials=500)
+d = binary_sampling_clt_vary_p(n_bits=8, p=0.3, num_samples=1000, num_sample_trials=500)
 
 for k, v in sorted(d.items()):
     print(f'{k}: {v}')
