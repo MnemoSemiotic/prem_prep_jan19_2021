@@ -356,3 +356,26 @@ for k, v in d.items():
 for k, v in d.items():
     print(f'{k}: {round(v / sum(d.values()), 5)}')
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+
+You flip a coin 12 times. 
+* $n$ is the number of Bernoulli trials
+* $k$ is the number of successes for which we want the probability
+* $p$ is the probability of success on any given trial
+
+#### What is the probability that you get 9 heads in 12 flips?
+* What are the values for $n$, $k$, and $p$
+
+
+
+#### What is the probability that you get 9 heads in 12 flips?
+* What are the values for $n$, $k$, and $p$
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
