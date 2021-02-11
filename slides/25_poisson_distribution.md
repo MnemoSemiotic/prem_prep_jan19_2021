@@ -22,6 +22,7 @@ The Poisson Probability Distribution represents the number of events occuring in
 # The Poisson Probability Mass Function (PMF)
 * Given a typical frequency, $\lambda$, find the probability for a specific number of outcomes $k$
 * $\lambda$ can be adapted to different sizes of interval
+* The PMF provides the 
 
 $$
 P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
