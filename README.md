@@ -336,7 +336,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: [Lecture 16b](https://youtu.be/1fGq5hhPrCI)
+**Video Lecture**: [Lecture 16](https://youtu.be/1fGq5hhPrCI)
 
 ---------------------------------------------------------
 ### Day 17: Wednesday Feb 10 (6pm - 8pm Pacific)
