@@ -156,3 +156,17 @@ def binary_sampling_clt(n_bits=16, num_samples=1000, num_sample_trials=500):
 #     print(f'{k}: {round(v / sum(d.values()), 4)}')
 
 
+
+'''
+Binomial sampling with varying p
+'''
+def get_success(p=0.5):
+    if random() < p:
+        return 1
+    else:
+        return 0
+
+def generate_n_successes(n=8, p=0.5):
+    return [get_success() for _ in range(n)]
+
+print(generate_n_successes(n=8, p=0.25))
