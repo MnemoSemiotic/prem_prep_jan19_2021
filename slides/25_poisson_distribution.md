@@ -154,10 +154,10 @@ def poisson_pmf(lmbda, k):
 lmbda = 10
 k = 10
 
-n = 1
-
-print(f'binom: {}')
-print(f'')
+for n in range(10000):
+    print(f'binom: {round(,7)}')
+    print(f'poiss: {round(,7)}')
+    print()
 ```
 
 
