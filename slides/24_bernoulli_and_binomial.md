@@ -844,7 +844,7 @@ $$
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT Solution
-### Code the Binomial CDF (`binomial_pmf(n,p,k_high)`)
+### Code the Binomial CDF (`binomial_pmf(n, k_high, p=0.5)`)
 
 ```python
 def binomial_cdf(n, k_high, p=0.5):
