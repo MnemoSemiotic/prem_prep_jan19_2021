@@ -152,7 +152,7 @@ def poisson_pmf(lmbda, k):
 
 # Let's start with an n of 1 and fix lmbda and k
 lmbda = 10
-k = 10
+k = 20
 
 for n in range(k, 10000):
     print(f'binom: {round(binomial_pmf(n, k, p=(lmbda/n)),7)}')
