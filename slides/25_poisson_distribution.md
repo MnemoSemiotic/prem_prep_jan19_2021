@@ -163,7 +163,40 @@ for n in range(k, 10000):
 ```
 
 
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Euler's Number $e$
+[Playlist describing Emergence of Euler's Number $e$](https://www.youtube.com/watch?v=Mw52nDwPh8k&list=PL5T50pwCrPUrIxYqP8jC8ctUUItW6csXG)
+
+We can think of $e$ as a constant utilized in the Poisson PMF to describe a rate of decay, or the spreading out of successes over ever dividing moments tending toward $\infty$
 
 
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
 
-[Playlist describing Euler's Number $e$](https://www.youtube.com/watch?v=Mw52nDwPh8k&list=PL5T50pwCrPUrIxYqP8jC8ctUUItW6csXG)
+
+**Phenomenon:**
+Cars passing by an intersection at a certain time of day/year,  for the duration of a fixed amount of time, will likely follow a Poisson distribution
+
+**Question:**
+A given intersection will have, on avg, 15 cars pass through in 10 mintues. What is the probability that 20 cars pass through in 15 minutes?
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+
+**Phenomenon:**
+Cars passing by an intersection at a certain time of day/year,  for the duration of a fixed amount of time, will likely follow a Poisson distribution
+
+**Question:**
+A given intersection will have, on avg, 15 cars pass through in 10 mintues. What is the probability that 20 cars pass through in 15 minutes?
+
+```python
+lmbda = 15 * (15/10) # this can be a fraction
+k = 20
+
+print(poisson_pmf(lmbda, k)) # -> ~0.0769
+```
