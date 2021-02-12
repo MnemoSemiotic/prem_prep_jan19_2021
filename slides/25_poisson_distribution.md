@@ -12,7 +12,7 @@ The Poisson Probability Distribution represents the number of events occuring in
 * $\lambda$ represents the typical or expected frequency in a given interval
 
 **Constraints:**
-1. The rate represented by lambda is constant
+1. The rate represented by lambda is consistent
 2. Each “success” or event is independent, discrete, and random
 3. Two events cannot occur at the exact same instant
 
