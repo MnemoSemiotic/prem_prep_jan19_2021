@@ -67,7 +67,7 @@ Thus the probability of seeing 35 stars in two images is 0.01602.
 ---------------------------------------
 # BREAKOUT (4 minutes)
 Code the `poisson_pmf()` function.
-* 
+* $e = 2.71828$
 * Note, both the constant `e` and the `factorial()` function are available from the `math` module.
 
 
