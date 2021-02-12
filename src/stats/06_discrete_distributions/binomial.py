@@ -278,3 +278,5 @@ def binomial_cdf(n, k_high, p=0.5):
 
     return cumulative
 
+
+print(binomial_cdf(8, 2, p=0.5))
