@@ -154,9 +154,9 @@ def poisson_pmf(lmbda, k):
 lmbda = 10
 k = 10
 
-for n in range(10000):
-    print(f'binom: {round(,7)}')
-    print(f'poiss: {round(,7)}')
+for n in range(k, 10000):
+    print(f'binom: {round(binomial_pmf(n, k, p=(lmbda/n)),7)}')
+    print(f'poiss: {round(poisson_pmf(lmbda, k),7)}')
     print()
 ```
 
