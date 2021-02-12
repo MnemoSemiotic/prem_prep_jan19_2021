@@ -136,6 +136,8 @@ We can take $n$ toward infinity now (which takes $p$ toward 0), and approach the
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # Verifying Poisson's relationship to Binomial 
+Try this with different values of $\lambda$ and $k$
+
 
 ```python
 from math import e, factorial
@@ -152,7 +154,7 @@ def poisson_pmf(lmbda, k):
 
 # Let's start with an n of 1 and fix lmbda and k
 lmbda = 10
-k = 20
+k = 10
 
 for n in range(k, 10000):
     print(f'binom: {round(binomial_pmf(n, k, p=(lmbda/n)),7)}')
