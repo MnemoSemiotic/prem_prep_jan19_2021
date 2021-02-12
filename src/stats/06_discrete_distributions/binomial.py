@@ -279,4 +279,14 @@ def binomial_cdf(n, k_high, p=0.5):
     return cumulative
 
 
-print(binomial_cdf(8, 2, p=0.25))
+# print(binomial_cdf(8, 2, p=0.25))
+
+
+'''
+There are 8 components in parallel and functioning independent of each other. At least 3 of those components need to be operational for a given circuit to function. The probability of any given component being operational upon observation is 0.7. What is the probability that at least 3 components are operational upon observation?
+'''
+n = 8
+k_high = 2
+p = 0.7
+
+print(1 - binomial_cdf(n, k_high, p))
