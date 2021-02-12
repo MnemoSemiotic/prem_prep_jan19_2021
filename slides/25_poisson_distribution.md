@@ -74,3 +74,23 @@ $$
 P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
 $$
 
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+Code the `poisson_pmf()` function.
+Note, both the constant `e` and the `factorial()` function are available from the `math` module.
+
+$$
+P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
+$$
+
+
+```python
+from math import e, factorial
+
+# print(e) # 2.718281828459045
+
+def poisson_pmf(lmbda, k):
+    return lmbda**k * e**(-lmbda) / factorial(k)
+```
