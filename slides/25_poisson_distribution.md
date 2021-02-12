@@ -271,3 +271,36 @@ d = poisson_pmf_dict(10, 0, 30)
 for k, v in d.items():
     print(f'{k}: {round(v, 6)}')
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (2 minutes)
+
+You are observing a phenomenon that follows perfectly a poisson process.
+
+Given a certain number of observation (10000), how would you determine how many events to expect for each value of k given  `lmbda=10`, `low_k=0`, `high_k=30`?
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+Simply multiply each probability by the number of observations.
+
+In code:
+
+```python
+def poisson_count_exp(lmbda, low_k, high_k, num_samples=10000):
+    d = dict()
+
+    for k in range(low_k, high_k+1):
+        d[k] = round(poisson_pmf(lmbda, k) * num_samples)
+
+    return d
+
+d = poisson_count_exp(10, 0, 30, num_samples=10000)
+
+for k, v in d.items():
+    print(f'{k}: {v}')
+```
