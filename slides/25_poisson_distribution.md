@@ -192,7 +192,7 @@ A given intersection will have, on avg, 15 cars pass through in 10 mintues. What
 Cars passing by an intersection at a certain time of day/year,  for the duration of a fixed amount of time, will likely follow a Poisson distribution
 
 **Question:**
-A given intersection will have, on avg, 15 cars pass through in 10 mintues. What is the probability that 20 cars pass through in 15 minutes?
+A given intersection will have, on avg, 15 cars pass through in 10 minutes. What is the probability that 20 cars pass through in 15 minutes?
 
 ```python
 lmbda = 15 * (15/10) # this can be a fraction
@@ -201,19 +201,16 @@ k = 20
 print(poisson_pmf(lmbda, k)) # -> ~0.0769
 ```
 
-
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
-# BREAKOUT (6 minutes)
-Note: You will need a CDF function to do this
-
-Given the same intersection, what is the probability that
-more than 15 cars will pass through in 15 minutes?
+# BREAKOUT (5 minutes)
+#### Code the `poisson_cdf` function
 
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT Solution
+#### Code the `poisson_cdf` function
 
 ```python
 def poisson_cdf(lmbda, k_high):
@@ -223,6 +220,54 @@ def poisson_cdf(lmbda, k_high):
         cdf += poisson_pmf(lmbda, k)
 
     return cdf
+```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
+
+A given intersection will have, on avg, 15 cars pass through in 10 minutes. What is the probability that
+more than 15 cars will pass through in 15 minutes?
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+```python
+lmbda = 15 * (15/10)
 
 print(1 - poisson_cdf(lmbda, k_high=15)) # 0.9366
+```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (6 minutes)
+#### Code the `poisson_pmf_dict()`
+* your parameters will be 
+    * `lmbda`
+    * `low_k`
+    * `high_k`
+
+Holding `lmbda` constant, write a function that returns a dictionary showing the probs for number of events from `low_k` to `high_k` (inclusive)
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+```python
+def poisson_pmf_dict(lmbda, low_k, high_k):
+    d = dict()
+
+    for k in range(low_k, high_k+1):
+        d[k] = poisson_pmf(lmbda, k)
+
+    return d
+
+# d = poisson_pmf_dict(10, 0, 30)
+
+# for k, v in d.items():
+#     print(f'{k}: {round(v, 6)}')
 ```
