@@ -111,15 +111,18 @@ def binary_sampling_dict(num_bits=8, num_samples=1000):
 #     print(f'{k}: {v}')
 
 
-''' one trial of 100 samples '''
-d1 = binary_sampling_dict(num_bits=16, num_samples=100)
+# ''' one trial of 100 samples '''
+# d1 = binary_sampling_dict(num_bits=16, num_samples=100)
 
-for k, v in sorted(d1.items()):
-    print(f'{k}: {v / sum(d1.values())}')
+# for k, v in sorted(d1.items()):
+#     print(f'{k}: {v / sum(d1.values())}')
 
 
-''' one trial of 1000 samples '''
-d2 = binary_sampling_dict(num_bits=16, num_samples=1000)
+# ''' one trial of 1000 samples '''
+# d2 = binary_sampling_dict(num_bits=16, num_samples=1000)
 
-for k, v in sorted(d2.items()):
-    print(f'{k}: {v / sum(d2.values())}')
+# for k, v in sorted(d2.items()):
+#     print(f'{k}: {v / sum(d2.values())}')
+
+
+
