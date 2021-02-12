@@ -205,10 +205,17 @@ print(poisson_pmf(lmbda, k)) # -> ~0.0769
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT (6 minutes)
+Note: You will need a CDF function to do this
 
 Given the same intersection, what is the probability that
 more than 15 cars will pass through in 15 minutes?
 
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT Solution
+
+```python
 def poisson_cdf(lmbda, k_high):
     cdf = 0.0
 
@@ -217,4 +224,5 @@ def poisson_cdf(lmbda, k_high):
 
     return cdf
 
-# print(1 - poisson_cdf(lmbda, k_high=15)) # 0.9366
+print(1 - poisson_cdf(lmbda, k_high=15)) # 0.9366
+```
