@@ -238,3 +238,19 @@ def combinations(n, k):
 def binomial_pmf(n, k, p=0.5):
     return combinations(n, k) * (p**k) * (1-p)**(n-k)
 
+
+
+
+# What is the probability in 12 coin flips of a fair coin, that you get 7 heads?
+n = 12
+k = 7
+p = 0.5
+
+print(binomial_pmf(n, k, p=0.5))
+
+# Sitting on a park bench you observe geese walking by. There's a probability of 0.3 that any goose walking by has black feet. What is the probability that 4 out of the next 12 geese walking by has black feet?
+n = ?
+k = ?
+p = ?
+
+# At the cat cafe, there is a 40% chance that any one cat you see is a Siberian. What is the probability that 6 out of the 14 cats at the park are Siberian?
