@@ -834,7 +834,7 @@ $$
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
 # BREAKOUT (4 minutes) 
-### Code the Binomial CDF (`binomial_pmf(n,p,k_high)`)
+### Code the Binomial CDF (`binomial_pmf(n, k_high, p=0.5)`)
 
 $$
 P(X \le k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-i}
