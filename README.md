@@ -375,7 +375,7 @@
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 18](https://youtu.be/eoW8ikO9rHE)
 
 ---------------------------------------------------------
 ### Day 19: Saturday Feb 13 (11am - 1pm Pacific)
