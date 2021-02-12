@@ -47,6 +47,8 @@ $$
 P(\lambda=10, k=12) = \frac{e^{-10} \cdot 10^{12}}{12!} = 0.0948
 $$
 
+Thus the probability of 12 people visiting the ATM in an hour is 0.0948.
+
 
 **Example 2**
 A specific space telescope takes random images of deep space. On average 23 Super Giant stars are seen in an image. What is the probability that two randomly selected images will have a total count of 35 Super Giant stars in them?
@@ -57,3 +59,18 @@ $k = 35$
 $$
 P(\lambda=46, k=35) = \frac{e^{-46} \cdot 46^{35}}{35!} = 0.01602
 $$
+
+Thus the probability of seeing 35 stars in two images is 0.01602.
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (4 minutes)
+Code the `poisson_pmf()` function.
+Note, both the constant `e` and the `factorial()` function are available from the `math` module.
+
+
+$$
+P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
+$$
+
