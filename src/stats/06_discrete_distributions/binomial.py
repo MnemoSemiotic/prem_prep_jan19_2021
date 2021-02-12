@@ -292,3 +292,16 @@ p = 0.7
 # print(1 - binomial_cdf(n, k_high, p)) # 0.9887
 
 
+
+def binomial_pmf_dict(n, k_low, k_high, p=0.5):
+    d = dict()
+
+    for k in range(k_low, k_high+1):
+        d[k] = binomial_pmf(n, k, p)
+
+    return d
+
+d = binomial_pmf_dict(30, 10, 20, p=0.25)
+
+for k, v in d.items():
+    print(f'{k}: {v}')
