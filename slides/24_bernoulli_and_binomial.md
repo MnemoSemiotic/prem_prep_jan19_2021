@@ -769,7 +769,7 @@ p = ?
 
 
 
-##### At the cat cafe, there is a 40% chance that any one dog you see is a Siberian.  What is the probability that 6 out of the 14 dogs at the park are Siberian?
+##### At the cat cafe, there is a 40% chance that any one cat you see is a Siberian.  What is the probability that 6 out of the 14 cats at the park are Siberian?
 
 n = ?
 k = ?
