@@ -289,4 +289,4 @@ n = 8
 k_high = 2
 p = 0.7
 
-print(1 - binomial_cdf(n, k_high, p))
+print(1 - binomial_cdf(n, k_high, p)) # 0.9887
