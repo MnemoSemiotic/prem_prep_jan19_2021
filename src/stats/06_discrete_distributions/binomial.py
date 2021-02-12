@@ -270,7 +270,7 @@ p = 0.4
 CDF
 '''
 
-def binomial_cdf(n, p, k_high):
+def binomial_cdf(n, k_high, p=0.5):
     cumulative = 0.0
 
     for k in range(0, k_high+1):
