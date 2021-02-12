@@ -301,7 +301,22 @@ def binomial_pmf_dict(n, k_low, k_high, p=0.5):
 
     return d
 
-d = binomial_pmf_dict(30, 10, 20, p=0.25)
+# d = binomial_pmf_dict(30, 10, 20, p=0.25)
+
+# for k, v in d.items():
+#     print(f'{k}: {v}')
+
+
+
+def binomial_cdf_dict(n, k_low, k_high, p=0.5):
+    d = dict()
+
+    for k in range(k_low, k_high+1):
+        d[k] = binomial_cdf(n, k, p)
+
+    return d
+
+d = binomial_cdf_dict(8, 0, 8, p=0.25)
 
 for k, v in d.items():
     print(f'{k}: {v}')
