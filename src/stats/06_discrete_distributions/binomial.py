@@ -266,3 +266,15 @@ p = 0.4
 
 
 
+'''
+CDF
+'''
+
+def binomial_cdf(n, p, k_high):
+    cumulative = 0.0
+
+    for k in range(0, k_high+1):
+        cumulative += binomial_pmf(n, k, p)
+
+    return cumulative
+
