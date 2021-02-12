@@ -880,7 +880,7 @@ print(1 - binomial_cdf(8, 2, 0.7))
 
 <br><br><br><br><br><br><br><br><br><br>
 ---------------------------------------
-# BREAKOUT
+# BREAKOUT (5 minutes)
 #### Code the `binomial_pmf_dict()` function.
 This should take 4 parameters:
 * `n`: the number of trials
