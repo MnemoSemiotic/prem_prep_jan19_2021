@@ -169,4 +169,25 @@ def get_success(p=0.5):
 def generate_n_successes(n=8, p=0.5):
     return [get_success(p) for _ in range(n)]
 
-print(generate_n_successes(n=8, p=0.25))
+# print(generate_n_successes(n=8, p=0.25))
+
+
+
+def binary_sampling_vary_p(num_bits=8, p=0.5, num_samples=1000):
+    d = dict()
+
+    for _ in range(num_samples):
+        binary = generate_n_successes(num_bits, p)
+        observed_k = sum(binary)
+
+        if observed_k not in d:
+            d[observed_k] = 0
+        d[observed_k] += 1
+
+    return d
+
+
+d = binary_sampling_vary_p(num_bits=8, p=0.25, num_samples=1000)
+
+for k, v in sorted(d.items()):
+    print(f'{k}: {v}')
