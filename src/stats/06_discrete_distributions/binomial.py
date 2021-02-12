@@ -145,7 +145,7 @@ def binary_sampling_clt(n_bits=16, num_samples=1000, num_sample_trials=500):
 
     return d_out
 
-d = binary_sampling_clt(n_bits=16, num_samples=1000, num_sample_trials=500)
+d = binary_sampling_clt(n_bits=16, num_samples=100, num_sample_trials=1000)
 
 # # counts
 # for k, v in sorted(d.items()):
