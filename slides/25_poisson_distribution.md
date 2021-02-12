@@ -200,3 +200,8 @@ k = 20
 
 print(poisson_pmf(lmbda, k)) # -> ~0.0769
 ```
+
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# BREAKOUT (3 minutes)
