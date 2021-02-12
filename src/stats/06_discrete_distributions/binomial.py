@@ -235,3 +235,6 @@ def combinations(n, k):
     return int(factorial(n) / (factorial(n-k) * factorial(k)))
 
 
+def binomial_pmf(n, k, p=0.5):
+    return combinations(n, k) * (p**k) * (1-p)**(n-k)
+
