@@ -94,3 +94,41 @@ from math import e, factorial
 def poisson_pmf(lmbda, k):
     return lmbda**k * e**(-lmbda) / factorial(k)
 ```
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Poisson's relationship to Binomial
+**The binomial distribution tends toward the Poisson distribution as:**
+$n \rightarrow \infty$
+$p \rightarrow 0$
+$\lambda = np$ stays constant
+
+**Binomial PMF**
+
+$$
+P(X=k) = {n \choose k} p^k(1-p)^{n-k}
+$$
+
+The Mean, or Expectation in a Binomial distribution is $np$
+
+
+**Poisson PMF**
+$$
+P(\lambda, k \text{ events}) = \frac{e^{-\lambda}\lambda^k}{k!}
+$$
+The Mean of a Poisson distribution is $\lambda$
+
+
+If we set $\lambda$ equal to $np$, we can see that $p=\frac{\lambda}{n}$: 
+
+$$
+\lambda = np \rightarrow p=\frac{\lambda}{n}
+$$
+
+and then substitue the for $p$ in the Binomial PMF:
+$$
+P(X=k) = {n \choose k} \frac{\lambda}{n}^k(1-\frac{\lambda}{n})^{n-k}
+$$
+
+We can take $n$ toward infinity now (which takes $p$ toward 0), and approach the result of the Poisson PMF.
+
