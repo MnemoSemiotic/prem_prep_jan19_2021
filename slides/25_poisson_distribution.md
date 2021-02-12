@@ -132,3 +132,36 @@ $$
 
 We can take $n$ toward infinity now (which takes $p$ toward 0), and approach the result of the Poisson PMF.
 
+
+<br><br><br><br><br><br><br><br><br><br>
+---------------------------------------
+# Verifying Poisson's relationship to Binomial 
+
+```python
+from math import e, factorial
+
+def combinations(n, k):
+    return int(factorial(n) / (factorial(n-k) * factorial(k)))
+
+def binomial_pmf(n, k, p=0.5):
+    return combinations(n, k) * (p**k) * (1-p)**(n-k)
+
+def poisson_pmf(lmbda, k):
+    return lmbda**k * e**(-lmbda) / factorial(k)
+
+
+# Let's start with an n of 1 and fix lmbda and k
+lmbda = 10
+k = 10
+
+n = 1
+
+print(f'binom: {}')
+print(f'')
+```
+
+
+
+
+
+[Playlist describing Euler's Number $e$](https://www.youtube.com/watch?v=Mw52nDwPh8k&list=PL5T50pwCrPUrIxYqP8jC8ctUUItW6csXG)
