@@ -33,7 +33,7 @@ k = 15
 # print(geometric_pmf(p, k-1, inclusive=False))
 
 
-def geom_cdf_accum(p, k, inclusive=False):
+def geom_cdf_accum(p, k, inclusive=True):
     proba = 0.0
 
     for r in range(inclusive, k+1):
@@ -48,3 +48,11 @@ def geom_cdf_closed(p, k, inclusive=True):
         return 1 - (1-p)**k
     else:
         return 1 - (1-p)**(k+1)
+
+
+
+geom_cdf_accum(p, k, inclusive=False)
+geom_cdf_accum(p, k, inclusive=False)
+
+geom_cdf_closed(p, k, inclusive=True)
+geom_cdf_closed(p, k, inclusive=True)
