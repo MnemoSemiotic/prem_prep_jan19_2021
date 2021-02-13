@@ -101,4 +101,62 @@ def geometric_pmf(p, k, inclusive=True):
 <br><br><br><br><br><br><br><br>
 
 --------------------------------
-# 
+# BREAKOUT (2 minutes)
+
+
+You are flipping a fair coin. What is the probability that
+you get your first heads on the 7th flip?
+
+p = ?
+k = ?
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+
+You are flipping a fair coin. What is the probability that
+you get your first heads on the 7th flip?
+
+```python
+p = 0.5
+k = 7
+
+print(geometric_pmf(p, k, inclusive=True))
+print(geometric_pmf(p, k-1, inclusive=False))
+```
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT (2 minutes)
+
+You have a series of routers transmitting packets of data. There is a 0.99 probability that a given packet of data passes through the router.
+
+What is the probability that a given packet of data is lost in the 15th router?
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+
+You have a series of routers transmitting packets of data. There is a 0.99 probability that a given packet of data passes through the router.
+
+What is the probability that a given packet of data is lost in the 15th router?
+
+```python
+p = 0.01
+k_inclusive = 15
+k_exclusive = 14
+
+print(geometric_pmf(p, k_inclusive, inclusive=True))
+print(geometric_pmf(p, k_exclusive, inclusive=False))
+```
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# Geometric CDF
