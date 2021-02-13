@@ -76,3 +76,16 @@ p = 0.01
 # print(geom_cdf_closed(p, 14, inclusive=True))
 
 
+def geometric_pmf_dict(p, k_high, inclusive=True):
+    d = dict()
+
+    for k in range(inclusive, k_high+1):
+        d[k] = geometric_pmf(p, k, inclusive)
+
+    return d
+
+d_incl = geometric_pmf_dict(p=0.5, k=10, inclusive=True)
+d_excl = geometric_pmf_dict(p=0.5, k=10, inclusive=False)
+
+for k, v in d_excl.items():
+    print(f'{k}: {v}')
