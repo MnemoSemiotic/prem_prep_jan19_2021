@@ -126,7 +126,7 @@ $$
 \lambda = np \rightarrow p=\frac{\lambda}{n}
 $$
 
-and then substitue the for $p$ in the Binomial PMF:
+and then substitue $\frac{\lambda}{n}$ for $p$ in the Binomial PMF:
 $$
 P(X=k) = {n \choose k} \frac{\lambda}{n}^k(1-\frac{\lambda}{n})^{n-k}
 $$
