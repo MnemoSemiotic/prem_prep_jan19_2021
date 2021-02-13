@@ -50,4 +50,6 @@ def poisson_cdf(lmbda, k_high):
     
     return cdf
 
-print(poisson_cdf(10, 10))
+# print(poisson_cdf(10, 10))
+
+
