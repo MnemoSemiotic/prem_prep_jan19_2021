@@ -39,3 +39,15 @@ lmbda = 15 * (15/10)
 k = 20
 
 # print(poisson_pmf(lmbda, k)) # -> 0.0769
+
+
+
+def poisson_cdf(lmbda, k_high):
+    cdf = 0.0
+
+    for k in range(k_high+1):
+        cdf += poisson_pmf(lmbda, k)
+    
+    return cdf
+
+print(poisson_cdf(10, 10))
