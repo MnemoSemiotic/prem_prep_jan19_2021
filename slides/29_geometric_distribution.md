@@ -78,6 +78,17 @@ Code the `geometric_pmf()` function
 * `k` : number of failures (inclusive or exclusive of the 1st success)
 * `inclusive=True` : whether or not to use inclusive or exclusive pmf
 
+PMF calculating the number of trials up to **and including** the first success
+
+$$
+P(X=k) = p (1-p)^{k-1}
+$$
+
+PMF calculating the number of trials **before** the first success
+
+$$
+P(X=k) = p (1-p)^{k}
+$$
 
 <br><br><br><br><br><br><br><br>
 
@@ -154,6 +165,24 @@ k_exclusive = 14
 print(geometric_pmf(p, k_inclusive, inclusive=True))
 print(geometric_pmf(p, k_exclusive, inclusive=False))
 ```
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# Geometric CDF
+
+* CDF for the number of trials up to **and including** the first success
+
+$$
+P(X \le k) = \sum_{i=1}^k p (1-p)^{i-1}
+$$
+
+* PMF for the number of trials **before** the first success
+
+$$
+P(X \lt k) = \sum_{i=0}^{k-1} p (1-p)^{i-1}
+$$
 
 
 <br><br><br><br><br><br><br><br>
