@@ -54,6 +54,7 @@ $$
 
 --------------------------------
 # Geometric Variance
+No difference in these two forms
 
 ##### Variance (up to **and including** the first success)
 
@@ -66,3 +67,5 @@ $$
 $$
 Var(X) = \frac{1-p}{p^2}
 $$
+
+
