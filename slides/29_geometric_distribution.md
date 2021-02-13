@@ -69,3 +69,35 @@ Var(X) = \frac{1-p}{p^2}
 $$
 
 
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT (4 minutes)
+Code the `geometric_pmf()` function
+* `p` : probability
+* `k` : number of failures (inclusive or exclusive of the 1st success)
+* `inclusive=True` : whether or not to use inclusive or exclusive pmf
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+Code the `geometric_pmf()` function
+* `p` : probability
+* `k` : number of failures (inclusive or exclusive of the 1st success)
+* `inclusive=True` : whether or not to use inclusive or exclusive pmf
+
+```python
+def geometric_pmf(p, k, inclusive=True):
+    if inclusive:
+        return p * (1-p)**(k-1)
+    else:
+        return p * (1-p)**k
+```
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# 
