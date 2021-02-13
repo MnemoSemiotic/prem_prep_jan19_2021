@@ -38,4 +38,4 @@ A given intersection will have, on avg, 15 cars pass through in 10 minutes. What
 lmbda = 15 * (15/10)
 k = 20
 
-print(poisson_pmf(lmbda, k))
+# print(poisson_pmf(lmbda, k)) # -> 0.0769
