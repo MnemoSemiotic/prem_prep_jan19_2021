@@ -236,4 +236,34 @@ def geom_cdf_closed(p, k, inclusive=True):
 <br><br><br><br><br><br><br><br>
 
 --------------------------------
-# 
+# BREAKOUT (3 minutes)
+
+You have a series of routers transmitting packets of data. There is a 0.99 probability that a given packet of data passes through the router. 
+
+##### What is the probability that a given packet of data will pass successfully through 14 routers?
+
+
+##### What is the probability that a given packet will be dropped before the 15th router it passes through... in other words, on or before the 14th router.
+
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+
+You have a series of routers transmitting packets of data. There is a 0.99 probability that a given packet of data passes through the router. 
+
+##### What is the probability that a given packet of data will pass successfully through 14 routers?
+
+`0.99**14`
+
+##### What is the probability that a given packet will be dropped before the 15th router it passes through... in other words, on or before the 14th router.
+
+```python
+p = 0.01
+print(geom_cdf_accum(p, 14, inclusive=True))
+print(geom_cdf_accum(p, 13, inclusive=False))
+print(geom_cdf_closed(p, 14, inclusive=True))
+print(geom_cdf_closed(p, 13, inclusive=False))
+```
