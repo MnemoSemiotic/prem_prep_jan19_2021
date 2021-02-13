@@ -79,3 +79,10 @@ def poisson_pmf_dict(lmbda, low_k, high_k):
 #     print(f'{k}: :{v}')
 
 
+def poisson_counts(lmbda, low_k, high_k, num_samples=10000):
+    d = dict()
+
+    for k in range(low_k, high_k+1):
+        d[k] = round(poisson_pmf(lmbda, k) * num_samples)
+
+    return d
