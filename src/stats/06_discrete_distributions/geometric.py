@@ -87,5 +87,5 @@ def geometric_pmf_dict(p, k_high, inclusive=True):
 d_incl = geometric_pmf_dict(p=0.5, k_high=10, inclusive=True)
 d_excl = geometric_pmf_dict(p=0.5, k_high=10, inclusive=False)
 
-for k, v in d_excl.items():
+for k, v in d_incl.items():
     print(f'{k}: {v}')
