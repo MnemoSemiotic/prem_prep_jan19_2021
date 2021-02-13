@@ -50,9 +50,11 @@ def geom_cdf_closed(p, k, inclusive=True):
         return 1 - (1-p)**(k+1)
 
 
+p = 0.05
+k = 10
 
-geom_cdf_accum(p, k, inclusive=False)
-geom_cdf_accum(p, k, inclusive=False)
+print(geom_cdf_accum(p, k, inclusive=True))
+print(geom_cdf_accum(p, k-1, inclusive=False))
 
-geom_cdf_closed(p, k, inclusive=True)
-geom_cdf_closed(p, k, inclusive=True)
+print(geom_cdf_closed(p, k, inclusive=True))
+print(geom_cdf_closed(p, k-1, inclusive=False))
