@@ -26,3 +26,16 @@ k = 10
 
 
 
+
+
+'''
+Phenomenon:
+Cars passing by an intersection at a certain time of day/year, for the duration of a fixed amount of time, will likely follow a Poisson distribution
+
+Question:
+A given intersection will have, on avg, 15 cars pass through in 10 minutes. What is the probability that 20 cars pass through in 15 minutes?
+'''
+lmbda = 15 * (15/10)
+k = 20
+
+print(poisson_pmf(lmbda, k))
