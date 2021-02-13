@@ -62,4 +62,20 @@ more than 15 cars will pass through in 15 minutes?
 lmbda = 15 * (15/10)
 
 
-print(1 - poisson_cdf(lmbda, 15))
+# print(1 - poisson_cdf(lmbda, 15))
+
+
+def poisson_pmf_dict(lmbda, low_k, high_k):
+    d = dict()
+
+    for k in range(low_k, high_k+1):
+        d[k] = poisson_pmf(lmbda, k)
+
+    return d
+
+d = poisson_pmf_dict(lmbda=10, low_k=0, high_k=20)
+
+for k, v in d.items():
+    print(f'{k}: :{v}')
+
+    
