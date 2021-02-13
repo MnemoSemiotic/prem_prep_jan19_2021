@@ -230,3 +230,10 @@ def geom_cdf_closed(p, k, inclusive=True):
     else:
         return 1 - (1-p)**(k+1)
 ```
+
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# 
