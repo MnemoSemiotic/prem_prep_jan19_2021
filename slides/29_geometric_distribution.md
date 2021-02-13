@@ -326,3 +326,41 @@ d_excl = geometric_cdf_dict(p=0.5, k_high=10, inclusive=False)
 for k, v in d_incl.items():
     print(f'{k}: {v}')
 ```
+
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# Geometric Distribution through Sampling
+We can use a sampling approach to view outcomes of the geometric distribution.
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT (3 minutes)
+Code the `bernoulli(p=0.5)` function, return `1` for a success, or `0` for a failure.
+The `random()` function from the `random` library will be helpful here
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+Code the `bernoulli(p=0.5)` function
+
+```python
+def bernoulli(p=0.5):
+    if random() < p:
+        return 1
+    else:
+        return 0
+```
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT (4 minutes)
+Code the `geometric(p=0.5)` function. This function should call to the `bernoulli(p)` function and count the number of samples before (not including) the first success. The function should return that count
