@@ -364,3 +364,28 @@ def bernoulli(p=0.5):
 --------------------------------
 # BREAKOUT (4 minutes)
 Code the `geometric(p=0.5)` function. This function should call to the `bernoulli(p)` function and count the number of samples before (not including) the first success. The function should return that count
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+Code the `geometric(p=0.5)` function. This function should call to the `bernoulli(p)` function and count the number of samples before (not including) the first success. The function should return that count
+
+```python
+def geometric(p=0.5):
+    # num of failures prior to success
+    lst = []
+
+    for _ in range(10000000000):
+        flip = bernoulli(p)
+        lst.append(flip)
+
+        if flip == 1:
+            break
+    
+    return len(lst) - 1
+
+
+print(geometric(p=0.0005))
+```
