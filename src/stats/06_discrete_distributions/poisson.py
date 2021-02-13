@@ -53,3 +53,13 @@ def poisson_cdf(lmbda, k_high):
 # print(poisson_cdf(10, 10))
 
 
+
+'''
+A given intersection will have, on avg, 15 cars pass through in 10 minutes. What is the probability that
+more than 15 cars will pass through in 15 minutes?
+'''
+
+lmbda = 15 * (15/10)
+
+
+print(1 - poisson_cdf(lmbda, 15))
