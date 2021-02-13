@@ -73,9 +73,9 @@ def poisson_pmf_dict(lmbda, low_k, high_k):
 
     return d
 
-d = poisson_pmf_dict(lmbda=10, low_k=0, high_k=20)
+# d = poisson_pmf_dict(lmbda=10, low_k=0, high_k=20)
 
-for k, v in d.items():
-    print(f'{k}: :{v}')
+# for k, v in d.items():
+#     print(f'{k}: :{v}')
 
-    
+
