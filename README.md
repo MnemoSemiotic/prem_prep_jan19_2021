@@ -381,7 +381,9 @@
 ### Day 19: Saturday Feb 13 (11am - 1pm Pacific)
 **Instructor**: Tovio Roberts
 
-**Slide Deck**: [Geometric Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/29_geometric_distribution.md)
+**Slide Deck**: 
+* [Poisson Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/25_poisson_distribution.md)
+* [Geometric Distribution](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/29_geometric_distribution.md)
 
 **HW assignment**: 
 * Complete the [Continuous Probability Distributions Unit](https://learn-2.galvanize.com/content_link/github/gSchool/dsi-prep-module-introStats/07_Continuous_Prob_Dists/00_continuous_distr_overview.md) on Learn
