@@ -16,7 +16,7 @@ def binomial_pmf(n, k, p=0.5):
 
 
 
-lmbda = 10
+lmbda = 100
 k = 10
 
 for n in range(k, 10000):
