@@ -53,8 +53,10 @@ def geom_cdf_closed(p, k, inclusive=True):
 p = 0.05
 k = 10
 
-print(geom_cdf_accum(p, k, inclusive=True))
-print(geom_cdf_accum(p, k-1, inclusive=False))
+# print(geom_cdf_accum(p, k, inclusive=True))
+# print(geom_cdf_accum(p, k-1, inclusive=False))
 
-print(geom_cdf_closed(p, k, inclusive=True))
-print(geom_cdf_closed(p, k-1, inclusive=False))
+# print(geom_cdf_closed(p, k, inclusive=True))
+# print(geom_cdf_closed(p, k-1, inclusive=False))
+
+
