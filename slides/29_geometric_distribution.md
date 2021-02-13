@@ -171,21 +171,62 @@ print(geometric_pmf(p, k_exclusive, inclusive=False))
 
 --------------------------------
 # Geometric CDF
+Note that we have convenient closed formulas for the CDF
 
 * CDF for the number of trials up to **and including** the first success
 
 $$
-P(X \le k) = \sum_{i=1}^k p (1-p)^{i-1}
+P(X \le k) = 1 - (1-p)^{k}
 $$
 
-* PMF for the number of trials **before** the first success
+* CDF for the number of trials **before** the first success
 
 $$
-P(X \lt k) = \sum_{i=0}^{k-1} p (1-p)^{i-1}
+P(X \lt k) = 1 - (1-p)^{k+1}
 $$
 
 
 <br><br><br><br><br><br><br><br>
 
 --------------------------------
-# Geometric CDF
+# BREAKOUT (5 minutes)
+Code 2 Functions
+
+`geom_cdf_accum(p, k, inclusive=True)`
+This function should use the PMF functions in an accumulator pattern
+
+
+`geom_cdf_closed(p, k, inclusive=True)`
+This function should use the CDF formulas: 
+* up to **and including** the first success
+    * $P(X \le k) = 1 - (1-p)^{k}$
+* **before** the first success
+    * $P(X \lt k) = 1 - (1-p)^{k+1}$
+
+
+<br><br><br><br><br><br><br><br>
+
+--------------------------------
+# BREAKOUT Solution
+
+```python
+def geom_cdf_accum(p, k, inclusive=True):
+    proba = 0.0
+
+    if inclusive:
+        starting_at = 1
+    else:
+        starting_at = 0
+
+    for r in range(starting_at, k+1):
+        proba += geometric_pmf(p, r, inclusive)
+
+    return proba
+
+
+def geom_cdf_closed(p, k, inclusive=True):
+    if inclusive:
+        return 1 - (1-p)**k
+    else:
+        return 1 - (1-p)**(k+1)
+```
