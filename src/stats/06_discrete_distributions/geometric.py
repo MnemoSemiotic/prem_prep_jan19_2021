@@ -42,12 +42,12 @@ def geom_cdf_accum(p, k, inclusive=True):
     return proba
 
 def geom_cdf_closed(p, k, inclusive=True):
-    # return 1 - (1-p)**(k +(not inclusive))
+    return 1 - (1-p)**(k +(not inclusive))
     
-    if inclusive:
-        return 1 - (1-p)**k
-    else:
-        return 1 - (1-p)**(k+1)
+    # if inclusive:
+    #     return 1 - (1-p)**k
+    # else:
+    #     return 1 - (1-p)**(k+1)
 
 
 p = 0.05
