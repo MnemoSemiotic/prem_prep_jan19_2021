@@ -97,7 +97,7 @@ class Poisson():
     def pmf(self, k):
         from math import e as E
         lmbda = self.lmbda
-        return (e**(-lmbda)) * ((lmbda**k) / stats_tools.factorial(k))
+        return (E**(-lmbda)) * ((lmbda**k) / stats_tools.factorial(k))
 
 
     def cdf(self, k):
@@ -108,8 +108,9 @@ class Poisson():
         return acc
 
 
-# garden = Poisson(7)
-# print( garden )
+garden = Poisson(7)
+print( garden.cdf(200) )
+
 # <day_11_lib.Poisson object at 0x7fb903737700>
 
 ########################################## """
