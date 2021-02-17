@@ -148,7 +148,7 @@ Where the Poisson distribution models “events per time (or area),” exponenti
 
 ----------------------------------------
 # BREAKOUT (5 Minutes)
-##### Code these 4 Exponential Functions
+##### Code these 5 Exponential Functions
 
 |                                                                      | |                         |
 |----------------------------------------------------------------------|-|-------------------------|
@@ -162,6 +162,7 @@ Where the Poisson distribution models “events per time (or area),” exponenti
 |`exponential_cdf(lmbda, x):`                                     | |`exponential_variance(lmbda):`|
 |$f(x) = 1 - e^{-\lambda x} \text{ for } x \ge 0, \text{ else } 0$| |<center>$E(X) = \frac{1}{\lambda^2}$</center>|
 
+Also code `exponential_std(lmbda)`
 
 ----------------------------------------
 # BREAKOUT Solution
