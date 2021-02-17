@@ -82,6 +82,23 @@ NOTE: due to the infinite precision of a continuous distribution, $\lt$ and $\le
 <br><br><br><br><br><br><br><br>
 
 ----------------------------------------
+# Uniform Params
+
+##### Expected Value
+
+$$
+E = \frac{1}{2}(\text{low bound} + \text{high bound})
+$$
+
+##### Variance
+
+$$
+\sigma^2 = \frac{1}{12}(\text{high bound} - \text{low bound})^2
+$$
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
 ## Constructing a Uniform Continuous Distribution
 Applying geometric decay to a binomial process
 
@@ -122,4 +139,24 @@ print(get_float(8))
 <br><br><br><br><br><br><br><br>
 
 ----------------------------------------
-# 
+# Exponential Distribution
+Where the Poisson distribution models “events per time (or area),” exponential measures time (or space) between Poisson events. 
+* The most common application is to model waiting times	
+    * The time necessary to wait for a cab
+    * The time waiting to see the next shooting star while stargazing
+    * Waiting time for the next customer to arrive at a store
+
+----------------------------------------
+# Code these 4 Exponential Functions
+
+|                                                                      | |                         |
+|----------------------------------------------------------------------|-|-------------------------|
+|**Exponential ($\lambda$) PDF**                                       | |**Exponential Mean**      |
+|`exponential_pdf(lmbda, x):`                                          | |`exponential_mean(lmbda):`|
+|$f(x) = \lambda e^{-\lambda x} \text{ for } x \ge 0, \text{ else } 0$ | |<center>$E(X) = \frac{1}{\lambda}$</center>|
+
+|                                                                 | |                              |
+|-----------------------------------------------------------------|-|-----------------------------|
+|**Exponential ($\lambda$) CDF**                                  | |**Exponential Variance**      |
+|`exponential_cdf(lmbda, x):`                                     | |`exponential_variance(lmbda):`|
+|$f(x) = 1 - e^{-\lambda x} \text{ for } x \ge 0, \text{ else } 0$| |<center>$E(X) = \frac{1}{\lambda^2}$</center>|
