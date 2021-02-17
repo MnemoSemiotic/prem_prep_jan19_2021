@@ -147,7 +147,8 @@ Where the Poisson distribution models “events per time (or area),” exponenti
     * Waiting time for the next customer to arrive at a store
 
 ----------------------------------------
-# Code these 4 Exponential Functions
+# BREAKOUT ()
+##### Code these 4 Exponential Functions
 
 |                                                                      | |                         |
 |----------------------------------------------------------------------|-|-------------------------|
