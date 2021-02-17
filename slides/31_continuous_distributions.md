@@ -147,7 +147,7 @@ Where the Poisson distribution models “events per time (or area),” exponenti
     * Waiting time for the next customer to arrive at a store
 
 ----------------------------------------
-# BREAKOUT ()
+# BREAKOUT (5 Minutes)
 ##### Code these 4 Exponential Functions
 
 |                                                                      | |                         |
@@ -161,3 +161,12 @@ Where the Poisson distribution models “events per time (or area),” exponenti
 |**Exponential ($\lambda$) CDF**                                  | |**Exponential Variance**      |
 |`exponential_cdf(lmbda, x):`                                     | |`exponential_variance(lmbda):`|
 |$f(x) = 1 - e^{-\lambda x} \text{ for } x \ge 0, \text{ else } 0$| |<center>$E(X) = \frac{1}{\lambda^2}$</center>|
+
+
+----------------------------------------
+# BREAKOUT Solution
+
+```python
+
+
+```
