@@ -166,4 +166,41 @@ $P(\text{Truck} | \text{Red}) = \frac{P(\text{Red} \cap \text{Truck})}{\text{Red
 <br><br><br><br><br><br><br>
 
 ----------------------------------------------------
-# 
+# Law of Total Probability
+Given a sample space which is divided into a number of disjoint events, an overlapping event can be interpreted as the aggregation of that event in each subspace.
+
+![](images/venn_diagram_law_of_total_proba.png)
+
+Here, $A$ can be represented as:
+
+$$
+A = (B1 \cap A)  \cup   (B2 \cap A)  \cup   (B3 \cap A)
+$$
+
+
+----------------------------------------------------
+# Applying Kolmogorov 
+By rearranging
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+to
+
+$$
+P(A \cap B) = P(A|B) \times P(B)
+$$
+
+we can rewrite
+
+$$
+A = (B1 \cap A)  \cup   (B2 \cap A)  \cup   (B3 \cap A)
+$$
+
+as
+
+$$
+P(A) = P(A|B1)P(B1)  +   P(A|B2)P(B2)  +   P(A|B3)P(B3)
+$$
+
