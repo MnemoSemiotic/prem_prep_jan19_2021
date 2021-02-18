@@ -69,6 +69,20 @@ P(\text{cat}|\text{dog}) = ?
 $$
 
 2. Write down known info
-* $P(\text{cat})$
-* $P(\text{dog})$
-* $P(\text{cat} \cap \text{dog})$
+* $P(\text{cat}) = 0.45$
+* $P(\text{dog}) = 0.40$
+* $P(\text{cat} \cap \text{dog}) = 0.25$
+
+3. Apply Kolmogorov's Definition
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)} \\
+$$
+
+$$
+P(\text{cat}|\text{dog}) = \frac{P(\text{cat} \cap \text{dog})}{P(\text{dog})}
+$$
+
+$$
+P(\text{cat}|\text{dog}) = \frac{0.25}{0.45}
+$$
