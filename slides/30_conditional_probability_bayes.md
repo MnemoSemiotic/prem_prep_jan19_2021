@@ -31,4 +31,4 @@ A conditional probability is a measure of the probability of one event occurring
 ----------------------------------------------------
 # Visualizing Conditional Probability
 
-![cond proba visual](images\venn_diagram_complement.png)
+![cond proba visual](images/venn_diagram_cond_proba.png)
