@@ -42,7 +42,33 @@ $$
 
 ----------------------------------------------------
 # Kolmogorov's Definition
+### of Conditional Probability
 
 $$
 P(A|B) = \frac{P(A \cap B)}{P(B)}
 $$
+
+
+<br><br><br><br><br><br><br>
+
+----------------------------------------------------
+# Conditional Probability Example
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+A survey was given to a number of regarding their pets. 40% of respondents reported owning a dog, 45% of respondents reported owning a cat, and 25% of students responded to owning both (All students owning both were counted in all categories). 
+
+##### What is the probability of a student owning a dog, if we know they own a cat?
+
+1. Frame the question
+
+$$
+P(\text{cat}|\text{dog}) = ?
+$$
+
+2. Write down known info
+* $P(\text{cat})$
+* $P(\text{dog})$
+* $P(\text{cat} \cap \text{dog})$
