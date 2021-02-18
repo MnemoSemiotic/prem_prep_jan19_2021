@@ -244,3 +244,51 @@ print(exponential_mean(lmbda=0.1))
 print(exponential_variance(0.1))
 print(exponential_std(0.1))
 ```
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# Normal Distribution
+The classic "Bell-Shaped Curve"
+
+Applies to many measured phenomena, to the Central Limit Theorem (CLT), to Confidence Intervals, used in Statistical Inference, and more.
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# BREAKOUT (3 minutes)
+#### Code the Normal PDF: `normal_pdf(x=0, mu=0, sigma=1)`
+Given the mean, $\mu$
+and standard deviation, $\sigma$
+
+$$
+f(x, \mu, \sigma) = \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
+$$
+
+```python
+print(normal_pdf(0.5, 0, 1)) # --> ~0.3521
+```
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# BREAKOUT (3 minutes)
+#### Code the Normal PDF: `normal_pdf(x=0, mu=0, sigma=1)`
+Given the mean, $\mu$
+and standard deviation, $\sigma$
+
+$$
+f(x, \mu, \sigma) = \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
+$$
+
+```python
+from math import e, pi, sqrt
+
+def normal_pdf(x=0, mu=0, sigma=1):
+    return (1 / (sigma * sqrt(2 * pi))) * e **(-(1/2) * ((x - mu)/sigma)**2)
+
+print(normal_pdf(0.5, 0, 1)) # --> ~0.3521
+```
