@@ -41,7 +41,8 @@ $$
 <br><br><br><br><br><br><br>
 
 ----------------------------------------------------
-# 
+# Kolmogorov's Definition
 
-
-https://docs.google.com/presentation/d/1PHxm_tiTLT30WiL4rhKrjZx2wgY4-BciiWgyYQdVThs/edit#slide=id.gac287a8af4_0_392
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
