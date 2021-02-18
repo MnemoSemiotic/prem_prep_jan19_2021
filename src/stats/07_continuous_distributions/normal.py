@@ -14,5 +14,8 @@ def normal_cdf(x=0, mu=0, sigma=1):
         accum += normal_pdf(val, mu, sigma)
         if val > x:
             break
-        
+
     return accum * 0.001
+
+
+print(normal_cdf(x=300, mu=475, sigma=98))
