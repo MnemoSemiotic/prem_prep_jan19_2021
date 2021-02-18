@@ -275,7 +275,7 @@ print(normal_pdf(0.5, 0, 1)) # --> ~0.3521
 <br><br><br><br><br><br><br><br>
 
 ----------------------------------------
-# BREAKOUT (3 minutes)
+# BREAKOUT Solution
 #### Code the Normal PDF: `normal_pdf(x=0, mu=0, sigma=1)`
 Given the mean, $\mu$
 and standard deviation, $\sigma$
@@ -292,3 +292,38 @@ def normal_pdf(x=0, mu=0, sigma=1):
 
 print(normal_pdf(0.5, 0, 1)) # --> ~0.3521
 ```
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# Normal CDF
+Typically to derive the CDF from a PDF, we would take the integral of the PDF. However, mathematicians do not have an effective set of techniques for taking the integral of such a complicated equation.
+
+Statisticians and probabilists use tables, packages (for programming languages) and/or software to make accurate estimations for the CDF of a normal distribution. 
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# Reading a Normal Table
+
+Given a **z-score**, representing the number of standard deviations a value is away from the mean, reference a normal table to find the probability
+
+![](images/normal_table.png)
+
+----------------------------------------
+# Z-Score, Normal table Example Walkthrough
+
+Scores on the verbal Scholastic Aptitude Test (SAT) follow a normal distribution with a **mean of 475**, and a **standard deviation of 98**.
+
+
+1. First, find the z-score for the probability that a randomly chosen SAT score will be less than 300.
+
+$$
+
+$$
+
+We can conclude that there is only a 3.67% chance that 
+a randomly chosen SAT verbal score will be less 
+than or equal to 300
