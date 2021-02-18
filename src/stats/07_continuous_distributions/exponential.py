@@ -41,3 +41,5 @@ print(1 - exponential_cdf(lmbda, x=10)) # 0.3679
 print(exponential_mean(lmbda))
 
 # What is the variance of this random variable?
+print(exponential_variance(lmbda))
+print(exponential_std(lmbda))
