@@ -8,7 +8,11 @@ def normal_pdf(x=0, mu=0, sigma=1):
 
 def normal_cdf(x=0, mu=0, sigma=1):
     x_vals = [num*0.001 for num in range(-1000, int(x*1000))]
+    accum = 0.0
 
-    # code here 
-
+    for val in x_vals:
+        accum += normal_pdf(val, mu, sigma)
+        if val > x:
+            break
+        
     return accum * 0.001
