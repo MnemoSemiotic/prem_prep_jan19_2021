@@ -18,4 +18,4 @@ def normal_cdf(x=0, mu=0, sigma=1):
     return accum * 0.001
 
 
-print(normal_cdf(x=300, mu=475, sigma=98)) # 0.0370
+# print(normal_cdf(x=300, mu=475, sigma=98)) # 0.0370
