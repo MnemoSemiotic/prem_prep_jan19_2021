@@ -444,7 +444,7 @@ or a github link in the associated thread
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 22](https://youtu.be/UYgkLj4xTfY)
 
 
 ---------------------------------------------------------
