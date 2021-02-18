@@ -20,4 +20,13 @@ ayesian Inference does not consist of a static model the way that frequentist st
 <br><br><br><br><br><br><br>
 
 ----------------------------------------------------
+# Conditional Probability
+A conditional probability is a measure of the probability of one event occurring, given that another (different) event has occurred, or will occur.
+* Implicitly, we presume, assume, assert, or see evidence that the given event has or will occur.
+* This can be interpreted as limiting the sample space of the event we are measuring. 
+
+
+<br><br><br><br><br><br><br>
+
+----------------------------------------------------
 # 
