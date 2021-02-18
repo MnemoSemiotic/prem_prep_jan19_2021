@@ -84,5 +84,45 @@ P(\text{cat}|\text{dog}) = \frac{P(\text{cat} \cap \text{dog})}{P(\text{dog})}
 $$
 
 $$
-P(\text{cat}|\text{dog}) = \frac{0.25}{0.45}
+= \frac{0.25}{0.45}
 $$
+
+$$
+P(\text{cat}|\text{dog}) = 0.55
+$$
+
+Thus the probability of a student owning a cat given that they own a dog is **0.55**
+
+
+<br><br><br><br><br><br><br>
+
+----------------------------------------------------
+# Independence and Dependence
+#### by Kolmogorov's Definition
+By rearranging the definition, we can qualify independence of a probability problem. 
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+**Dependence**
+if 
+
+$$
+P(A \cap B) = P(A|B) \times P(B)
+$$
+
+then the events have dependency
+
+**Independence**
+if 
+
+$$
+P(A \cap B) = P(A) \times P(B)
+$$
+
+then the events are independent. Notice how this recalls the **Multiplication Rule** for independent events.
+
+
+----------------------------------------------------
+# 
