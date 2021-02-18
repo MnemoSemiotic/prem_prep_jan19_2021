@@ -19,3 +19,12 @@ def normal_cdf(x=0, mu=0, sigma=1):
 
 
 # print(normal_cdf(x=300, mu=475, sigma=98)) # 0.0370
+
+
+'''
+A radar unit is used to measure speeds of cars on a motorway. The speeds are normally distributed with a mean of 90 km/hr and a standard deviation of 10 km/hr. What is the probability that a car picked at random is travelling at more than 100 km/hr?
+'''
+mu = 90
+sigma = 10
+x = 100
+print(1 - normal_cdf(x, mu, sigma))
