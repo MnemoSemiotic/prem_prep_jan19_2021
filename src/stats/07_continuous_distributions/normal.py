@@ -11,7 +11,7 @@ def normal_cdf(x=0, mu=0, sigma=1):
     accum = 0.0
 
     for val in x_vals:
-        accum += normal_pdf(val, mu, sigma)*0.001
+        accum += normal_pdf(val, mu, sigma) * 0.001
         if val > x:
             break
 
