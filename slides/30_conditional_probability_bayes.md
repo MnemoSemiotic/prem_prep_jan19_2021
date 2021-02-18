@@ -32,3 +32,16 @@ A conditional probability is a measure of the probability of one event occurring
 # Visualizing Conditional Probability
 
 ![cond proba visual](images/venn_diagram_cond_proba.png)
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{2}{2+3} = \frac{2}{5} = 0.4
+$$
+
+
+<br><br><br><br><br><br><br>
+
+----------------------------------------------------
+# 
+
+
+https://docs.google.com/presentation/d/1PHxm_tiTLT30WiL4rhKrjZx2wgY4-BciiWgyYQdVThs/edit#slide=id.gac287a8af4_0_392
