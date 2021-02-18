@@ -178,6 +178,8 @@ A = (B1 \cap A)  \cup   (B2 \cap A)  \cup   (B3 \cap A)
 $$
 
 
+<br><br><br><br><br><br>
+
 ----------------------------------------------------
 # Applying Kolmogorov 
 By rearranging
@@ -204,3 +206,9 @@ $$
 P(A) = P(A|B1)P(B1)  +   P(A|B2)P(B2)  +   P(A|B3)P(B3)
 $$
 
+
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# 
