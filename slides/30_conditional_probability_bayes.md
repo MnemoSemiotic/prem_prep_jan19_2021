@@ -1,5 +1,10 @@
 # Conditional Probability and Bayes
+* Bayesian vs Frequentist Thought
+* Kolmogorov's Definition for Conditional Probability
+* Bayes Theorem
+* Bayes Textbook Problems
 
 
+<br><br><br><br><br><br><br>
 
-https://docs.google.com/presentation/d/1PHxm_tiTLT30WiL4rhKrjZx2wgY4-BciiWgyYQdVThs/edit#slide=id.p
+----------------------------------------------------
