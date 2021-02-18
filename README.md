@@ -429,7 +429,7 @@ or a github link in the associated thread
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 21](https://youtu.be/Y-gznsOr5bo)
 
 ---------------------------------------------------------
 ### Day 22: Wednesday Feb 17 (6pm - 8pm Pacific)
