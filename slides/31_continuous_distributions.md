@@ -312,6 +312,31 @@ Given a **z-score**, representing the number of standard deviations a value is a
 
 ![](images/normal_table.png)
 
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# Calculate the Z-Score
+To apply the Normal Z table, the distribution must be “normalized” to a normal distribution with $\mu = 0$, $\sigma = 1$
+
+
+If $X \sim N(\mu, \sigma)$, we can define a new random variable $Z$ by
+
+$$
+Z = \frac{X-\mu}{\sigma}
+$$
+
+and 
+
+$$
+Z \sim N(0, 1)
+$$
+
+With the Z-score, we can reference a table for 
+
+<br><br><br><br><br><br><br><br>
+
 ----------------------------------------
 # Z-Score, Normal table Example Walkthrough
 
@@ -321,9 +346,50 @@ Scores on the verbal Scholastic Aptitude Test (SAT) follow a normal distribution
 1. First, find the z-score for the probability that a randomly chosen SAT score will be less than 300.
 
 $$
-
+P(X \le 300) = P \Bigl(\frac{X-\mu}{\sigma} \le \frac{300-\mu}{\sigma} \Bigr)
 $$
 
-We can conclude that there is only a 3.67% chance that 
+$$
+= P \Bigl(Z \le \frac{300-475}{98} \Bigr)
+$$
+
+2. From here we reference the table
+
+$$
+= \phi (-1.79) = 0.0367
+$$
+
+3. We can conclude that there is only a 3.67% chance that 
 a randomly chosen SAT verbal score will be less 
 than or equal to 300
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# Let's code a CDF function
+It has become more common to utilize functions from `scipy.stats`. We'll code a CDF function from scratch, though, using a Riehman's Sum approach on the PDF.
+
+```python
+def normal_cdf(x=0, mu=0, sigma=1):
+    vals = [num*0.001 for num in range(-1000, int(x*1000))]
+
+    area_accum = 0.0
+
+    for val in vals:
+        res = normal_pdf(val, mu, sigma)
+        area_accum += res
+
+        if val > x:
+            break
+    
+    return area_accum*0.001
+
+print(normal_cdf(x=300, mu=475, sigma=98)) # --> ~ 0.0371
+```
+
+
+<br><br><br><br><br><br><br><br>
+
+----------------------------------------
+# 
