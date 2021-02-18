@@ -124,5 +124,46 @@ $$
 then the events are independent. Notice how this recalls the **Multiplication Rule** for independent events.
 
 
+<br><br><br><br><br><br><br>
+
+----------------------------------------------------
+# Breakout (3 minutes)
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+A survey of 400 vehicles was taken driving on an afternoon, the survey found that 175 of the vehicles were red, 120 of the vehicles were trucks, and 37 of the vehicles were red trucks. 
+
+##### Given that a random truck is chosen, what is the probability that it is red?
+
+##### Given that a random red vehicle is chosen, what is the probability that it is a truck?
+
+
+<br><br><br><br><br><br><br>
+
+----------------------------------------------------
+# Breakout Solution
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+##### Given that a random truck is chosen, what is the probability that it is red?
+
+$P(A) = P(Red) = \frac{175}{400} = 0.4375$
+
+$P(B) = P(Truck) = \frac{120}{400} = 0.300$
+
+$P(A \cap B) = P(\text{Red} \cap \text{Truck}) = \frac{37}{400} = .0925$
+
+$P(\text{Red}|\text{Truck}) = \frac{P(\text{Red} \cap \text{Truck})}{P(\text{Truck})} = \frac{0.0925}{0.3} = 0.3083$
+
+##### Given that a random red vehicle is chosen, what is the probability that it is a truck?
+
+$P(\text{Truck} | \text{Red}) = \frac{P(\text{Red} \cap \text{Truck})}{\text{Red}} = \frac{0.0925}{0.4375} = 0.2114$
+
+
+<br><br><br><br><br><br><br>
+
 ----------------------------------------------------
 # 
