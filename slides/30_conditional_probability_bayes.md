@@ -218,7 +218,7 @@ Given two bags of marbles:
 * Bag 1: 75 red, 25 blue
 * Bag 2: 45 red, 37 blue
 
-Calculate the total probability that a red marble will be chosen, if a bag is chosen at random (with equal probability), and then a marble from that bag is chosen at random. 
+**Calculate the total probability that a red marble will be chosen, if a bag is chosen at random (with equal probability), and then a marble from that bag is chosen at random.**
 
 ##### 1. Frame the question
 
@@ -227,7 +227,35 @@ P(Red) = \text{?}
 $$
 
 ##### 2. Write down known info
+Maybe draw a picture too
 
-$P(\text{Bowl 1}) = P(\text{Bowl 1}) = 0.5$
+$P(\text{Bowl 1}) = P(\text{Bowl 2}) = 0.5$
 
-$P(\text{Bowl 1}) = P(\text{Bowl 1}) = 0.5$
+$P(\text{Red}|\text{Bowl 1}) = \frac{75}{100} = 0.75$
+
+$P(\text{Red}|\text{Bowl 2}) = \frac{45}{82} = 0.549$
+
+
+##### 2. Apply Law of Total Probability
+
+$P(R)$
+
+$=P(\text{Red}|\text{Bowl 1})P(\text{Bowl 1}) + P(\text{Red}|\text{Bowl 2})P(\text{Bowl 2})$
+
+$=0.75 \cdot 0.5 + 0.549 \cdot 0.5$
+
+$P(R) = 0.6495$
+
+Thus the overall probability of choosing a Red marble is **0.6495**
+
+##### What does this look like if we change the probabilities of the bowls?
+
+$P(\text{Bowl 1}) = 0.8$
+
+$P(\text{Bowl 1}) = 0.2$
+
+Then,
+
+$P(R) = 0.75 \cdot 0.8 + 0.549 \cdot 0.2$
+
+$P(R) = 0.7098$
