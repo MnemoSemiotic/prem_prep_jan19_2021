@@ -440,7 +440,7 @@ or a github link in the associated thread
 **HW assignment** 
 * These are optional: 
 	* Do the [Kaggle Pandas Tutorial](https://www.kaggle.com/learn/pandas)
-	* Read 2.2, 4.6.5, and 5.1 of [Introduction to Statistical Learning](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
+	* Read 2.2, 4.6.5, and 5.1 of [Introduction to Statistical Learning](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/601cc86d7f828c4792e0bcae/1612499080032/ISLR+Seventh+Printing.pdf)
 
 **HW Solutions**: N/A
 
