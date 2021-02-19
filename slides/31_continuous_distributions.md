@@ -372,18 +372,16 @@ It has become more common to utilize functions from `scipy.stats`. We'll code a 
 
 ```python
 def normal_cdf(x=0, mu=0, sigma=1):
-    vals = [num*0.001 for num in range(-1000, int(x*1000))]
+    x_width = 0.001
+    x_vals = [num*x_width for num in range(-1000, int(x*1000))]
+    accum = 0.0
 
-    area_accum = 0.0
-
-    for val in vals:
-        res = normal_pdf(val, mu, sigma)
-        area_accum += res
-
+    for val in x_vals:
+        accum += normal_pdf(val, mu, sigma) * x_width
         if val > x:
             break
-    
-    return area_accum*0.001
+
+    return accum
 
 print(normal_cdf(x=300, mu=475, sigma=98)) # --> ~ 0.0371
 ```
