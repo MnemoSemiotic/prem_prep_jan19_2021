@@ -288,7 +288,7 @@ There are two bowls filled with cookies as defined as
 
 **Given that a random cookie is taken from a random bowl, and each bowl has the same probability of being chosen; what is the probability that the cookie comes from bowl #2, given that it is vanilla?**
 
-1. Frame the Question in Bayes terms
+##### 1. Frame the Question in Bayes terms
 
 $$
 P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
@@ -298,22 +298,139 @@ $$
 P(B2 | V) = \frac{P(V|B2) \cdot P(B2)}{P(V)}
 $$
 
-2. Write down what we know
+##### 2. Write down what we know
 
 $P(B1) = P(B2) = 0.5$
 
 $P(V|B1) = \frac{20}{40} = 0.5$
 
-$P(V|B1) = \frac{30}{40} = 0.75$
+$P(V|B2) = \frac{30}{40} = 0.75$
 
-3. Compute the Total Probability of $V$
+##### 3. Compute the Total Probability of $V$
 
-* B2 = The event Bowl #2 is chosen
-* V = The event that a vanilla cookie is chosen; Vc = Chocolate cookie chosen
-P(B1) = 0.9; P(B2) = 0.1
-P(V | B1) = 0.5, P(V | B2) = .75
-Step 2. Compute the total probability of V
-P(V) = P(V | B1) * P(B1) + P(V | B2) * P(B2)
+$P(V) = P(V|B1) \cdot P(B1) + P(V|B2) \cdot P(B2)$
+
+$P(V) = 0.5 \cdot 0.5 + 0.75 \cdot 0.5$
+
+$$
 P(V) = 0.625
+$$
+
+##### 4. Plug in and compute
+
+$P(B2 | V) = \frac{P(V|B2) \cdot P(B2)}{P(V)}$
+
+$= \frac{0.75 \cdot 0.5}{0.625}$
+
+$P(B2 | V) = 0.6$
+
+Thus the probability of having chosen Bowl 2 if holding a Vanilla cookie in hand is **0.6**
 
 
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT (6 minutes)
+
+
+
+Given that a rare disease affects 1/1000 people in a given population. There is a diagnostic which has been developed; the diagnostic result is positive 99% of the time when it is given to someone with the disease. The diagnostic result is positive 2% of the time when it is given to someone without the disease. Given that someone has tested positive on the diagnostic, what is the probability that they actually have the disease?
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT Solution
+
+Given that a rare disease affects 1/1000 people in a given population. There is a diagnostic which has been developed; the diagnostic result is positive 99% of the time when it is given to someone with the disease. The diagnostic result is positive 2% of the time when it is given to someone without the disease. Given that someone has tested positive on the diagnostic, what is the probability that they actually have the disease?
+
+
+**Solution: 0.04721 or 4.721%**
+
+Interpretation: This conclusion is not exactly what most people figure intuitively. From the problem, it sounds as if the diagnostic is a very good indicator in terms of percentages, however Bayes’ theorem can show us that things can be quite different than they seem on the surface.
+
+
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT (4 Minutes)
+
+Freddy remembers to take his umbrella with him 80% of the days. It rains on 30% of the days when he remembers to take his umbrella, and it rains on 60% of the days when he forgets to take his umbrella.
+
+What is the probability that he remembers his umbrella when it rains?
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT Solution
+Freddy remembers to take his umbrella with him 80% of the days.
+It rains on 30% of the days when he remembers to take his umbrella, and it rains on 60% of the days when he forgets to take his umbrella.
+
+What is the probability that he remembers his umbrella when it rains?
+
+$P(A) = 80% = 0.8$
+
+$P(B) = 30% × 80% + 60% × 20% = 0.24 + 0.12 = 0.36$
+
+$P(B|A) = 30% = 0.3$
+
+$P(A|B) = (0.8 * 0.3)/0.36 = 0.24/0.36 = ⅔$
+
+**The probability he remembers his umbrella when it rains is 2/3**
+
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT (6 minutes)
+
+A glazier buys his glass from four different manufacturers - Superclear (10%), Seethrough (25%), BirdTrap (30%) and WeSellGlass (35%).
+
+In the past, the glazier has found that 1% of Superclear product is cracked, 1.5%  of Seethrough’s product is cracked, and 2% of BirdTrap’s and WeSellGlass’s products are cracked.
+
+The glazier removes the protective covering from a sheet of glass without looking at the manufacturer's name - in other words, it's a random choice. He finds the glass is cracked. What is the probability it was made by BirdTrap?
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT Solution
+
+**Solution: 0.3380**
+
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# BREAKOUT (6 minutes)
+
+Fishing line by a company is tested for strength.The test gives a correct positive result with a probability of 0.85 when the fishing line is strong, but gives an incorrect positive result (false positive) with a probability of 0.04 when in fact the fishing line is not strong.
+If 98% of the fishing lines are strong, and a fishing line chosen at random fails the test, what is the probability it really is not strong enough?
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+
+----------------------------------------------------
+# BREAKOUT Solution
+
+$P(A) = 0.02$
+
+$P(B) = .98 × 0.15 + .02 × 0.96 = 0.147 + 0.0192 = 0.1662$
+
+$P(B|A) = 1 − 0.04 = 0.96$
+
+$P(A|B) = (0.02 \cdot 0.96) / 0.1662 = 0.0192 / 0.1662 = 0.1155$
