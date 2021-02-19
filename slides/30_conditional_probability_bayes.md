@@ -181,7 +181,8 @@ $$
 <br><br><br><br><br><br>
 
 ----------------------------------------------------
-# Applying Kolmogorov 
+# Applying Kolmogorov and Law of Total Probability
+
 By rearranging
 
 $$
@@ -211,4 +212,22 @@ $$
 <br><br><br><br><br><br>
 
 ----------------------------------------------------
-# 
+# Law of Total Probability Example
+
+Given two bags of marbles:
+* Bag 1: 75 red, 25 blue
+* Bag 2: 45 red, 37 blue
+
+Calculate the total probability that a red marble will be chosen, if a bag is chosen at random (with equal probability), and then a marble from that bag is chosen at random. 
+
+##### 1. Frame the question
+
+$$
+P(Red) = \text{?}
+$$
+
+##### 2. Write down known info
+
+$P(\text{Bowl 1}) = P(\text{Bowl 1}) = 0.5$
+
+$P(\text{Bowl 1}) = P(\text{Bowl 1}) = 0.5$
