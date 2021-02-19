@@ -265,4 +265,19 @@ $P(R) = 0.7098$
 <br><br><br><br><br><br>
 
 ----------------------------------------------------
-# Bayes Theorem
+# Bayes Theorem 
+Whereas the Law of Total Probability allows us to construct a probability from disjoint events, Bayes Theorem gives us a more general approach for solving conditional probabilities.
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+Note that the heavy lifting of Bayes probles is usually in applying the Law of Total Probability to the $P(B)$, know as the **prior** or **a priori** value. 
+
+We often call $P(A|B)$ the **posterior** or **a posteriori** value.
+
+
+<br><br><br><br><br><br>
+
+----------------------------------------------------
+# 
