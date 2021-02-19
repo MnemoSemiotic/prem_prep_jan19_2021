@@ -266,7 +266,7 @@ $P(R) = 0.7098$
 
 ----------------------------------------------------
 # Bayes Theorem 
-Whereas the Law of Total Probability allows us to construct a probability from disjoint events, Bayes Theorem gives us a more general approach for solving conditional probabilities.
+Whereas the Law of Total Probability allows us to construct a probability from disjoint events, Bayes Theorem gives us a more general approach for solving conditional probabilities and validating diagnostics based on population rates.
 
 $$
 P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
@@ -280,4 +280,40 @@ We often call $P(A|B)$ the **posterior** or **a posteriori** value.
 <br><br><br><br><br><br>
 
 ----------------------------------------------------
-# 
+# Bayes Theorem Example
+
+There are two bowls filled with cookies as defined as 
+* Bowl #1 - 20 vanilla, 20 chocolate
+* Bowl #2 - 30 vanilla, 10 chocolate
+
+**Given that a random cookie is taken from a random bowl, and each bowl has the same probability of being chosen; what is the probability that the cookie comes from bowl #2, given that it is vanilla?**
+
+1. Frame the Question in Bayes terms
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+$$
+P(B2 | V) = \frac{P(V|B2) \cdot P(B2)}{P(V)}
+$$
+
+2. Write down what we know
+
+$P(B1) = P(B2) = 0.5$
+
+$P(V|B1) = \frac{20}{40} = 0.5$
+
+$P(V|B1) = \frac{30}{40} = 0.75$
+
+3. Compute the Total Probability of $V$
+
+* B2 = The event Bowl #2 is chosen
+* V = The event that a vanilla cookie is chosen; Vc = Chocolate cookie chosen
+P(B1) = 0.9; P(B2) = 0.1
+P(V | B1) = 0.5, P(V | B2) = .75
+Step 2. Compute the total probability of V
+P(V) = P(V | B1) * P(B1) + P(V | B2) * P(B2)
+P(V) = 0.625
+
+
