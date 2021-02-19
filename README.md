@@ -393,7 +393,7 @@ or a github link in the associated thread
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_ 
+**Video Lecture**: [Lecture 19](https://youtu.be/rFCrc72zIcc)
 
 ---------------------------------------------------------
 ### Day 20: Monday Feb 15 (6pm - 8pm Pacific)
