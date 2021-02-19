@@ -348,6 +348,29 @@ $$
 Given that a rare disease affects 1/1000 people in a given population. There is a diagnostic which has been developed; the diagnostic result is positive 99% of the time when it is given to someone with the disease. The diagnostic result is positive 2% of the time when it is given to someone without the disease. Given that someone has tested positive on the diagnostic, what is the probability that they actually have the disease?
 
 
+##### 1. Frame the Question in Bayes terms
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+$$
+P(D|Pos) = \frac{P(Pos|D) \cdot P(D)}{P(Pos)}
+$$
+
+##### 2. Write down what we know
+
+$P(D)=\frac{1}{1000}$
+
+$P(\text{not }D)=\frac{999}{1000}$
+
+$P(Pos|D)=0.99vc                                          rwhs$
+
+##### 3. Compute the Total Probability
+
+##### 4. Plug in and compute
+
+
 **Solution: 0.04721 or 4.721%**
 
 Interpretation: This conclusion is not exactly what most people figure intuitively. From the problem, it sounds as if the diagnostic is a very good indicator in terms of percentages, however Bayes’ theorem can show us that things can be quite different than they seem on the surface.
