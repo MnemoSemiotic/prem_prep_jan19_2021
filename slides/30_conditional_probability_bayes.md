@@ -88,7 +88,7 @@ $$
 $$
 
 $$
-P(\text{cat}|\text{dog}) = 0.55
+P(\text{dog}|\text{cat}) = 0.55
 $$
 
 Thus the probability of a student owning a cat given that they own a dog is **0.55**
