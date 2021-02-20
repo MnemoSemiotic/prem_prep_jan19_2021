@@ -32,6 +32,10 @@ this text looks like a system font
 * subset of laTEX supported in markdown
 
 
+# Example: Poisson
+
+[wiki on Poisson](https://en.wikipedia.org/wiki/Poisson_distribution)
+
 $$
 \text{Poisson PMF}(\lambda, k)=\frac{e^{-\lambda}\cdot \lambda^k}{k!}
 $$
