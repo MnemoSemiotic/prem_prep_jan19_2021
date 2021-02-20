@@ -35,3 +35,9 @@ this text looks like a system font
 $$
 \text{Poisson PMF}(\lambda, k)=\frac{e^{-\lambda}\cdot \lambda^k}{k!}
 $$
+
+```python
+from math import e, factorial
+def poisson_pmf(lmbda, k):
+    return e**(-lmbda)*lmbda**k / factorial(k)
+```
