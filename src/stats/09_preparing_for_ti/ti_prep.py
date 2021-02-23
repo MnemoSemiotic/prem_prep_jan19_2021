@@ -103,7 +103,7 @@ def analyze_outcomes(n=5, num_samples=10000):
 
     for _ in range(num_samples):
         roll_result = get_roll_5()
-        res = round(roll_math(roll_result), 2)
+        res = round(roll_math(roll_result))
 
         if res not in d:
             d[res] = 0
