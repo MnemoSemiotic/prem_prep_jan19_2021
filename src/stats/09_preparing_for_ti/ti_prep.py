@@ -89,9 +89,29 @@ def roll_math(lst):
     
     return accum
 
+def get_roll_5():
+    roll1 = []
+    for _ in range(5):
+        roll1.append(get_four_sided_roll())
+    return roll1
 
-roll1 = []
-for _ in range(5):
-    roll1.append(get_four_sided_roll())
+# print(roll_math(roll1))
 
-print(roll_math(roll1))
+
+def analyze_outcomes(n=5, num_samples=10000):
+    d = dict()
+
+    for _ in range(num_samples):
+        roll_result = get_roll_5()
+        res = round(roll_math(roll_result), 2)
+
+        if res not in d:
+            d[res] = 0
+        d[res] += 1
+
+    return d
+
+
+d = analyze_outcomes(n=5, num_samples=10000)
+for outcome, cnt in sorted(d.items()):
+    print(f'{outcome}: {cnt}')
