@@ -66,4 +66,4 @@ def poisson_cdf(lmbda, k_high):
         accum += poisson_pmf(lmbda, k)
     return accum
 
-print(1 - poisson_cdf(lmbda, 10))
+# print(1 - poisson_cdf(lmbda, 10))
