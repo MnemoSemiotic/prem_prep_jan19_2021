@@ -30,3 +30,7 @@ TI Skills/Outline
 
 
 
+'''
+You are sitting on a dock watching boats go by. On average, two out of every 13 boats that goes by has shipping containers on it. What is the probability that, in one particular set of observations, 10 out of 20 boats have shipping containers on them?
+'''
+
