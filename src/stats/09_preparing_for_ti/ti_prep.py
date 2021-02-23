@@ -71,5 +71,13 @@ def poisson_cdf(lmbda, k_high):
 '''
 A is the result of rolling a 4-sided die 5 times, and processing it through this function:
 
+single_roll = [1,2,3,4]
 
+ex set of rolls = [1,3,1,2,4]
+a = 1 * 4/1 + 3 * 4/2 + 1 * 4/3 + 2 * 4/4 + 5 * 4/5
 '''
+def get_four_sided_roll():
+    pass
+
+def roll_math(lst):
+    pass
