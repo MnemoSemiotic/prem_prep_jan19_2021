@@ -483,14 +483,16 @@ or a github link in the associated thread
 
 **Instructor**: Tovio Roberts and Clark Walker
 
-**Slide Deck**: [Technical Interview Review](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/33_technical_interview_review.md)
+**Slide Deck**: 
+* [Intro to Machine Learning, cont'd](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/32_intro_to_machine_learning.md)
+* [Technical Interview Review](https://github.com/clownfragment/prem_prep_jan19_2021/blob/main/slides/33_technical_interview_review.md)
 
 **HW assignment**: 
 	Finish your Learn materials and get ready for your TI!
 
 **HW Solutions**: N/A
 
-**Video Lecture**: _Lecture Link_
+**Video Lecture**: [Lecture 25](https://youtu.be/RfbdejptLeE)
 
 ---------------------------------------------------------
 We will share a link to an exit survey in Slack at the end of this course. Please feel free to complete this survey in order to help us improve our course. 
