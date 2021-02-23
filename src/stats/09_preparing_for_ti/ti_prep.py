@@ -48,3 +48,8 @@ p = 2/13
 # print(binomial_pmf(n,k,p))
 
 
+'''
+2 black cars go pass the stop sign every 15 minutes.
+
+What is the proba that more than 10 cars pass the stop sign in one hour?
+'''
