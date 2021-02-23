@@ -45,4 +45,6 @@ n = 20
 k = 10
 p = 2/13
 
-print(binomial_pmf(n,k,p))
+# print(binomial_pmf(n,k,p))
+
+
