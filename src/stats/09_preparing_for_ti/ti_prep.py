@@ -67,3 +67,9 @@ def poisson_cdf(lmbda, k_high):
     return accum
 
 # print(1 - poisson_cdf(lmbda, 10))
+
+'''
+A is the result of rolling a 4-sided die 5 times, and processing it through this function:
+
+
+'''
