@@ -76,8 +76,22 @@ single_roll = [1,2,3,4]
 ex set of rolls = [1,3,1,2,4]
 a = 1 * 4/1 + 3 * 4/2 + 1 * 4/3 + 2 * 4/4 + 5 * 4/5
 '''
+from random import choice
+
 def get_four_sided_roll():
-    pass
+    return choice([1,2,3,4])
 
 def roll_math(lst):
-    pass
+    accum = 0.0
+
+    for idx, val in enumerate(lst, 1):
+        accum += val * (4/idx)
+    
+    return accum
+
+
+roll1 = []
+for _ in range(5):
+    roll1.append(get_four_sided_roll())
+
+print(roll_math(roll1))
