@@ -33,7 +33,7 @@ TI Skills/Outline
 '''
 You are sitting on a dock watching boats go by. On average, two out of every 13 boats that goes by has shipping containers on it. What is the probability that, in one particular set of observations, 10 out of 20 boats have shipping containers on them?
 '''
-from math import factorial
+from math import factorial, e
 
 def combs(n,k):
     return factorial(n) / (factorial(n-k)* factorial(k))
@@ -51,5 +51,19 @@ p = 2/13
 '''
 2 black cars go pass the stop sign every 15 minutes.
 
-What is the proba that more than 10 cars pass the stop sign in one hour?
+What is the proba that more than 10 black cars pass the stop sign in one hour?
 '''
+lmbda = 8
+
+
+def poisson_pmf(lmbda, k):
+    return e**(-lmbda) * lmbda**k / factorial(k)
+
+def poisson_cdf(lmbda, k_high):
+    accum = 0.0
+
+    for k in range(0, k_high+1):
+        accum += poisson_pmf(lmbda, k)
+    return accum
+
+print(1 - poisson_cdf(lmbda, 10))
