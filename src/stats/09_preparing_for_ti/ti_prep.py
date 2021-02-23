@@ -33,4 +33,16 @@ TI Skills/Outline
 '''
 You are sitting on a dock watching boats go by. On average, two out of every 13 boats that goes by has shipping containers on it. What is the probability that, in one particular set of observations, 10 out of 20 boats have shipping containers on them?
 '''
+from math import factorial
 
+def combs(n,k):
+    return factorial(n) / (factorial(n-k)* factorial(k))
+
+def binomial_pmf(n,k,p):
+    return combs(n,k)  *  p**k  * (1-p)**(n-k)
+
+n = 20
+k = 10
+p = 2/13
+
+print(binomial_pmf(n,k,p))
